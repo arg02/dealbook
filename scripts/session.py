@@ -175,7 +175,6 @@ def ask_claude(payload):
         "max_tokens": 4000,
         "system": SYSTEM,
         "messages": [{"role": "user", "content": json.dumps(payload, indent=2)}],
-        "tools": [{"type": "web_search_20250305", "name": "web_search"}],
     }
     req = urllib.request.Request(
         "https://api.anthropic.com/v1/messages",
@@ -191,11 +190,15 @@ def ask_claude(payload):
 
     text = "\n".join(b["text"] for b in data.get("content", []) if b.get("type") == "text")
     text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-    # The model may narrate around its search calls; take the outermost JSON object.
+    # Guard against stray preamble text; take the outermost JSON object.
     start, end = text.find("{"), text.rfind("}")
     if start == -1 or end == -1:
         raise ValueError(f"no JSON in model reply:\n{text[:600]}")
-    return json.loads(text[start:end + 1])
+    candidate = text[start:end + 1]
+    try:
+        return json.loads(candidate)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"model reply was not valid JSON ({exc}):\n{candidate}") from exc
 
 
 # ---------------------------------------------------------------- execution
