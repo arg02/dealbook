@@ -34,7 +34,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install --quiet yfinance
+        run: pip install --quiet -r requirements.txt
 
       - name: Run session
         env:
