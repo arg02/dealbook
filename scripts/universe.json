@@ -1,0 +1,77 @@
+{
+  "_comment": "Tradable universe. Trades must use a ticker from here. Yahoo Finance symbols: .L = London, plain = US. Add entries to widen the mandate.",
+
+  "energy": {
+    "SHEL.L": "Shell — integrated oil & gas, GBP-denominated",
+    "BP.L": "BP — integrated oil & gas, GBP-denominated",
+    "XOM": "ExxonMobil — integrated, growth capex through 2030",
+    "CVX": "Chevron — integrated, low debt, cost cuts",
+    "SLB": "SLB — oilfield services, leveraged to upstream spend",
+    "TTE": "TotalEnergies — European integrated"
+  },
+  "healthcare": {
+    "GSK.L": "GSK — vaccines, HIV, oncology; GBP-denominated",
+    "AZN.L": "AstraZeneca — oncology, obesity pipeline; GBP-denominated",
+    "NVO": "Novo Nordisk — GLP-1 duopoly, margin pressure from MFN pricing",
+    "LLY": "Eli Lilly — obesity leader, premium multiple",
+    "MRK": "Merck — Keytruda patent cliff, IRA exposure",
+    "ABBV": "AbbVie — diversified immunology",
+    "UNH": "UnitedHealth — managed care",
+    "AMGN": "Amgen — MariTide monthly obesity candidate"
+  },
+  "financials": {
+    "HSBA.L": "HSBC — Asia-weighted, rate sensitive; GBP-denominated",
+    "LLOY.L": "Lloyds — UK domestic bank, NIM geared to BoE",
+    "JPM": "JPMorgan — universal bank",
+    "BRK-B": "Berkshire Hathaway — large cash pile, defensive",
+    "AXP": "American Express — affluent consumer credit"
+  },
+  "industrials_defence": {
+    "BA.L": "BAE Systems — European defence spend; GBP-denominated",
+    "RR.L": "Rolls-Royce — aero engines, buyback; GBP-denominated",
+    "CAT": "Caterpillar — infrastructure and data-centre buildout",
+    "GEV": "GE Vernova — grid and turbines",
+    "HON": "Honeywell — diversified industrial",
+    "RTX": "RTX — defence primes"
+  },
+  "consumer_staples": {
+    "ULVR.L": "Unilever — global staples; GBP-denominated",
+    "BATS.L": "British American Tobacco — high yield; GBP-denominated",
+    "DGE.L": "Diageo — premium spirits, turnaround",
+    "WMT": "Walmart — cost-conscious consumer beneficiary",
+    "COST": "Costco — membership model",
+    "PG": "Procter & Gamble — defensive staples"
+  },
+  "utilities_infra": {
+    "NG.L": "National Grid — regulated UK/US transmission",
+    "SSE.L": "SSE — UK generation and networks",
+    "NEE": "NextEra — US renewables and regulated utility",
+    "CEG": "Constellation Energy — nuclear baseload"
+  },
+  "materials_precious": {
+    "FRES.L": "Fresnillo — silver and gold miner; GBP-denominated",
+    "GLEN.L": "Glencore — diversified miner and trader",
+    "RIO.L": "Rio Tinto — iron ore, copper; GBP-denominated",
+    "NEM": "Newmont — largest gold miner",
+    "AEM": "Agnico Eagle — low-cost gold, Americas",
+    "SGLN.L": "iShares Physical Gold ETC — direct bullion, GBP"
+  },
+  "real_estate": {
+    "PHP.L": "Primary Health Properties — NHS-backed healthcare REIT",
+    "SGRO.L": "Segro — industrial and logistics REIT",
+    "O": "Realty Income — net lease, monthly dividend"
+  },
+  "technology": {
+    "MSFT": "Microsoft — Azure, capital-intensive AI buildout",
+    "GOOGL": "Alphabet — search, cloud, TPUs",
+    "AVGO": "Broadcom — custom silicon and networking",
+    "MU": "Micron — memory, highly cyclical",
+    "VRT": "Vertiv — data-centre power and cooling",
+    "CRWV": "CoreWeave — neocloud, debt-financed, high beta"
+  },
+  "broad_hedges": {
+    "ISF.L": "iShares Core FTSE 100 ETF — UK large-cap beta",
+    "VUSA.L": "Vanguard S&P 500 ETF — US beta, GBP-traded",
+    "IGLS.L": "iShares 0-5yr Gilt ETF — short duration, cash proxy"
+  }
+}

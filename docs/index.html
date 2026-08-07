@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Dealing Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500;600&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#DFE3DC; --paper-2:#D5DAD1; --ink:#161E1A; --ink-soft:#4A544D;
+    --rule:#A8B0A5; --gain:#1F5C3D; --loss:#8B2635; --ochre:#8A6F24;
+    --display:"Bricolage Grotesque",Georgia,serif;
+    --body:"Inter Tight",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);
+    -webkit-font-smoothing:antialiased;line-height:1.5}
+  .wrap{max-width:1080px;margin:0 auto;padding:28px 22px 80px}
+
+  .mast{display:flex;flex-wrap:wrap;justify-content:space-between;
+    align-items:flex-end;gap:20px;padding-bottom:18px;border-bottom:2px solid var(--ink)}
+  .mast h1{font-family:var(--display);font-weight:800;font-size:clamp(30px,5.4vw,50px);
+    line-height:.94;letter-spacing:-.025em}
+  .mast .sub{font-family:var(--mono);font-size:11px;letter-spacing:.09em;
+    text-transform:uppercase;color:var(--ink-soft);margin-top:9px}
+  .tot{text-align:right;flex-shrink:0}
+  .tot .big{font-family:var(--mono);font-weight:600;font-size:clamp(28px,5vw,44px);
+    line-height:1;letter-spacing:-.03em}
+  .tot .delta{font-family:var(--mono);font-size:13px;margin-top:7px;font-weight:500}
+
+  .tape{display:grid;grid-template-columns:repeat(auto-fit,minmax(122px,1fr));
+    border-bottom:1px solid var(--rule);margin-bottom:30px}
+  .idx{padding:13px 12px 14px;border-right:1px solid var(--rule)}
+  .idx:last-child{border-right:none}
+  .idx .nm{font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;
+    text-transform:uppercase;color:var(--ink-soft);white-space:nowrap;
+    overflow:hidden;text-overflow:ellipsis}
+  .idx .lv{font-family:var(--mono);font-size:15px;font-weight:600;margin-top:5px;letter-spacing:-.02em}
+  .idx .ch{font-family:var(--mono);font-size:11px;margin-top:2px}
+
+  .read{font-family:var(--display);font-size:clamp(16px,2.2vw,19px);line-height:1.45;
+    max-width:64ch;margin-bottom:38px;text-wrap:pretty}
+
+  h2{font-family:var(--mono);font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;
+    color:var(--ink-soft);padding-bottom:8px;border-bottom:1px solid var(--ink);margin-bottom:2px}
+  section{margin-bottom:44px}
+
+  .pos{display:grid;grid-template-columns:1.5fr .85fr .85fr 1fr 1fr;gap:12px;
+    align-items:baseline;padding:15px 0;border-bottom:1px solid var(--rule)}
+  .pos .tk{font-family:var(--display);font-weight:600;font-size:19px;letter-spacing:-.015em}
+  .pos .co{font-size:11.5px;color:var(--ink-soft);margin-top:1px}
+  .lbl{font-family:var(--mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-soft);display:block;margin-bottom:3px}
+  .num{font-family:var(--mono);font-size:14px;font-weight:500;letter-spacing:-.01em}
+  .num.sm{font-size:12.5px;font-weight:400}
+  .r{text-align:right}
+  .gain{color:var(--gain)} .loss{color:var(--loss)} .flat{color:var(--ink-soft)}
+
+  .cashrow{display:flex;justify-content:space-between;align-items:baseline;
+    padding:15px 0;border-bottom:2px solid var(--ink)}
+  .cashrow .tk{font-family:var(--display);font-weight:600;font-size:19px}
+  .cashrow .note{font-size:11.5px;color:var(--ink-soft);margin-top:1px}
+
+  .entry{padding:26px 0;border-bottom:1px solid var(--rule)}
+  .entry:last-child{border-bottom:none}
+  .ehead{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;font-family:var(--mono);
+    font-size:11px;letter-spacing:.05em;color:var(--ink-soft);margin-bottom:13px}
+  .act{font-weight:600;letter-spacing:.13em;text-transform:uppercase}
+  .act.buy{color:var(--gain)} .act.sell{color:var(--loss)} .act.hold{color:var(--ochre)}
+  .why{font-family:var(--display);font-weight:400;font-size:clamp(17px,2.5vw,21px);
+    line-height:1.42;letter-spacing:-.012em;max-width:62ch;text-wrap:pretty}
+
+  .watch{display:flex;flex-wrap:wrap;gap:9px;padding-top:15px}
+  .chip{border:1px solid var(--rule);padding:8px 13px;background:var(--paper-2)}
+  .chip b{font-family:var(--mono);font-size:12px;font-weight:600}
+  .chip span{display:block;font-size:11px;color:var(--ink-soft);margin-top:2px;max-width:33ch}
+
+  .empty{font-family:var(--display);font-size:19px;color:var(--ink-soft);padding:26px 0;max-width:56ch}
+  footer{border-top:1px solid var(--rule);padding-top:18px;font-size:11.5px;
+    color:var(--ink-soft);max-width:70ch}
+  footer p{margin-bottom:8px}
+  a{color:var(--ink)}
+  a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+  .loading{font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--ink-soft);padding:40px 0}
+
+
+  /* charts */
+  .charts{display:grid;grid-template-columns:1fr;gap:34px}
+  .chart{width:100%}
+  .chart svg{width:100%;height:auto;display:block;overflow:visible}
+  .ax{font-family:var(--mono);font-size:9px;fill:var(--ink-soft);letter-spacing:.06em}
+  .axline{stroke:var(--rule);stroke-width:.6}
+  .zero{stroke:var(--ink);stroke-width:1}
+  .serieslbl{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.03em}
+  .legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:12px;
+    font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--ink-soft)}
+  .legend i{display:inline-block;width:9px;height:9px;margin-right:6px;
+    vertical-align:baseline;border-radius:1px}
+  .subhead{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--ink-soft);margin-bottom:11px}
+  .allocbar{display:block;width:100%;height:36px}
+
+  @media(max-width:720px){
+    .pos{grid-template-columns:1fr 1fr;row-gap:14px}
+    .pos .id{grid-column:1/-1}
+    .pos .r{text-align:left}
+  }
+  @media(prefers-reduced-motion:no-preference){
+    section{animation:rise .5s cubic-bezier(.2,.7,.3,1) backwards}
+    section:nth-of-type(2){animation-delay:.07s}
+    section:nth-of-type(3){animation-delay:.14s}
+    @keyframes rise{from{opacity:0;transform:translateY(9px)}}
+  }
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><p class="loading">Opening the book…</p></div>
+
+<script>
+const gbp  = n => "£" + Number(n).toLocaleString("en-GB",{minimumFractionDigits:2,maximumFractionDigits:2});
+const sign = n => n > 0 ? "+" : n < 0 ? "−" : "";
+const cls  = n => n > 0.0001 ? "gain" : n < -0.0001 ? "loss" : "flat";
+const esc  = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const money = n => gbp(Math.abs(n)).slice(1);
+
+
+const PAL = ["#1F5C3D","#8B2635","#8A6F24","#3E5C78","#6B4C7A","#5C6B3E","#7A5230","#2F6E6B"];
+
+/* Equity curve: the book against the indices, everything rebased to 100 at open. */
+function equityCurve(hist, startCap){
+  if(hist.length < 2) return `<p class="empty">The curve starts once there are two sessions to draw between.</p>`;
+
+  const series = [
+    {name:"The book", key:"total_gbp", col:"var(--ink)",  w:2.2},
+    {name:"FTSE 100", key:"ftse",      col:PAL[3], w:1.2},
+    {name:"S&P 500",  key:"sp500",     col:PAL[2], w:1.2}
+  ].map(s => {
+    const raw = hist.map(h => h[s.key]);
+    const base = raw.find(v => v != null);
+    return {...s, pts: base ? raw.map(v => v == null ? null : v/base*100) : []};
+  }).filter(s => s.pts.some(v => v != null));
+
+  const all = series.flatMap(s => s.pts).filter(v => v != null);
+  let lo = Math.min(100, ...all), hi = Math.max(100, ...all);
+  const pad = Math.max((hi-lo)*0.15, 0.6); lo -= pad; hi += pad;
+
+  const W=720, H=280, L=46, R=74, T=14, B=28;
+  const x = i => L + i*(W-L-R)/Math.max(hist.length-1,1);
+  const y = v => T + (hi-v)*(H-T-B)/(hi-lo);
+
+  // gridlines on tidy intervals
+  const step = Math.max(1, Math.round((hi-lo)/5));
+  const ticks=[]; for(let t=Math.ceil(lo/step)*step; t<=hi; t+=step) ticks.push(t);
+
+  const grid = ticks.map(t => `
+    <line class="${Math.abs(t-100)<1e-9?'zero':'axline'}" x1="${L}" x2="${W-R}" y1="${y(t)}" y2="${y(t)}"/>
+    <text class="ax" x="${L-8}" y="${y(t)+3}" text-anchor="end">${t}</text>`).join("");
+
+  const lines = series.map(s => {
+    const d = s.pts.map((v,i)=> v==null?null:`${x(i)},${y(v)}`).filter(Boolean).join(" ");
+    const last = s.pts.reduce((a,v,i)=> v==null?a:i, 0);
+    return `<polyline fill="none" stroke="${s.col}" stroke-width="${s.w}"
+              stroke-linejoin="round" stroke-linecap="round" points="${d}"/>
+            <text class="serieslbl" fill="${s.col}" x="${x(last)+7}" y="${y(s.pts[last])+3.5}">${esc(s.name)}</text>`;
+  }).join("");
+
+  const xlab = hist.map((h,i)=> (i===0||i===hist.length-1||i%Math.ceil(hist.length/6)===0)
+    ? `<text class="ax" x="${x(i)}" y="${H-8}" text-anchor="middle">${esc(h.date.slice(5))}</text>` : "").join("");
+
+  return `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img"
+    aria-label="Portfolio value against FTSE 100 and S&amp;P 500, rebased to 100 at opening">
+    ${grid}${xlab}${lines}</svg></div>`;
+}
+
+/* Where the money actually is. */
+function allocation(d){
+  const bySector = {};
+  d.holdings.forEach(h => { const k = h.sector || "Other";
+    bySector[k] = (bySector[k]||0) + h.value_gbp; });
+  const segs = Object.entries(bySector).sort((a,b)=>b[1]-a[1])
+    .map(([k,v],i)=>({name:k, val:v, col:PAL[i%PAL.length]}));
+  if(d.cash_gbp > 0.01) segs.push({name:"Cash", val:d.cash_gbp, col:"var(--rule)"});
+  if(!segs.length) return "";
+
+  let acc = 0;
+  const bars = segs.map(s => {
+    const w = s.val/d.total_gbp*100, xx = acc; acc += w;
+    return `<rect x="${xx}%" y="0" width="${w}%" height="36" fill="${s.col}"/>`;
+  }).join("");
+
+  return `<div><p class="subhead">Allocation</p>
+    <svg class="allocbar" viewBox="0 0 100 36" preserveAspectRatio="none" role="img"
+      aria-label="Allocation by sector">${bars}</svg>
+    <div class="legend">${segs.map(s =>
+      `<span><i style="background:${s.col}"></i>${esc(s.name)} ${(s.val/d.total_gbp*100).toFixed(0)}%</span>`
+    ).join("")}</div></div>`;
+}
+
+/* Which positions are carrying the book and which are dragging. */
+function positionPl(d){
+  if(!d.holdings.length) return "";
+  const rows = [...d.holdings].sort((a,b)=> b.pl_pct - a.pl_pct);
+  const max = Math.max(2, ...rows.map(r => Math.abs(r.pl_pct)));
+  const rh = 26, W = 720, MID = 300, SPAN = 250;
+  const H = rows.length*rh + 6;
+
+  const bars = rows.map((r,i) => {
+    const cy = i*rh + rh/2, w = Math.abs(r.pl_pct)/max*SPAN;
+    const pos = r.pl_pct >= 0;
+    return `<text class="ax" x="${MID-SPAN-10}" y="${cy+3.5}" text-anchor="start"
+              style="font-size:11px;fill:var(--ink)">${esc(r.ticker)}</text>
+      <rect x="${pos?MID:MID-w}" y="${cy-8}" width="${w}" height="16"
+            fill="${pos?'var(--gain)':'var(--loss)'}" opacity=".85"/>
+      <text class="ax" x="${pos?MID+w+8:MID-w-8}" y="${cy+3.5}"
+            text-anchor="${pos?'start':'end'}" style="font-size:10.5px">
+        ${r.pl_pct>=0?'+':'−'}${Math.abs(r.pl_pct).toFixed(1)}%</text>`;
+  }).join("");
+
+  return `<div class="chart"><p class="subhead">Profit and loss by position</p>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Percentage profit and loss for each holding">
+      <line class="zero" x1="${MID}" x2="${MID}" y1="0" y2="${H-6}"/>${bars}</svg></div>`;
+}
+
+function render(d, hist){
+  const hasPos = d.holdings.length > 0;
+  document.getElementById("app").innerHTML = `
+    <header class="mast">
+      <div>
+        <h1>The Dealing Book</h1>
+        <p class="sub">£${d.starting_capital.toFixed(0)} paper fund · opened ${esc(d.opened)}
+          · session ${d.session} · priced ${esc(d.as_of)}</p>
+      </div>
+      <div class="tot">
+        <div class="big">${gbp(d.total_gbp)}</div>
+        <div class="delta ${cls(d.pl_gbp)}">${sign(d.pl_gbp)}${money(d.pl_gbp)} · ${sign(d.pl_gbp)}${Math.abs(d.pl_pct).toFixed(2)}%</div>
+      </div>
+    </header>
+
+    ${d.indices.length ? `<div class="tape">${d.indices.map(i => `
+      <div class="idx">
+        <div class="nm">${esc(i.name)}</div>
+        <div class="lv">${esc(i.level)}</div>
+        <div class="ch ${cls(i.change_pct)}">${sign(i.change_pct)}${Math.abs(i.change_pct).toFixed(2)}%</div>
+      </div>`).join("")}</div>` : `<div style="height:30px"></div>`}
+
+    ${d.market_read ? `<p class="read">${esc(d.market_read)}</p>` : ""}
+
+    <section>
+      <h2>Performance</h2>
+      <div class="charts">
+        ${equityCurve(hist, d.starting_capital)}
+        ${allocation(d)}
+        ${positionPl(d)}
+      </div>
+    </section>
+
+    <section>
+      <h2>Positions</h2>
+      ${hasPos ? d.holdings.map(h => `
+        <div class="pos">
+          <div class="id">
+            <div class="tk">${esc(h.ticker)}</div>
+            <div class="co">${Number(h.shares).toFixed(4)} sh · opened ${esc(h.opened)}</div>
+          </div>
+          <div><span class="lbl">In at</span><span class="num sm">${Number(h.entry_native).toFixed(2)}</span></div>
+          <div><span class="lbl">Now</span><span class="num sm">${Number(h.last_native).toFixed(2)}</span></div>
+          <div class="r"><span class="lbl">Value</span><span class="num">${gbp(h.value_gbp)}</span></div>
+          <div class="r"><span class="lbl">Profit / loss</span>
+            <span class="num ${cls(h.pl_gbp)}">${sign(h.pl_gbp)}${money(h.pl_gbp)} · ${sign(h.pl_gbp)}${Math.abs(h.pl_pct).toFixed(2)}%</span>
+          </div>
+        </div>`).join("")
+      : `<p class="empty">No positions yet. The first scheduled session opens the book.</p>`}
+      <div class="cashrow">
+        <div>
+          <div class="tk">Cash</div>
+          <div class="note">Uninvested · ${(d.cash_gbp / d.total_gbp * 100).toFixed(1)}% of the fund</div>
+        </div>
+        <div class="num">${gbp(d.cash_gbp)}</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>The book — every trade and why</h2>
+      ${d.trades.length ? d.trades.map(t => `
+        <article class="entry">
+          <div class="ehead">
+            <span class="act ${esc(t.action)}">${esc(t.action)}</span>
+            <span>${esc(t.ticker)}</span><span>·</span>
+            <span>${gbp(t.amount_gbp)} @ ${Number(t.price_native).toFixed(2)}</span><span>·</span>
+            <span>${esc(t.date)}</span>
+          </div>
+          <p class="why">${esc(t.why)}</p>
+        </article>`).join("")
+      : `<p class="empty">Nothing traded yet.</p>`}
+    </section>
+
+    ${d.watchlist?.length ? `<section>
+      <h2>Watching, not holding</h2>
+      <div class="watch">${d.watchlist.map(w =>
+        `<div class="chip"><b>${esc(w.ticker)}</b><span>${esc(w.note)}</span></div>`).join("")}</div>
+    </section>` : ""}
+
+    <footer>
+      <p><b>How this updates.</b> A GitHub Actions job runs on weekday evenings: it fetches prices,
+      asks Claude what to do, applies the trades and commits the result. Every session is a commit,
+      so the git history is the audit trail.</p>
+      <p><b>Assumptions.</b> Fractional shares, no commission, mid-market FX at
+      $${d.fx} to the pound. London tickers are quoted in pence. A real platform would charge
+      roughly 0.15–0.5% per currency conversion, so treat these returns as slightly flattered.</p>
+      <p>Simulated money and a record of one model's reasoning — not investment advice,
+      and not a portfolio to copy.</p>
+    </footer>`;
+}
+
+const bust = "?" + Date.now();
+Promise.all([
+  fetch("./book.json" + bust).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }),
+  // History is optional — a missing or empty file just means no curve yet.
+  fetch("./history.jsonl" + bust)
+    .then(r => r.ok ? r.text() : "")
+    .then(t => t.split("\n").filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean))
+    .catch(() => [])
+])
+  .then(([book, hist]) => render(book, hist))
+  .catch(() => {
+    document.getElementById("app").innerHTML =
+      `<p class="loading">book.json didn't load. Check that Pages is serving the docs folder.</p>`;
+  });
+</script>
+</body>
+</html>

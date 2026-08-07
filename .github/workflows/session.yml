@@ -1,0 +1,57 @@
+name: Trading session
+
+on:
+  schedule:
+    # 21:30 UTC, weekdays — after the US close, after LSE has settled.
+    # GitHub queues scheduled jobs on a best-effort basis, so expect 5–20 min of drift.
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch prices but don't call the model or trade"
+        type: boolean
+        default: false
+
+# Needed so the job can commit the updated book back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: trading-session
+  cancel-in-progress: false
+
+jobs:
+  session:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install --quiet yfinance
+
+      - name: Run session
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5' }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: python scripts/session.py
+
+      - name: Commit the book
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name  "dealing-book"
+          git config user.email "actions@github.com"
+          git add docs/book.json docs/history.jsonl
+          if git diff --staged --quiet; then
+            echo "Nothing changed — no commit."
+          else
+            git commit -m "Session $(date -u +%Y-%m-%d)"
+            git push
+          fi

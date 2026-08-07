@@ -1,0 +1,18 @@
+{
+  "opened": "2026-08-07",
+  "as_of": "2026-08-07",
+  "session": 0,
+  "starting_capital": 1000.0,
+  "cash_gbp": 1000.0,
+  "invested_gbp": 0.0,
+  "total_gbp": 1000.0,
+  "pl_gbp": 0.0,
+  "pl_pct": 0.0,
+  "fx": 1.3495,
+  "market_read": "Book opened with everything in cash. The first scheduled session will fetch live prices and decide where it goes. Standing brief: rates are the live risk — the Fed sits at 3.50–3.75% with a meaningful minority pricing a hike rather than a cut, driven by oil-fed inflation after the Hormuz disruption. That argues against long-duration growth and for cash-generative value. Leadership has already broadened out of technology into industrials, energy, staples and healthcare. Gold is 22% off its January record with sovereigns buying and ETFs selling. Nothing here is a technology thesis unless the numbers earn it.",
+  "indices": [],
+  "holdings": [],
+  "trades": [],
+  "watchlist": [],
+  "universe_requests": []
+}
