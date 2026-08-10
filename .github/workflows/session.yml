@@ -2,9 +2,10 @@ name: Trading session
 
 on:
   schedule:
-    # 21:30 UTC, weekdays — after the US close, after LSE has settled.
-    # GitHub queues scheduled jobs on a best-effort basis, so expect 5–20 min of drift.
-    - cron: "30 21 * * 1-5"
+    # 21:37 UTC, weekdays — after the US close, after LSE has settled.
+    # Off the :00/:30 mark deliberately: GitHub queues scheduled jobs best-effort,
+    # and round times see the most contention, so this dodges some of that drift.
+    - cron: "37 21 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:
