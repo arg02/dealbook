@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-08-10",
-  "session": 3,
+  "as_of": "2026-08-11",
+  "session": 4,
   "starting_capital": 1000.0,
-  "cash_gbp": 60.0,
-  "invested_gbp": 940.06,
-  "total_gbp": 1000.06,
-  "pl_gbp": 0.06,
-  "pl_pct": 0.01,
-  "fx": 1.3508,
-  "market_read": "Big US energy print today \u2014 XOM +4.4%, CVX +4.5%, SLB +5.3% \u2014 looks like a genuine crude move (not noise), while UK-listed SHEL.L only caught +0.63% because London closed before the US session ran. Gold miners are still confirming the thesis from three days ago (FRES.L +3.5%, NEM +3.8%), so that trade is working, not fading. NG.L's -2% day with no news attached is a wobble to watch, not yet a reason to exit a regulated-utility position. Book is flat after three days \u2014 fine, this was never meant to be a week-one trade.",
+  "cash_gbp": 30.0,
+  "invested_gbp": 969.94,
+  "total_gbp": 999.94,
+  "pl_gbp": -0.06,
+  "pl_pct": -0.01,
+  "fx": 1.351,
+  "market_read": "UK energy names are now catching up to the US crude repricing I flagged last week \u2014 SHEL.L +1.76%, BP.L +2.15% today, both confirming rather than fading. Everything else in the book is drifting sideways to slightly down on no fresh news (DGE, NG, LLOY, PHP all -1% to -1.3%), which is normal chop, not a thesis break. Nikkei/Hang Seng strength and a soft Nasdaq (GOOGL -3.84%, HON -5.27% in the US session) look like idiosyncratic single-stock moves, not a macro signal worth chasing into an already-diversified book.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,862.50",
-      "change_pct": -0.35
+      "level": "10,844.19",
+      "change_pct": -0.17
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,605.36",
-      "change_pct": -0.32
+      "level": "26,445.45",
+      "change_pct": -0.6
     },
     {
       "name": "NYSE Comp",
-      "level": "24,667.88",
-      "change_pct": 0.3
+      "level": "24,685.57",
+      "change_pct": 0.07
     },
     {
       "name": "S&P 500",
-      "level": "7,753.11",
-      "change_pct": -0.06
+      "level": "7,728.20",
+      "change_pct": -0.32
     },
     {
       "name": "Dow Jones",
-      "level": "53,975.98",
-      "change_pct": -0.11
+      "level": "53,791.85",
+      "change_pct": -0.34
     },
     {
       "name": "DAX",
-      "level": "26,319.45",
-      "change_pct": 0.69
+      "level": "26,323.88",
+      "change_pct": 0.02
     },
     {
       "name": "Nikkei 225",
-      "level": "65,606.71",
-      "change_pct": -0.12
+      "level": "66,970.22",
+      "change_pct": 2.08
     },
     {
       "name": "Hang Seng",
-      "level": "25,668.03",
-      "change_pct": 0.54
+      "level": "25,937.49",
+      "change_pct": 1.05
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 1.598721,
       "entry_native": 6255.0,
       "cost_gbp": 100.0,
-      "last_native": 6239.0,
+      "last_native": 6286.0,
       "opened": "2026-08-07",
-      "value_gbp": 99.74,
-      "pl_gbp": -0.26,
-      "pl_pct": -0.26,
+      "value_gbp": 100.5,
+      "pl_gbp": 0.5,
+      "pl_pct": 0.5,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 5.855856,
       "entry_native": 2220.0,
       "cost_gbp": 130.0,
-      "last_native": 2244.0,
+      "last_native": 2230.0,
       "opened": "2026-08-07",
-      "value_gbp": 131.41,
-      "pl_gbp": 1.41,
-      "pl_pct": 1.08,
+      "value_gbp": 130.59,
+      "pl_gbp": 0.59,
+      "pl_pct": 0.45,
       "sector": "Industrials"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 11990.0,
+      "last_native": 11844.0,
       "opened": "2026-08-07",
-      "value_gbp": 110.87,
-      "pl_gbp": 0.87,
-      "pl_pct": 0.79,
+      "value_gbp": 109.52,
+      "pl_gbp": -0.48,
+      "pl_pct": -0.44,
       "sector": "Healthcare"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 5.027933,
       "entry_native": 1790.0,
       "cost_gbp": 90.0,
-      "last_native": 1792.0,
+      "last_native": 1766.0,
       "opened": "2026-08-07",
-      "value_gbp": 90.1,
-      "pl_gbp": 0.1,
-      "pl_pct": 0.11,
+      "value_gbp": 88.79,
+      "pl_gbp": -1.21,
+      "pl_pct": -1.34,
       "sector": "Staples"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 86.843248,
       "entry_native": 115.15,
       "cost_gbp": 100.0,
-      "last_native": 114.65,
+      "last_native": 113.8,
       "opened": "2026-08-07",
-      "value_gbp": 99.57,
-      "pl_gbp": -0.43,
-      "pl_pct": -0.43,
+      "value_gbp": 98.83,
+      "pl_gbp": -1.17,
+      "pl_pct": -1.17,
       "sector": "Financials"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 7.5,
       "entry_native": 1200.0,
       "cost_gbp": 90.0,
-      "last_native": 1175.5,
+      "last_native": 1185.5,
       "opened": "2026-08-07",
-      "value_gbp": 88.16,
-      "pl_gbp": -1.84,
-      "pl_pct": -2.04,
+      "value_gbp": 88.91,
+      "pl_gbp": -1.09,
+      "pl_pct": -1.21,
       "sector": "Utilities"
     },
     {
@@ -130,11 +130,11 @@
       "shares": 72.992701,
       "entry_native": 95.9,
       "cost_gbp": 70.0,
-      "last_native": 95.6,
+      "last_native": 94.85,
       "opened": "2026-08-07",
-      "value_gbp": 69.78,
-      "pl_gbp": -0.22,
-      "pl_pct": -0.31,
+      "value_gbp": 69.23,
+      "pl_gbp": -0.77,
+      "pl_pct": -1.09,
       "sector": "Property"
     },
     {
@@ -142,11 +142,11 @@
       "shares": 1.062699,
       "entry_native": 7528.0,
       "cost_gbp": 80.0,
-      "last_native": 7510.0,
+      "last_native": 7497.0,
       "opened": "2026-08-07",
-      "value_gbp": 79.81,
-      "pl_gbp": -0.19,
-      "pl_pct": -0.24,
+      "value_gbp": 79.67,
+      "pl_gbp": -0.33,
+      "pl_pct": -0.41,
       "sector": "Materials"
     },
     {
@@ -154,27 +154,35 @@
       "shares": 3.051106,
       "entry_native": 3277.5,
       "cost_gbp": 100.0,
-      "last_native": 3298.0,
+      "last_native": 3356.0,
       "opened": "2026-08-07",
-      "value_gbp": 100.63,
-      "pl_gbp": 0.63,
-      "pl_pct": 0.63,
+      "value_gbp": 102.4,
+      "pl_gbp": 2.4,
+      "pl_pct": 2.4,
       "sector": "Energy"
     },
     {
       "ticker": "BP.L",
-      "shares": 13.3435,
-      "entry_native": 524.6,
-      "cost_gbp": 70.0,
-      "last_native": 524.6,
+      "shares": 18.941559,
+      "entry_native": 527.9396,
+      "cost_gbp": 100.0,
+      "last_native": 535.9,
       "opened": "2026-08-10",
-      "value_gbp": 70.0,
-      "pl_gbp": 0.0,
-      "pl_pct": 0.0,
+      "value_gbp": 101.51,
+      "pl_gbp": 1.51,
+      "pl_pct": 1.51,
       "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-08-11",
+      "action": "buy",
+      "ticker": "BP.L",
+      "amount_gbp": 30.0,
+      "price_native": 535.9,
+      "why": "Confirmation, not a new idea: both SHEL.L and BP.L are up together today, which is what a real Brent repricing looks like versus the single-name noise I was worried about on Aug 10. Sizing small to keep energy near 20% of book, not push past it. Wrong if this reverses within a week with no Brent follow-through \u2014 same falsifier as the original BP.L trade, now with two days of confirming data instead of one."
+    },
     {
       "date": "2026-08-10",
       "action": "buy",
@@ -258,16 +266,12 @@
   ],
   "watchlist": [
     {
-      "ticker": "NG.L",
-      "note": "Down 2% today with no stated news \u2014 watching for an Ofgem price-control leak or gilt-yield spike that would actually break the regulated-returns thesis versus just a soft day."
+      "ticker": "HON",
+      "note": "-5.27% in a session is a real move, likely guidance-related \u2014 watching for whether it's isolated or bleeds into other industrials (CAT, GEV) before considering an entry."
     },
     {
-      "ticker": "SGLN.L",
-      "note": "Gold miners (FRES.L, NEM) still confirming the flow story three days on. If bullion itself stalls while miners keep running, that's a miner-specific squeeze, not the macro case I bought."
-    },
-    {
-      "ticker": "SHEL.L",
-      "note": "Waiting to see if it re-rates Monday to catch up with the US energy move, or if the move fades before London opens."
+      "ticker": "DGE.L",
+      "note": "Turnaround thesis is under pressure \u2014 down 1.4% cumulatively with no news trigger yet. Next trading update is the actual test; watching, not acting."
     }
   ],
   "universe_requests": []
