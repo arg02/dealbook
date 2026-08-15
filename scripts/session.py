@@ -10,6 +10,7 @@ Everything is paper money. Nothing here touches a real broker.
 import json
 import os
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +25,9 @@ UNIVERSE = ROOT / "scripts" / "universe.json"
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5")
 API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
+
+RETRY_ATTEMPTS = 4
+RETRY_BASE_DELAY = 5  # seconds; doubles each attempt
 
 INDICES = {
     "^FTSE": "FTSE 100",
@@ -169,7 +173,8 @@ For sells, amount_gbp is the approximate GBP value to sell; use the full positio
 Never spend more cash than the book holds."""
 
 
-def ask_claude(payload):
+def _request_decision(payload):
+    """One attempt: call the API and parse a decision out of the reply."""
     body = {
         "model": MODEL,
         "max_tokens": 4000,
@@ -188,8 +193,14 @@ def ask_claude(payload):
     with urllib.request.urlopen(req, timeout=300) as resp:
         data = json.loads(resp.read())
 
-    text = "\n".join(b["text"] for b in data.get("content", []) if b.get("type") == "text")
+    blocks = data.get("content", [])
+    text = "\n".join(b["text"] for b in blocks if b.get("type") == "text")
     text = text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+    if not text:
+        raise ValueError(
+            f"empty reply (stop_reason={data.get('stop_reason')!r}, "
+            f"content block types={[b.get('type') for b in blocks]})"
+        )
     # Guard against stray preamble text; take the outermost JSON object.
     start, end = text.find("{"), text.rfind("}")
     if start == -1 or end == -1:
@@ -199,6 +210,23 @@ def ask_claude(payload):
         return json.loads(candidate)
     except json.JSONDecodeError as exc:
         raise ValueError(f"model reply was not valid JSON ({exc}):\n{candidate}") from exc
+
+
+def ask_claude(payload):
+    """Call the API, retrying on failure with exponential backoff."""
+    last_error = None
+    for attempt in range(1, RETRY_ATTEMPTS + 1):
+        try:
+            return _request_decision(payload)
+        except Exception as exc:
+            last_error = exc
+            print(f"  ! attempt {attempt}/{RETRY_ATTEMPTS} failed: {exc}", file=sys.stderr)
+            if attempt < RETRY_ATTEMPTS:
+                delay = RETRY_BASE_DELAY * (2 ** (attempt - 1))
+                print(f"  retrying in {delay}s…", file=sys.stderr)
+                time.sleep(delay)
+
+    raise RuntimeError(f"ask_claude failed after {RETRY_ATTEMPTS} attempts") from last_error
 
 
 # ---------------------------------------------------------------- execution
