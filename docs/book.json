@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-08-17",
-  "session": 7,
+  "as_of": "2026-08-18",
+  "session": 8,
   "starting_capital": 1000.0,
-  "cash_gbp": 114.31,
-  "invested_gbp": 874.94,
-  "total_gbp": 989.25,
-  "pl_gbp": -10.75,
-  "pl_pct": -1.07,
-  "fx": 1.3544,
-  "market_read": "Broad risk-off day across US/Europe/Asia-ex-Japan (S&P -0.52%, Dow -0.51%, HSI -1.1%) with gold up +0.72% and UK gilts flat \u2014 classic defensive rotation day, not a single-sector story. DGE.L's third straight down session (-3.43% today, now -4.8% since entry) confirms the turnaround thesis has failed rather than just staples-wide noise; RIO.L, by contrast, is up alongside GLEN.L/FRES.L/NEM today, so that materials thesis isn't dead yet despite being underwater since entry.",
+  "cash_gbp": 59.31,
+  "invested_gbp": 934.05,
+  "total_gbp": 993.36,
+  "pl_gbp": -6.64,
+  "pl_pct": -0.66,
+  "fx": 1.3533,
+  "market_read": "This is a tech/AI-capex unwind day (MU -7%, CRWV -12%, GEV -6.9%, VRT -6.8%, CAT -4.6%), not broad risk-off \u2014 FTSE is flat, Nikkei and Hang Seng are up, and energy is confirming its repricing for a fourth straight session (BP +2.68%, SHEL +1.76%, XOM +2.54%). Healthcare had a genuine sector pop today (AZN +2.13%, GSK +1.97%) worth adding to since the book is single-name concentrated in pharma via AZN alone. Nothing here argues for touching the UK defensive ballast (NG, PHP, SGLN) or the energy sleeve, which is already near 20% of book.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,720.30",
-      "change_pct": -0.28
+      "level": "10,728.04",
+      "change_pct": 0.07
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,644.91",
-      "change_pct": -0.32
+      "level": "26,289.71",
+      "change_pct": -1.33
     },
     {
       "name": "NYSE Comp",
-      "level": "24,717.81",
-      "change_pct": -0.42
+      "level": "24,629.14",
+      "change_pct": -0.36
     },
     {
       "name": "S&P 500",
-      "level": "7,745.06",
-      "change_pct": -0.52
+      "level": "7,691.76",
+      "change_pct": -0.69
     },
     {
       "name": "Dow Jones",
-      "level": "53,459.78",
-      "change_pct": -0.51
+      "level": "53,343.40",
+      "change_pct": -0.22
     },
     {
       "name": "DAX",
-      "level": "26,338.61",
-      "change_pct": -0.38
+      "level": "26,128.36",
+      "change_pct": -0.8
     },
     {
       "name": "Nikkei 225",
-      "level": "68,713.80",
-      "change_pct": 0.59
+      "level": "69,220.25",
+      "change_pct": 0.74
     },
     {
       "name": "Hang Seng",
-      "level": "25,116.85",
-      "change_pct": -1.1
+      "level": "25,453.23",
+      "change_pct": 1.34
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6328.0,
+      "last_native": 6244.0,
       "opened": "2026-08-07",
-      "value_gbp": 131.17,
-      "pl_gbp": 1.17,
-      "pl_pct": 0.9,
+      "value_gbp": 129.43,
+      "pl_gbp": -0.57,
+      "pl_pct": -0.44,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 5.855856,
       "entry_native": 2220.0,
       "cost_gbp": 130.0,
-      "last_native": 2236.0,
+      "last_native": 2225.0,
       "opened": "2026-08-07",
-      "value_gbp": 130.94,
-      "pl_gbp": 0.94,
-      "pl_pct": 0.72,
+      "value_gbp": 130.29,
+      "pl_gbp": 0.29,
+      "pl_pct": 0.23,
       "sector": "Industrials"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 11560.0,
+      "last_native": 11806.0,
       "opened": "2026-08-07",
-      "value_gbp": 106.89,
-      "pl_gbp": -3.11,
-      "pl_pct": -2.82,
+      "value_gbp": 109.17,
+      "pl_gbp": -0.83,
+      "pl_pct": -0.76,
       "sector": "Healthcare"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 86.843248,
       "entry_native": 115.15,
       "cost_gbp": 100.0,
-      "last_native": 114.7,
+      "last_native": 112.75,
       "opened": "2026-08-07",
-      "value_gbp": 99.61,
-      "pl_gbp": -0.39,
-      "pl_pct": -0.39,
+      "value_gbp": 97.92,
+      "pl_gbp": -2.08,
+      "pl_pct": -2.08,
       "sector": "Financials"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 7.5,
       "entry_native": 1200.0,
       "cost_gbp": 90.0,
-      "last_native": 1189.5,
+      "last_native": 1211.0,
       "opened": "2026-08-07",
-      "value_gbp": 89.21,
-      "pl_gbp": -0.79,
-      "pl_pct": -0.88,
+      "value_gbp": 90.82,
+      "pl_gbp": 0.82,
+      "pl_pct": 0.92,
       "sector": "Utilities"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 72.992701,
       "entry_native": 95.9,
       "cost_gbp": 70.0,
-      "last_native": 94.85,
+      "last_native": 94.75,
       "opened": "2026-08-07",
-      "value_gbp": 69.23,
-      "pl_gbp": -0.77,
-      "pl_pct": -1.09,
+      "value_gbp": 69.16,
+      "pl_gbp": -0.84,
+      "pl_pct": -1.2,
       "sector": "Property"
     },
     {
@@ -130,11 +130,11 @@
       "shares": 0.671965,
       "entry_native": 7528.0,
       "cost_gbp": 50.59,
-      "last_native": 7126.0,
+      "last_native": 7119.0,
       "opened": "2026-08-07",
-      "value_gbp": 47.88,
-      "pl_gbp": -2.71,
-      "pl_pct": -5.35,
+      "value_gbp": 47.84,
+      "pl_gbp": -2.75,
+      "pl_pct": -5.44,
       "sector": "Materials"
     },
     {
@@ -142,11 +142,11 @@
       "shares": 3.051106,
       "entry_native": 3277.5,
       "cost_gbp": 100.0,
-      "last_native": 3329.5,
+      "last_native": 3388.0,
       "opened": "2026-08-07",
-      "value_gbp": 101.59,
-      "pl_gbp": 1.59,
-      "pl_pct": 1.59,
+      "value_gbp": 103.37,
+      "pl_gbp": 3.37,
+      "pl_pct": 3.37,
       "sector": "Energy"
     },
     {
@@ -154,15 +154,35 @@
       "shares": 18.941559,
       "entry_native": 527.9396,
       "cost_gbp": 100.0,
-      "last_native": 519.6,
+      "last_native": 533.5,
       "opened": "2026-08-10",
-      "value_gbp": 98.42,
-      "pl_gbp": -1.58,
-      "pl_pct": -1.58,
+      "value_gbp": 101.05,
+      "pl_gbp": 1.05,
+      "pl_pct": 1.05,
       "sector": "Energy"
+    },
+    {
+      "ticker": "GSK.L",
+      "shares": 2.913136,
+      "entry_native": 1888.0,
+      "cost_gbp": 55.0,
+      "last_native": 1888.0,
+      "opened": "2026-08-18",
+      "value_gbp": 55.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
+      "sector": "Healthcare"
     }
   ],
   "trades": [
+    {
+      "date": "2026-08-18",
+      "action": "buy",
+      "ticker": "GSK.L",
+      "amount_gbp": 55.0,
+      "price_native": 1888.0,
+      "why": "GSK up 1.97% today alongside AZN's 2.13% \u2014 a genuine pharma sector move, not single-name noise, and the book currently has all its healthcare eggs in AZN. Diversifying within the sector rather than doubling down on one name. Wrong if this reverses within a week with no fundamental follow-through (no pipeline/regulatory news materialises) and GSK gives back the move while AZN holds its gain."
+    },
     {
       "date": "2026-08-17",
       "action": "buy",
@@ -287,11 +307,15 @@
   "watchlist": [
     {
       "ticker": "RIO.L",
-      "note": "Up 0.95% today alongside GLEN.L/FRES.L/NEM after last week's -4.77% single-day drop I trimmed into. Watching for confirmed China PMI/steel data \u2014 if this recovers further on real data rather than a technical bounce, the balance-sheet thesis holds and I won't chase; if it rolls back over, cutting the rest."
+      "note": "Flat today after a heavy trim on China demand fears \u2014 watching for confirmed steel/PMI data either way before touching the residual stake."
     },
     {
-      "ticker": "AZN.L",
-      "note": "Down 2.82% since entry but +0.87% today, bucking the broader risk-off tape. Waiting to see if oncology/obesity newsflow confirms relative strength or if this was just a defensive bid on a red day."
+      "ticker": "LLOY.L",
+      "note": "Down with HSBA today on no clear news \u2014 watching for BoE rate-path commentary before deciding whether to trim the UK bank exposure."
+    },
+    {
+      "ticker": "MU",
+      "note": "Not held, but -7% on memory-cycle fears is the kind of move that could bleed into broader tech; watching for contagion into names I do hold indirectly via sentiment."
     }
   ],
   "universe_requests": []
