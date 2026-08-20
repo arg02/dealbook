@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-08-19",
-  "session": 9,
+  "as_of": "2026-08-20",
+  "session": 10,
   "starting_capital": 1000.0,
-  "cash_gbp": 24.31,
-  "invested_gbp": 970.92,
-  "total_gbp": 995.23,
-  "pl_gbp": -4.77,
-  "pl_pct": -0.48,
-  "fx": 1.3606,
-  "market_read": "Today is a genuine cross-asset gold/mining rally (SGLN, FRES, NEM, AEM, GLEN, RIO all up together, Nikkei down 2.5%) alongside a broad US/UK pharma bid (MRK, LLY, ABBV, AMGN, AZN, GSK all up) \u2014 that's two real sector moves, not noise. Meanwhile UK domestics (LLOY, BA.L, NG.L, HSBA) are all soft together, which reads more like rate-cut repricing than company-specific news, and is starting to look like evidence against the LLOY NIM thesis rather than for it.",
+  "cash_gbp": 29.84,
+  "invested_gbp": 972.23,
+  "total_gbp": 1002.07,
+  "pl_gbp": 2.07,
+  "pl_pct": 0.21,
+  "fx": 1.3631,
+  "market_read": "US indices are broadly red (Nasdaq -1%, Dow -1.3%, Nikkei -3.2%) while FTSE is flat and Hang Seng is one of the few gainers \u2014 this looks like a US-earnings/growth-multiple wobble (WMT -9% on what must be a bad print) rather than a global growth scare, since gold, energy and UK large-caps are unaffected or even up. The book's UK/commodity tilt is doing its job as ballast; no reason to chase the US selloff or add duration risk.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,743.35",
-      "change_pct": 0.14
+      "level": "10,748.16",
+      "change_pct": 0.04
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,331.09",
-      "change_pct": 0.16
+      "level": "26,067.17",
+      "change_pct": -1.0
     },
     {
       "name": "NYSE Comp",
-      "level": "24,707.27",
-      "change_pct": 0.32
+      "level": "24,548.26",
+      "change_pct": -0.64
     },
     {
       "name": "S&P 500",
-      "level": "7,707.98",
-      "change_pct": 0.21
+      "level": "7,641.16",
+      "change_pct": -0.87
     },
     {
       "name": "Dow Jones",
-      "level": "53,463.05",
-      "change_pct": 0.22
+      "level": "52,759.21",
+      "change_pct": -1.32
     },
     {
       "name": "DAX",
-      "level": "26,091.33",
-      "change_pct": -0.14
+      "level": "25,983.04",
+      "change_pct": -0.42
     },
     {
       "name": "Nikkei 225",
-      "level": "67,460.73",
-      "change_pct": -2.54
+      "level": "65,326.42",
+      "change_pct": -3.16
     },
     {
       "name": "Hang Seng",
-      "level": "25,471.15",
-      "change_pct": 0.07
+      "level": "25,495.07",
+      "change_pct": 0.09
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6391.0,
+      "last_native": 6432.0,
       "opened": "2026-08-07",
-      "value_gbp": 132.47,
-      "pl_gbp": 2.47,
-      "pl_pct": 1.9,
+      "value_gbp": 133.32,
+      "pl_gbp": 3.32,
+      "pl_pct": 2.56,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 5.855856,
       "entry_native": 2220.0,
       "cost_gbp": 130.0,
-      "last_native": 2160.0,
+      "last_native": 2145.0,
       "opened": "2026-08-07",
-      "value_gbp": 126.49,
-      "pl_gbp": -3.51,
-      "pl_pct": -2.7,
+      "value_gbp": 125.61,
+      "pl_gbp": -4.39,
+      "pl_pct": -3.38,
       "sector": "Industrials"
     },
     {
@@ -82,35 +82,23 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 12050.0,
+      "last_native": 12088.0,
       "opened": "2026-08-07",
-      "value_gbp": 111.42,
-      "pl_gbp": 1.42,
-      "pl_pct": 1.29,
+      "value_gbp": 111.78,
+      "pl_gbp": 1.78,
+      "pl_pct": 1.61,
       "sector": "Healthcare"
-    },
-    {
-      "ticker": "LLOY.L",
-      "shares": 50.594947,
-      "entry_native": 115.15,
-      "cost_gbp": 58.26,
-      "last_native": 110.35,
-      "opened": "2026-08-07",
-      "value_gbp": 55.83,
-      "pl_gbp": -2.43,
-      "pl_pct": -4.17,
-      "sector": "Financials"
     },
     {
       "ticker": "NG.L",
       "shares": 7.5,
       "entry_native": 1200.0,
       "cost_gbp": 90.0,
-      "last_native": 1179.0,
+      "last_native": 1186.5,
       "opened": "2026-08-07",
-      "value_gbp": 88.42,
-      "pl_gbp": -1.58,
-      "pl_pct": -1.75,
+      "value_gbp": 88.99,
+      "pl_gbp": -1.01,
+      "pl_pct": -1.13,
       "sector": "Utilities"
     },
     {
@@ -118,11 +106,11 @@
       "shares": 72.992701,
       "entry_native": 95.9,
       "cost_gbp": 70.0,
-      "last_native": 94.95,
+      "last_native": 95.35,
       "opened": "2026-08-07",
-      "value_gbp": 69.31,
-      "pl_gbp": -0.69,
-      "pl_pct": -0.99,
+      "value_gbp": 69.6,
+      "pl_gbp": -0.4,
+      "pl_pct": -0.57,
       "sector": "Property"
     },
     {
@@ -130,11 +118,11 @@
       "shares": 0.671965,
       "entry_native": 7528.0,
       "cost_gbp": 50.59,
-      "last_native": 7388.0,
+      "last_native": 7504.0,
       "opened": "2026-08-07",
-      "value_gbp": 49.64,
-      "pl_gbp": -0.95,
-      "pl_pct": -1.87,
+      "value_gbp": 50.42,
+      "pl_gbp": -0.17,
+      "pl_pct": -0.33,
       "sector": "Materials"
     },
     {
@@ -142,11 +130,11 @@
       "shares": 3.051106,
       "entry_native": 3277.5,
       "cost_gbp": 100.0,
-      "last_native": 3420.5,
+      "last_native": 3440.0,
       "opened": "2026-08-07",
-      "value_gbp": 104.36,
-      "pl_gbp": 4.36,
-      "pl_pct": 4.36,
+      "value_gbp": 104.96,
+      "pl_gbp": 4.96,
+      "pl_pct": 4.96,
       "sector": "Energy"
     },
     {
@@ -154,11 +142,11 @@
       "shares": 18.941559,
       "entry_native": 527.9396,
       "cost_gbp": 100.0,
-      "last_native": 539.3,
+      "last_native": 552.2,
       "opened": "2026-08-10",
-      "value_gbp": 102.15,
-      "pl_gbp": 2.15,
-      "pl_pct": 2.15,
+      "value_gbp": 104.6,
+      "pl_gbp": 4.6,
+      "pl_pct": 4.6,
       "sector": "Energy"
     },
     {
@@ -166,11 +154,11 @@
       "shares": 2.913136,
       "entry_native": 1888.0,
       "cost_gbp": 55.0,
-      "last_native": 1916.0,
+      "last_native": 1920.5,
       "opened": "2026-08-18",
-      "value_gbp": 55.82,
-      "pl_gbp": 0.82,
-      "pl_pct": 1.48,
+      "value_gbp": 55.95,
+      "pl_gbp": 0.95,
+      "pl_pct": 1.72,
       "sector": "Healthcare"
     },
     {
@@ -178,15 +166,43 @@
       "shares": 2.431118,
       "entry_native": 3085.0,
       "cost_gbp": 75.0,
-      "last_native": 3085.0,
+      "last_native": 3168.0,
       "opened": "2026-08-19",
-      "value_gbp": 75.0,
-      "pl_gbp": -0.0,
-      "pl_pct": -0.0,
+      "value_gbp": 77.02,
+      "pl_gbp": 2.02,
+      "pl_pct": 2.69,
       "sector": "Materials"
+    },
+    {
+      "ticker": "HSBA.L",
+      "shares": 3.327566,
+      "entry_native": 1502.6,
+      "cost_gbp": 50.0,
+      "last_native": 1502.6,
+      "opened": "2026-08-20",
+      "value_gbp": 50.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
+      "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-08-20",
+      "action": "buy",
+      "ticker": "HSBA.L",
+      "amount_gbp": 50.0,
+      "price_native": 1502.6,
+      "why": "Replacing UK-domestic-rate-geared LLOY with Asia-weighted HSBA: Hang Seng is one of only two green indices today while everything else (including UK domestic cyclicals) is soft, and HSBA's earnings driver (Asia rates/credit growth) is different from the BoE-cut pressure hitting Lloyds. Same sector, different macro bet. Wrong if HSBA sells off in lockstep with LLOY over the next two weeks, proving there's no real Asia-vs-UK differentiation here."
+    },
+    {
+      "date": "2026-08-20",
+      "action": "sell",
+      "ticker": "LLOY.L",
+      "amount_gbp": 55.53,
+      "price_native": 109.75,
+      "why": "Continuing to underperform since the Aug 19 trim (-4.69% cumulative now vs -4.17% then) with LLOY moving worse than HSBA \u2014 the BoE-faster-cuts falsifier I flagged is playing out in price, not reversing. Closing the rest rather than holding a token stake on hope. Wrong if the next BoE communication is hawkish and LLOY snaps back without me."
+    },
     {
       "date": "2026-08-19",
       "action": "buy",
@@ -334,12 +350,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "MRK",
-      "note": "Up 12.6% on what looks like a policy or IRA-pricing catalyst \u2014 want to see if this is company-specific news or a sector-wide US pharma re-rating (AZN/GSK already benefiting) before considering exposure."
+      "ticker": "WMT",
+      "note": "Down 9.15% on what looks like an earnings miss \u2014 waiting to see if it stabilises before considering a value entry into the cost-conscious-consumer thesis; too early to catch this falling knife."
     },
     {
-      "ticker": "HSBA.L",
-      "note": "Down alongside LLOY.L today \u2014 watching for confirmation this is a genuine UK bank rate-cut repricing rather than one-off, which would argue for trimming LLOY.L further."
+      "ticker": "SSE.L",
+      "note": "Utilities sector-mate to NG.L, flat today \u2014 watching for a pullback to add a second regulated-networks name if NG.L keeps drifting."
+    },
+    {
+      "ticker": "GLEN.L",
+      "note": "Diversified miner/trader up 0.76% alongside RIO/FRES \u2014 would add if China demand data actually turns instead of just gold-safety-bid noise."
     }
   ],
   "universe_requests": []
