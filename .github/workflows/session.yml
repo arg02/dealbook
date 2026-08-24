@@ -2,10 +2,12 @@ name: Trading session
 
 on:
   schedule:
-    # 21:37 UTC, weekdays — after the US close, after LSE has settled.
-    # Off the :00/:30 mark deliberately: GitHub queues scheduled jobs best-effort,
-    # and round times see the most contention, so this dodges some of that drift.
-    - cron: "37 21 * * 1-5"
+    # 06:45 UTC, weekdays — shortly before LSE opens, so there's minimal gap
+    # between the decision and manually placing any trades at the London open.
+    # Fixed UTC, not London time: LSE's 08:00 open is 07:00 UTC in BST and
+    # 08:00 UTC in GMT, so 06:45 UTC stays safely pre-market year-round rather
+    # than drifting into the trading session for half the year.
+    - cron: "45 6 * * 1-5"
   workflow_dispatch:
     inputs:
       dry_run:

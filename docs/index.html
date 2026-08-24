@@ -11,6 +11,7 @@
   :root{
     --paper:#DFE3DC; --paper-2:#D5DAD1; --ink:#161E1A; --ink-soft:#4A544D;
     --rule:#A8B0A5; --gain:#1F5C3D; --loss:#8B2635; --ochre:#8A6F24;
+    --gain-bg:rgba(31,92,61,.13); --loss-bg:rgba(139,38,53,.13); --ochre-bg:rgba(138,111,36,.13);
     --display:"Bricolage Grotesque",Georgia,serif;
     --body:"Inter Tight",system-ui,sans-serif;
     --mono:"IBM Plex Mono",ui-monospace,monospace;
@@ -66,12 +67,27 @@
 
   .entry{padding:26px 0;border-bottom:1px solid var(--rule)}
   .entry:last-child{border-bottom:none}
-  .ehead{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;font-family:var(--mono);
+  .ehead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-family:var(--mono);
     font-size:11px;letter-spacing:.05em;color:var(--ink-soft);margin-bottom:13px}
-  .act{font-weight:600;letter-spacing:.13em;text-transform:uppercase}
-  .act.buy{color:var(--gain)} .act.sell{color:var(--loss)} .act.hold{color:var(--ochre)}
+  .act{font-weight:600;letter-spacing:.1em;font-size:10px;text-transform:uppercase;
+    padding:4px 9px;border-radius:3px;display:inline-block}
+  .act.buy{color:var(--gain);background:var(--gain-bg)}
+  .act.sell{color:var(--loss);background:var(--loss-bg)}
+  .act.hold{color:var(--ochre);background:var(--ochre-bg)}
+  .act.muted{color:var(--ink-soft);background:transparent}
+  .edate{color:var(--ink);font-weight:600;font-size:11.5px}
   .why{font-family:var(--display);font-weight:400;font-size:clamp(17px,2.5vw,21px);
     line-height:1.42;letter-spacing:-.012em;max-width:62ch;text-wrap:pretty}
+
+  .history{margin-top:2px}
+  .history summary{cursor:pointer;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--ink-soft);padding:16px 0;list-style:none;
+    border-top:1px solid var(--rule)}
+  .history summary::-webkit-details-marker{display:none}
+  .history summary::before{content:"+ ";font-weight:600}
+  .history[open] summary::before{content:"− "}
+  .history[open] summary{border-bottom:1px solid var(--rule)}
+  .history:not([open]) .entry{display:none}
 
   .watch{display:flex;flex-wrap:wrap;gap:9px;padding-top:15px}
   .chip{border:1px solid var(--rule);padding:8px 13px;background:var(--paper-2)}
@@ -225,6 +241,35 @@ function positionPl(d){
       <line class="zero" x1="${MID}" x2="${MID}" y1="0" y2="${H-6}"/>${bars}</svg></div>`;
 }
 
+function tradeEntry(t, muted){
+  return `
+        <article class="entry">
+          <div class="ehead">
+            <span class="act ${muted ? 'muted' : esc(t.action)}">${esc(t.action)}</span>
+            <span class="edate">${esc(t.date)}</span><span>·</span>
+            <span>${esc(t.ticker)}</span><span>·</span>
+            <span>${gbp(t.amount_gbp)} @ ${Number(t.price_native).toFixed(2)}</span>
+          </div>
+          <p class="why">${esc(t.why)}</p>
+        </article>`;
+}
+
+/* Today's trades stay in full view with live BUY/SELL chips; everything
+   earlier is a plain-chip record tucked behind a closed accordion. */
+function tradesSection(d){
+  if(!d.trades.length) return `<p class="empty">Nothing traded yet.</p>`;
+  const today = d.trades.filter(t => t.date === d.as_of);
+  const older = d.trades.filter(t => t.date !== d.as_of);
+  const todayHtml = today.length ? today.map(t => tradeEntry(t, false)).join("")
+    : `<p class="empty">Nothing traded today.</p>`;
+  const historyHtml = older.length ? `
+    <details class="history">
+      <summary>History · ${older.length} earlier trade${older.length === 1 ? '' : 's'}</summary>
+      ${older.map(t => tradeEntry(t, true)).join("")}
+    </details>` : "";
+  return todayHtml + historyHtml;
+}
+
 function render(d, hist){
   const hasPos = d.holdings.length > 0;
   document.getElementById("app").innerHTML = `
@@ -285,17 +330,7 @@ function render(d, hist){
 
     <section>
       <h2>The book — every trade and why</h2>
-      ${d.trades.length ? d.trades.map(t => `
-        <article class="entry">
-          <div class="ehead">
-            <span class="act ${esc(t.action)}">${esc(t.action)}</span>
-            <span>${esc(t.ticker)}</span><span>·</span>
-            <span>${gbp(t.amount_gbp)} @ ${Number(t.price_native).toFixed(2)}</span><span>·</span>
-            <span>${esc(t.date)}</span>
-          </div>
-          <p class="why">${esc(t.why)}</p>
-        </article>`).join("")
-      : `<p class="empty">Nothing traded yet.</p>`}
+      ${tradesSection(d)}
     </section>
 
     ${d.watchlist?.length ? `<section>

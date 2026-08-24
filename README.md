@@ -48,11 +48,11 @@ dry run and run it for real. That opens the book.
 ## How it works
 
 ```
-21:30 UTC weekdays
+06:45 UTC weekdays (shortly before LSE opens)
   │
   ├─ yfinance ──► prices for the universe, 8 indices, GBP/USD
   ├─ mark existing holdings to market
-  ├─ POST api.anthropic.com  (with web search on, so it sees today's news)
+  ├─ POST api.anthropic.com
   ├─ parse trades, validate against cash and holdings, fill at last close
   └─ commit docs/book.json + append docs/history.jsonl
 ```
