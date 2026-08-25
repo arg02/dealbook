@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-08-21",
-  "session": 11,
+  "as_of": "2026-08-25",
+  "session": 12,
   "starting_capital": 1000.0,
-  "cash_gbp": 71.84,
-  "invested_gbp": 933.82,
-  "total_gbp": 1005.66,
-  "pl_gbp": 5.66,
-  "pl_pct": 0.57,
-  "fx": 1.3648,
-  "market_read": "Broad risk-on day \u2014 every major index green, gold miners and bullion still running hard (SGLN +2.52%, RIO +1.92%, GLEN +2.1%), and HSBA is now confirming the Asia-vs-UK differentiation thesis from yesterday with another +1.05% while Hang Seng leads. BA.L is the one holding moving against the tide (-0.89%) on a day everything else rallies, and NG.L keeps bleeding (-1.31% today, -2.42% since entry) \u2014 neither has any fresh catalyst to explain lagging a strong tape.",
+  "cash_gbp": 153.48,
+  "invested_gbp": 848.02,
+  "total_gbp": 1001.5,
+  "pl_gbp": 1.5,
+  "pl_pct": 0.15,
+  "fx": 1.3638,
+  "market_read": "Today's real signal is a widening gap between gold bullion (SGLN +0.69%) and gold/silver equities (FRES -1.43%) \u2014 safety bid intact but miner-specific costs/ops risk is showing up separately. BP's -2.4% single-day drop and continued weakness in defence (BA.L) contrast with a genuinely resilient HSBA (+1.07%, fourth green session since the LLOY switch), confirming the Asia-vs-UK-domestic differentiation. US tech is wobbling hard (MU -5.83%, AVGO -2.63%) but that's outside this book and not a reason to chase in.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,816.56",
-      "change_pct": 0.64
+      "level": "10,877.20",
+      "change_pct": 0.21
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,180.46",
-      "change_pct": 0.43
+      "level": "25,980.19",
+      "change_pct": -0.76
     },
     {
       "name": "NYSE Comp",
-      "level": "24,728.67",
-      "change_pct": 0.73
+      "level": "24,726.64",
+      "change_pct": -0.01
     },
     {
       "name": "S&P 500",
-      "level": "7,674.37",
-      "change_pct": 0.43
+      "level": "7,652.86",
+      "change_pct": -0.28
     },
     {
       "name": "Dow Jones",
-      "level": "53,277.01",
-      "change_pct": 0.98
+      "level": "53,417.16",
+      "change_pct": 0.26
     },
     {
       "name": "DAX",
-      "level": "26,136.56",
-      "change_pct": 0.59
+      "level": "26,192.28",
+      "change_pct": 0.33
     },
     {
       "name": "Nikkei 225",
-      "level": "66,216.79",
-      "change_pct": 1.36
+      "level": "65,856.43",
+      "change_pct": 0.5
     },
     {
       "name": "Hang Seng",
-      "level": "25,698.49",
-      "change_pct": 0.8
+      "level": "25,511.20",
+      "change_pct": -0.02
     }
   ],
   "holdings": [
@@ -58,23 +58,23 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6552.0,
+      "last_native": 6597.0,
       "opened": "2026-08-07",
-      "value_gbp": 135.81,
-      "pl_gbp": 5.81,
-      "pl_pct": 4.47,
+      "value_gbp": 136.74,
+      "pl_gbp": 6.74,
+      "pl_pct": 5.19,
       "sector": "Materials"
     },
     {
       "ticker": "BA.L",
-      "shares": 3.880315,
+      "shares": 8.7e-05,
       "entry_native": 2220.0,
-      "cost_gbp": 86.14,
-      "last_native": 2126.0,
+      "cost_gbp": 0.0,
+      "last_native": 2104.0,
       "opened": "2026-08-07",
-      "value_gbp": 82.5,
-      "pl_gbp": -3.64,
-      "pl_pct": -4.23,
+      "value_gbp": 0.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
       "sector": "Industrials"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 12240.0,
+      "last_native": 12190.0,
       "opened": "2026-08-07",
-      "value_gbp": 113.18,
-      "pl_gbp": 3.18,
-      "pl_pct": 2.89,
+      "value_gbp": 112.72,
+      "pl_gbp": 2.72,
+      "pl_pct": 2.47,
       "sector": "Healthcare"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 4.938087,
       "entry_native": 1200.0,
       "cost_gbp": 59.26,
-      "last_native": 1171.0,
+      "last_native": 1173.0,
       "opened": "2026-08-07",
-      "value_gbp": 57.82,
-      "pl_gbp": -1.44,
-      "pl_pct": -2.42,
+      "value_gbp": 57.92,
+      "pl_gbp": -1.34,
+      "pl_pct": -2.25,
       "sector": "Utilities"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 72.992701,
       "entry_native": 95.9,
       "cost_gbp": 70.0,
-      "last_native": 96.35,
+      "last_native": 96.55,
       "opened": "2026-08-07",
-      "value_gbp": 70.33,
-      "pl_gbp": 0.33,
-      "pl_pct": 0.47,
+      "value_gbp": 70.47,
+      "pl_gbp": 0.47,
+      "pl_pct": 0.68,
       "sector": "Property"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 0.671965,
       "entry_native": 7528.0,
       "cost_gbp": 50.59,
-      "last_native": 7648.0,
+      "last_native": 7658.0,
       "opened": "2026-08-07",
-      "value_gbp": 51.39,
-      "pl_gbp": 0.8,
-      "pl_pct": 1.59,
+      "value_gbp": 51.46,
+      "pl_gbp": 0.87,
+      "pl_pct": 1.72,
       "sector": "Materials"
     },
     {
@@ -130,11 +130,11 @@
       "shares": 3.051106,
       "entry_native": 3277.5,
       "cost_gbp": 100.0,
-      "last_native": 3409.5,
+      "last_native": 3398.5,
       "opened": "2026-08-07",
-      "value_gbp": 104.03,
-      "pl_gbp": 4.03,
-      "pl_pct": 4.03,
+      "value_gbp": 103.69,
+      "pl_gbp": 3.69,
+      "pl_pct": 3.69,
       "sector": "Energy"
     },
     {
@@ -142,11 +142,11 @@
       "shares": 18.941559,
       "entry_native": 527.9396,
       "cost_gbp": 100.0,
-      "last_native": 549.5,
+      "last_native": 536.3,
       "opened": "2026-08-10",
-      "value_gbp": 104.08,
-      "pl_gbp": 4.08,
-      "pl_pct": 4.08,
+      "value_gbp": 101.58,
+      "pl_gbp": 1.58,
+      "pl_pct": 1.58,
       "sector": "Energy"
     },
     {
@@ -154,39 +154,63 @@
       "shares": 2.913136,
       "entry_native": 1888.0,
       "cost_gbp": 55.0,
-      "last_native": 1918.5,
+      "last_native": 1884.5,
       "opened": "2026-08-18",
-      "value_gbp": 55.89,
-      "pl_gbp": 0.89,
-      "pl_pct": 1.62,
+      "value_gbp": 54.9,
+      "pl_gbp": -0.1,
+      "pl_pct": -0.19,
       "sector": "Healthcare"
     },
     {
       "ticker": "FRES.L",
-      "shares": 2.431118,
+      "shares": 1.485641,
       "entry_native": 3085.0,
-      "cost_gbp": 75.0,
-      "last_native": 3219.0,
+      "cost_gbp": 45.83,
+      "last_native": 3173.0,
       "opened": "2026-08-19",
-      "value_gbp": 78.26,
-      "pl_gbp": 3.26,
-      "pl_pct": 4.34,
+      "value_gbp": 47.14,
+      "pl_gbp": 1.31,
+      "pl_pct": 2.86,
       "sector": "Materials"
     },
     {
       "ticker": "HSBA.L",
-      "shares": 5.30333,
-      "entry_native": 1508.4863,
-      "cost_gbp": 80.0,
-      "last_native": 1518.4,
+      "shares": 7.258237,
+      "entry_native": 1515.5197,
+      "cost_gbp": 110.0,
+      "last_native": 1534.6,
       "opened": "2026-08-20",
-      "value_gbp": 80.53,
-      "pl_gbp": 0.53,
-      "pl_pct": 0.66,
+      "value_gbp": 111.38,
+      "pl_gbp": 1.38,
+      "pl_pct": 1.26,
       "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-08-25",
+      "action": "buy",
+      "ticker": "HSBA.L",
+      "amount_gbp": 30.0,
+      "price_native": 1534.6,
+      "why": "Third add since Aug 20 switch from LLOY, funded by exiting the dead BA.L position rather than fresh cash. HSBA keeps posting green days (+1.07% today) independent of the UK-domestic bank complex, and Hang Seng continues to hold up while US/European indices are mixed \u2014 the Asia-rates differentiation is compounding, not fading. Wrong if HSBA reverses hard within two weeks in lockstep with a broader Hang Seng selloff, proving there's no real differentiation left to harvest."
+    },
+    {
+      "date": "2026-08-25",
+      "action": "sell",
+      "ticker": "FRES.L",
+      "amount_gbp": 30.0,
+      "price_native": 3173.0,
+      "why": "Trimming, not exiting. FRES is down -1.43% today while the bullion it's leveraged to (SGLN) is up +0.69% \u2014 the safety-bid thesis I bought this for is intact in gold itself but not confirming in the miner, suggesting company-specific cost/ops drag layering on top. Keeping the bulk of the position since the underlying commodity thesis hasn't broken. Wrong if FRES catches back up to bullion's move within a week with no negative company news, meaning today was just noise."
+    },
+    {
+      "date": "2026-08-25",
+      "action": "sell",
+      "ticker": "BA.L",
+      "amount_gbp": 81.64,
+      "price_native": 2104.0,
+      "why": "Full exit. Down -5.22% since Aug 7 entry, red again today (-1.03%) with zero participation in any recent broad rallies since I first flagged this on Aug 21. Two partial trims haven't been vindicated by a bounce \u2014 the European-rearmament thesis simply isn't showing up in price a month in, and I'd rather admit that than hold a token stake on hope. Wrong if a defence-budget headline sends this sharply higher in the next two weeks without me."
+    },
     {
       "date": "2026-08-21",
       "action": "buy",
@@ -374,12 +398,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "RR.L",
-      "note": "Watching as an alternative defence/aero name if BA.L keeps lagging \u2014 want to see if Rolls-Royce's buyback-driven momentum decouples from BAE's weakness before rotating."
+      "ticker": "BP.L",
+      "note": "Today's -2.4% drop is the sharpest single-day move in the book; watching for follow-through (oil price break or company-specific news) before deciding whether to trim the remaining position."
     },
     {
-      "ticker": "SSE.L",
-      "note": "If NG.L keeps bleeding, want to see whether SSE (generation-heavy, less pure regulated-asset) is holding up better as a utility swap."
+      "ticker": "NG.L",
+      "note": "Flat today after prior trim; residual stake stays small until it either confirms the regulated-utility ballast thesis with a real move or keeps drifting, in which case it's next to go."
+    },
+    {
+      "ticker": "MU",
+      "note": "Not held, but -5.83% today alongside AVGO -2.63% is a real tech drawdown signal worth tracking in case it broadens into a risk-off event that would also hit UK cyclicals."
     }
   ],
   "universe_requests": []
