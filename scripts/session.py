@@ -279,7 +279,10 @@ def apply_trades(book, decision, quotes, fx, today):
             sold_fraction = shares / h["shares"] if h["shares"] else 0
             h["cost_gbp"] = round(h["cost_gbp"] * (1 - sold_fraction), 2)
             h["shares"] = round(h["shares"] - shares, 6)
-            if h["shares"] < 1e-6:
+            # A "full exit" amount_gbp is rounded to pennies, so it almost never matches
+            # the exact fractional-share value — dust the size of a share count is
+            # meaningless across tickers at very different prices, so judge it in GBP.
+            if h["shares"] * price_gbp < 0.01:
                 book["holdings"].remove(h)
             book["cash_gbp"] = round(book["cash_gbp"] + amount, 2)
         else:

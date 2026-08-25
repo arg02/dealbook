@@ -57,6 +57,7 @@
     color:var(--ink-soft);display:block;margin-bottom:3px}
   .num{font-family:var(--mono);font-size:14px;font-weight:500;letter-spacing:-.01em}
   .num.sm{font-size:12.5px;font-weight:400}
+  .num.pct{display:block;color:var(--ink-soft);margin-top:2px}
   .r{text-align:right}
   .gain{color:var(--gain)} .loss{color:var(--loss)} .flat{color:var(--ink-soft)}
 
@@ -313,7 +314,8 @@ function render(d, hist){
           </div>
           <div><span class="lbl">In at</span><span class="num sm">${Number(h.entry_native).toFixed(2)}</span></div>
           <div><span class="lbl">Now</span><span class="num sm">${Number(h.last_native).toFixed(2)}</span></div>
-          <div class="r"><span class="lbl">Value</span><span class="num">${gbp(h.value_gbp)}</span></div>
+          <div class="r"><span class="lbl">Value</span><span class="num">${gbp(h.value_gbp)}</span>
+            <span class="num sm pct">${(h.value_gbp / d.total_gbp * 100).toFixed(1)}% of book</span></div>
           <div class="r"><span class="lbl">Profit / loss</span>
             <span class="num ${cls(h.pl_gbp)}">${sign(h.pl_gbp)}${money(h.pl_gbp)} · ${sign(h.pl_gbp)}${Math.abs(h.pl_pct).toFixed(2)}%</span>
           </div>
