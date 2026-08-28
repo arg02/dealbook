@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-08-26",
-  "session": 13,
+  "as_of": "2026-08-28",
+  "session": 14,
   "starting_capital": 1000.0,
-  "cash_gbp": 151.48,
-  "invested_gbp": 848.82,
-  "total_gbp": 1000.3,
-  "pl_gbp": 0.3,
-  "pl_pct": 0.03,
-  "fx": 1.3637,
-  "market_read": "Oil is broadly weak today across BP, SHEL, XOM, CVX, SLB \u2014 a sector-wide move, not single-name noise, so the energy book needs trimming toward its stronger member. Meanwhile pharma is genuinely bid (AZN +2.77%, GSK +1.22%, MRK +3.84%, NVO +3.71%) and industrial/precious metals miners (RIO, GLEN, NEM, AEM) are outperforming bullion itself, suggesting a reflation/materials bid layered on top of the safety trade rather than pure gold-flight. HSBA underperformed Hang Seng today for the first time since the switch from LLOY \u2014 not yet a reversal, but the first data point against the differentiation thesis, worth watching closely rather than adding more capital to.",
+  "cash_gbp": 166.12,
+  "invested_gbp": 822.74,
+  "total_gbp": 988.86,
+  "pl_gbp": -11.14,
+  "pl_pct": -1.11,
+  "fx": 1.3532,
+  "market_read": "Nothing dramatic today: US indices soft on tech/data-centre jitters (VRT -4.1%, GEV -4.0%, CRWV -3.9%), UK holding up (FTSE +0.29%, HSBA +1.62%, SSE +2.86%), and gold miners rolling over hard (AEM -4.4%, NEM -3.5%) even as bullion itself is only mildly softer \u2014 a real divergence between the metal and the equities levered to it. My HSBA thesis has been right on direction but weak on magnitude: four buys into 'strength' since Aug 20 have netted only +0.85% cumulative, so I'm pausing that add rather than compounding a mediocre edge. Energy is bifurcating again \u2014 SHEL +1.0% vs BP flat \u2014 which is the same pattern that made me trim BP last week; time to finish that trade rather than hold a decaying half-position.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,884.93",
-      "change_pct": -0.01
+      "level": "10,824.26",
+      "change_pct": 0.29
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,151.30",
-      "change_pct": 0.66
+      "level": "26,367.55",
+      "change_pct": -0.65
     },
     {
       "name": "NYSE Comp",
-      "level": "24,768.65",
-      "change_pct": 0.17
+      "level": "24,565.47",
+      "change_pct": -0.34
     },
     {
       "name": "S&P 500",
-      "level": "7,677.28",
-      "change_pct": 0.32
+      "level": "7,703.59",
+      "change_pct": -0.35
     },
     {
       "name": "Dow Jones",
-      "level": "53,577.40",
-      "change_pct": 0.3
+      "level": "53,529.33",
+      "change_pct": -0.07
     },
     {
       "name": "DAX",
-      "level": "26,246.24",
-      "change_pct": -0.08
+      "level": "26,569.99",
+      "change_pct": 0.77
     },
     {
       "name": "Nikkei 225",
-      "level": "66,262.16",
-      "change_pct": 0.62
+      "level": "66,131.98",
+      "change_pct": -0.2
     },
     {
       "name": "Hang Seng",
-      "level": "25,696.03",
-      "change_pct": 0.72
+      "level": "25,565.74",
+      "change_pct": -0.34
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6593.0,
+      "last_native": 6519.0,
       "opened": "2026-08-07",
-      "value_gbp": 136.66,
-      "pl_gbp": 6.66,
-      "pl_pct": 5.12,
+      "value_gbp": 135.13,
+      "pl_gbp": 5.13,
+      "pl_pct": 3.94,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 12446.0,
+      "last_native": 11970.0,
       "opened": "2026-08-07",
-      "value_gbp": 115.09,
-      "pl_gbp": 5.09,
-      "pl_pct": 4.62,
+      "value_gbp": 110.68,
+      "pl_gbp": 0.68,
+      "pl_pct": 0.62,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.938087,
       "entry_native": 1200.0,
       "cost_gbp": 59.26,
-      "last_native": 1187.0,
+      "last_native": 1170.0,
       "opened": "2026-08-07",
-      "value_gbp": 58.62,
-      "pl_gbp": -0.64,
-      "pl_pct": -1.09,
+      "value_gbp": 57.78,
+      "pl_gbp": -1.48,
+      "pl_pct": -2.5,
       "sector": "Utilities"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 72.992701,
       "entry_native": 95.9,
       "cost_gbp": 70.0,
-      "last_native": 97.05,
+      "last_native": 95.55,
       "opened": "2026-08-07",
-      "value_gbp": 70.84,
-      "pl_gbp": 0.84,
-      "pl_pct": 1.2,
+      "value_gbp": 69.74,
+      "pl_gbp": -0.26,
+      "pl_pct": -0.36,
       "sector": "Property"
     },
     {
@@ -106,35 +106,23 @@
       "shares": 0.928902,
       "entry_native": 7598.8104,
       "cost_gbp": 70.59,
-      "last_native": 7784.0,
+      "last_native": 7674.0,
       "opened": "2026-08-07",
-      "value_gbp": 72.31,
-      "pl_gbp": 1.72,
-      "pl_pct": 2.43,
+      "value_gbp": 71.28,
+      "pl_gbp": 0.69,
+      "pl_pct": 0.98,
       "sector": "Materials"
     },
     {
       "ticker": "SHEL.L",
-      "shares": 3.051106,
-      "entry_native": 3277.5,
-      "cost_gbp": 100.0,
-      "last_native": 3334.0,
+      "shares": 4.0976,
+      "entry_native": 3294.6113,
+      "cost_gbp": 135.0,
+      "last_native": 3344.5,
       "opened": "2026-08-07",
-      "value_gbp": 101.72,
-      "pl_gbp": 1.72,
-      "pl_pct": 1.72,
-      "sector": "Energy"
-    },
-    {
-      "ticker": "BP.L",
-      "shares": 9.648239,
-      "entry_native": 527.9396,
-      "cost_gbp": 50.94,
-      "last_native": 516.5,
-      "opened": "2026-08-10",
-      "value_gbp": 49.83,
-      "pl_gbp": -1.11,
-      "pl_pct": -2.17,
+      "value_gbp": 137.04,
+      "pl_gbp": 2.04,
+      "pl_pct": 1.51,
       "sector": "Energy"
     },
     {
@@ -142,11 +130,11 @@
       "shares": 4.480944,
       "entry_native": 1896.922,
       "cost_gbp": 85.0,
-      "last_native": 1913.5,
+      "last_native": 1853.5,
       "opened": "2026-08-18",
-      "value_gbp": 85.74,
-      "pl_gbp": 0.74,
-      "pl_pct": 0.87,
+      "value_gbp": 83.05,
+      "pl_gbp": -1.95,
+      "pl_pct": -2.29,
       "sector": "Healthcare"
     },
     {
@@ -154,11 +142,11 @@
       "shares": 1.485641,
       "entry_native": 3085.0,
       "cost_gbp": 45.83,
-      "last_native": 3215.0,
+      "last_native": 3170.0,
       "opened": "2026-08-19",
-      "value_gbp": 47.76,
-      "pl_gbp": 1.93,
-      "pl_pct": 4.22,
+      "value_gbp": 47.09,
+      "pl_gbp": 1.26,
+      "pl_pct": 2.76,
       "sector": "Materials"
     },
     {
@@ -166,15 +154,31 @@
       "shares": 7.258237,
       "entry_native": 1515.5197,
       "cost_gbp": 110.0,
-      "last_native": 1519.0,
+      "last_native": 1528.4,
       "opened": "2026-08-20",
-      "value_gbp": 110.25,
-      "pl_gbp": 0.25,
-      "pl_pct": 0.23,
+      "value_gbp": 110.93,
+      "pl_gbp": 0.93,
+      "pl_pct": 0.85,
       "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-08-28",
+      "action": "buy",
+      "ticker": "SHEL.L",
+      "amount_gbp": 35.0,
+      "price_native": 3344.5,
+      "why": "Redeploying BP proceeds into the stronger energy name rather than splitting exposure across two decaying-vs-thriving oil majors. SHEL is +1.01% today and up cumulatively since entry while BP is down \u2014 consolidating rather than adding fresh risk. Wrong if SHEL rolls over hard next week while BP recovers, proving the divergence was noise not signal."
+    },
+    {
+      "date": "2026-08-28",
+      "action": "sell",
+      "ticker": "BP.L",
+      "amount_gbp": 49.64,
+      "price_native": 514.5,
+      "why": "Full exit. Flat again today (-0.17%) while SHEL rallies (+1.01%) in the same oil tape \u2014 this is the third session running BP lags its own peer group with no company-specific offset (buyback/upgrade). Already trimmed once on this exact logic on Aug 26; finishing the job rather than holding a token stake on hope. Wrong if BP snaps back faster than SHEL on the next oil bounce, meaning I closed the better leg."
+    },
     {
       "date": "2026-08-26",
       "action": "buy",
@@ -410,12 +414,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "HSBA.L",
-      "note": "Underperformed Hang Seng today (-0.65% vs index +0.72%) for the first time since the Aug 20 switch from LLOY \u2014 need to see if this repeats before adding a fourth tranche. If it happens again this week without a broad Hang Seng selloff, the Asia-differentiation thesis is dead and I should trim."
+      "ticker": "SSE.L",
+      "note": "+2.86% today alongside NG.L strength \u2014 watching for a second UK-utility green day before treating this as a real generation/renewables rotation rather than one-day noise."
     },
     {
-      "ticker": "NG.L",
-      "note": "Bounced +1.5% today after two trims \u2014 watching to see if the regulated-utility ballast thesis is actually reasserting or if this is a one-day blip before deciding whether to hold the residual stake."
+      "ticker": "NEM",
+      "note": "Gold miners diverging sharply from bullion (AEM -4.4%, NEM -3.5% vs SGLN -0.62%) \u2014 if this persists a few more sessions it argues for trimming FRES regardless of what gold itself does."
+    },
+    {
+      "ticker": "VRT",
+      "note": "Data-centre capex names (VRT, GEV, CRWV) all down 4%+ today \u2014 watching whether this is a one-day wobble or the start of a broader AI-infra derating, since it would matter for GEV/CAT-type industrial exposure I don't currently hold."
     }
   ],
   "universe_requests": []
