@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-08-28",
-  "session": 14,
+  "as_of": "2026-08-31",
+  "session": 15,
   "starting_capital": 1000.0,
-  "cash_gbp": 166.12,
-  "invested_gbp": 822.74,
-  "total_gbp": 988.86,
-  "pl_gbp": -11.14,
+  "cash_gbp": 115.9,
+  "invested_gbp": 872.97,
+  "total_gbp": 988.87,
+  "pl_gbp": -11.13,
   "pl_pct": -1.11,
-  "fx": 1.3532,
-  "market_read": "Nothing dramatic today: US indices soft on tech/data-centre jitters (VRT -4.1%, GEV -4.0%, CRWV -3.9%), UK holding up (FTSE +0.29%, HSBA +1.62%, SSE +2.86%), and gold miners rolling over hard (AEM -4.4%, NEM -3.5%) even as bullion itself is only mildly softer \u2014 a real divergence between the metal and the equities levered to it. My HSBA thesis has been right on direction but weak on magnitude: four buys into 'strength' since Aug 20 have netted only +0.85% cumulative, so I'm pausing that add rather than compounding a mediocre edge. Energy is bifurcating again \u2014 SHEL +1.0% vs BP flat \u2014 which is the same pattern that made me trim BP last week; time to finish that trade rather than hold a decaying half-position.",
+  "fx": 1.3546,
+  "market_read": "US indices are broadly red into month-end (S&P -0.6%, Dow -0.79%, DAX -0.89%) while the global oil complex is rallying hard together (XOM +2.29%, CVX +2.21%, SLB +3.38%, TTE +2.02%, SHEL +1.01%) \u2014 that's a genuine sector move, not noise. UK utilities are diverging sharply: SSE +2.86% vs NG.L +0.86%, the same split that's shown up repeatedly since I first trimmed NG on Aug 21. HSBA continues its independent Asia-rates run (+1.62% today) even as the rest of the tape is soft.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,824.26",
+      "level": "10,824.30",
       "change_pct": 0.29
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,367.55",
-      "change_pct": -0.65
+      "level": "26,254.15",
+      "change_pct": -0.56
     },
     {
       "name": "NYSE Comp",
-      "level": "24,565.47",
-      "change_pct": -0.34
+      "level": "24,495.54",
+      "change_pct": -0.36
     },
     {
       "name": "S&P 500",
-      "level": "7,703.59",
-      "change_pct": -0.35
+      "level": "7,665.50",
+      "change_pct": -0.6
     },
     {
       "name": "Dow Jones",
-      "level": "53,529.33",
-      "change_pct": -0.07
+      "level": "53,136.04",
+      "change_pct": -0.79
     },
     {
       "name": "DAX",
-      "level": "26,569.99",
-      "change_pct": 0.77
+      "level": "26,333.23",
+      "change_pct": -0.89
     },
     {
       "name": "Nikkei 225",
-      "level": "66,131.98",
-      "change_pct": -0.2
+      "level": "66,311.93",
+      "change_pct": -0.14
     },
     {
       "name": "Hang Seng",
-      "level": "25,565.74",
-      "change_pct": -0.34
+      "level": "25,566.99",
+      "change_pct": -0.07
     }
   ],
   "holdings": [
@@ -76,18 +76,6 @@
       "pl_gbp": 0.68,
       "pl_pct": 0.62,
       "sector": "Healthcare"
-    },
-    {
-      "ticker": "NG.L",
-      "shares": 4.938087,
-      "entry_native": 1200.0,
-      "cost_gbp": 59.26,
-      "last_native": 1170.0,
-      "opened": "2026-08-07",
-      "value_gbp": 57.78,
-      "pl_gbp": -1.48,
-      "pl_pct": -2.5,
-      "sector": "Utilities"
     },
     {
       "ticker": "PHP.L",
@@ -151,18 +139,74 @@
     },
     {
       "ticker": "HSBA.L",
-      "shares": 7.258237,
-      "entry_native": 1515.5197,
-      "cost_gbp": 110.0,
+      "shares": 8.566795,
+      "entry_native": 1517.4871,
+      "cost_gbp": 130.0,
       "last_native": 1528.4,
       "opened": "2026-08-20",
-      "value_gbp": 110.93,
+      "value_gbp": 130.93,
       "pl_gbp": 0.93,
-      "pl_pct": 0.85,
+      "pl_pct": 0.72,
       "sector": "Financials"
+    },
+    {
+      "ticker": "SSE.L",
+      "shares": 2.368314,
+      "entry_native": 2449.0,
+      "cost_gbp": 58.0,
+      "last_native": 2449.0,
+      "opened": "2026-08-31",
+      "value_gbp": 58.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
+      "sector": "Utilities"
+    },
+    {
+      "ticker": "SLB",
+      "shares": 0.685642,
+      "entry_native": 59.27,
+      "cost_gbp": 30.0,
+      "last_native": 59.27,
+      "opened": "2026-08-31",
+      "value_gbp": 30.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
+      "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-08-31",
+      "action": "buy",
+      "ticker": "SLB",
+      "amount_gbp": 30.0,
+      "price_native": 59.27,
+      "why": "New pilot position. SLB is the strongest mover in a broad, coordinated oil-complex rally today (+3.38% vs SHEL's +1.01%), and oilfield services is a different bet than integrated majors \u2014 leveraged to upstream capex reacceleration rather than refining/trading margins. Small size given it's a fresh name. Wrong if SLB gives back this move within a week while SHEL/XOM hold their gains, meaning this was a services-specific squeeze, not a capex-cycle signal."
+    },
+    {
+      "date": "2026-08-31",
+      "action": "buy",
+      "ticker": "HSBA.L",
+      "amount_gbp": 20.0,
+      "price_native": 1528.4,
+      "why": "Fourth add since the Aug 20 LLOY switch. HSBA is +1.62% today, again decoupled from the weak broad tape, continuing the Asia-rates thesis that's compounded every time I've tested it. Small add, not a fresh bet \u2014 position stays under 15% of book. Wrong if HSBA reverses hard within two weeks in lockstep with a Hang Seng selloff, proving there's no differentiation left."
+    },
+    {
+      "date": "2026-08-31",
+      "action": "buy",
+      "ticker": "SSE.L",
+      "amount_gbp": 58.0,
+      "price_native": 2449.0,
+      "why": "Direct rotation of the NG.L proceeds into the stronger UK utility. SSE is +2.86% today on what looks like a generation/renewables-driven move, clean outperformance vs NG.L in the same regulated-infrastructure trade I already wanted exposure to. Wrong if SSE gives back today's gain within a week while NG.L holds steady, proving today was a one-off spike not a real divergence."
+    },
+    {
+      "date": "2026-08-31",
+      "action": "sell",
+      "ticker": "NG.L",
+      "amount_gbp": 57.78,
+      "price_native": 1170.0,
+      "why": "Full exit of the residual stake. NG.L has been a persistent laggard since Aug 7 entry (-2.5% cumulative) and even today's bounce (+0.86%) is dwarfed by SSE.L's +2.86% in the exact same UK regulated-utility trade. Two prior trims (Aug 21) haven't been vindicated. Wrong if NG.L outperforms SSE.L over the next two weeks on an Ofgem-specific catalyst, meaning I sold the wrong leg."
+    },
     {
       "date": "2026-08-28",
       "action": "buy",
@@ -414,16 +458,12 @@
   ],
   "watchlist": [
     {
-      "ticker": "SSE.L",
-      "note": "+2.86% today alongside NG.L strength \u2014 watching for a second UK-utility green day before treating this as a real generation/renewables rotation rather than one-day noise."
+      "ticker": "AZN.L",
+      "note": "down -1.19% today after a strong prior week; watching whether pharma rotation is stalling or this is just one red session before continuing higher."
     },
     {
-      "ticker": "NEM",
-      "note": "Gold miners diverging sharply from bullion (AEM -4.4%, NEM -3.5% vs SGLN -0.62%) \u2014 if this persists a few more sessions it argues for trimming FRES regardless of what gold itself does."
-    },
-    {
-      "ticker": "VRT",
-      "note": "Data-centre capex names (VRT, GEV, CRWV) all down 4%+ today \u2014 watching whether this is a one-day wobble or the start of a broader AI-infra derating, since it would matter for GEV/CAT-type industrial exposure I don't currently hold."
+      "ticker": "TTE",
+      "note": "part of today's broad oil rally at +2.02%; if the sector move persists past a single session, consider adding directly rather than concentrating further in SHEL."
     }
   ],
   "universe_requests": []
