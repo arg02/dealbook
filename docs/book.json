@@ -1,54 +1,54 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-08-31",
-  "session": 15,
+  "as_of": "2026-09-02",
+  "session": 16,
   "starting_capital": 1000.0,
-  "cash_gbp": 115.9,
-  "invested_gbp": 872.97,
-  "total_gbp": 988.87,
-  "pl_gbp": -11.13,
-  "pl_pct": -1.11,
-  "fx": 1.3546,
-  "market_read": "US indices are broadly red into month-end (S&P -0.6%, Dow -0.79%, DAX -0.89%) while the global oil complex is rallying hard together (XOM +2.29%, CVX +2.21%, SLB +3.38%, TTE +2.02%, SHEL +1.01%) \u2014 that's a genuine sector move, not noise. UK utilities are diverging sharply: SSE +2.86% vs NG.L +0.86%, the same split that's shown up repeatedly since I first trimmed NG on Aug 21. HSBA continues its independent Asia-rates run (+1.62% today) even as the rest of the tape is soft.",
+  "cash_gbp": 212.47,
+  "invested_gbp": 767.56,
+  "total_gbp": 980.03,
+  "pl_gbp": -19.97,
+  "pl_pct": -2.0,
+  "fx": 1.3488,
+  "market_read": "This is a broad, coordinated risk-off day \u2014 every index red, Nikkei -2.85%, and even gold (SGLN -4.63%, AEM -4.75%, NEM -2.72%) selling off alongside equities, which is unusual and worth respecting rather than fighting. Two of my own theses just got falsified in the data: SLB fell -4.91% while the majors it's supposed to track (SHEL +0.42%, XOM +2.24%, CVX +2.38%, TTE +2.31%) rallied hard \u2014 services decoupled from capex-cycle strength exactly as I said would prove me wrong. PHP.L continues its slow bleed with no catalyst in sight. Raising cash into this rather than forcing a redeployment on a day when almost nothing is green.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,824.30",
-      "change_pct": 0.29
+      "level": "10,749.46",
+      "change_pct": -0.37
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,254.15",
-      "change_pct": -0.56
+      "level": "26,099.77",
+      "change_pct": -1.03
     },
     {
       "name": "NYSE Comp",
-      "level": "24,495.54",
-      "change_pct": -0.36
+      "level": "24,349.28",
+      "change_pct": -0.46
     },
     {
       "name": "S&P 500",
-      "level": "7,665.50",
-      "change_pct": -0.6
+      "level": "7,631.47",
+      "change_pct": -0.71
     },
     {
       "name": "Dow Jones",
-      "level": "53,136.04",
+      "level": "52,766.88",
       "change_pct": -0.79
     },
     {
       "name": "DAX",
-      "level": "26,333.23",
-      "change_pct": -0.89
+      "level": "25,821.44",
+      "change_pct": -0.57
     },
     {
       "name": "Nikkei 225",
-      "level": "66,311.93",
-      "change_pct": -0.14
+      "level": "64,325.64",
+      "change_pct": -2.85
     },
     {
       "name": "Hang Seng",
-      "level": "25,566.99",
+      "level": "25,311.21",
       "change_pct": -0.07
     }
   ],
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6519.0,
+      "last_native": 6217.354,
       "opened": "2026-08-07",
-      "value_gbp": 135.13,
-      "pl_gbp": 5.13,
-      "pl_pct": 3.94,
+      "value_gbp": 128.87,
+      "pl_gbp": -1.13,
+      "pl_pct": -0.87,
       "sector": "Materials"
     },
     {
@@ -70,35 +70,23 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 11970.0,
+      "last_native": 11990.0,
       "opened": "2026-08-07",
-      "value_gbp": 110.68,
-      "pl_gbp": 0.68,
-      "pl_pct": 0.62,
+      "value_gbp": 110.87,
+      "pl_gbp": 0.87,
+      "pl_pct": 0.79,
       "sector": "Healthcare"
-    },
-    {
-      "ticker": "PHP.L",
-      "shares": 72.992701,
-      "entry_native": 95.9,
-      "cost_gbp": 70.0,
-      "last_native": 95.55,
-      "opened": "2026-08-07",
-      "value_gbp": 69.74,
-      "pl_gbp": -0.26,
-      "pl_pct": -0.36,
-      "sector": "Property"
     },
     {
       "ticker": "RIO.L",
       "shares": 0.928902,
       "entry_native": 7598.8104,
       "cost_gbp": 70.59,
-      "last_native": 7674.0,
+      "last_native": 7534.0,
       "opened": "2026-08-07",
-      "value_gbp": 71.28,
-      "pl_gbp": 0.69,
-      "pl_pct": 0.98,
+      "value_gbp": 69.98,
+      "pl_gbp": -0.61,
+      "pl_pct": -0.86,
       "sector": "Materials"
     },
     {
@@ -106,11 +94,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3344.5,
+      "last_native": 3447.0,
       "opened": "2026-08-07",
-      "value_gbp": 137.04,
-      "pl_gbp": 2.04,
-      "pl_pct": 1.51,
+      "value_gbp": 141.24,
+      "pl_gbp": 6.24,
+      "pl_pct": 4.63,
       "sector": "Energy"
     },
     {
@@ -118,11 +106,11 @@
       "shares": 4.480944,
       "entry_native": 1896.922,
       "cost_gbp": 85.0,
-      "last_native": 1853.5,
+      "last_native": 1868.5,
       "opened": "2026-08-18",
-      "value_gbp": 83.05,
-      "pl_gbp": -1.95,
-      "pl_pct": -2.29,
+      "value_gbp": 83.73,
+      "pl_gbp": -1.27,
+      "pl_pct": -1.5,
       "sector": "Healthcare"
     },
     {
@@ -130,11 +118,11 @@
       "shares": 1.485641,
       "entry_native": 3085.0,
       "cost_gbp": 45.83,
-      "last_native": 3170.0,
+      "last_native": 2999.0,
       "opened": "2026-08-19",
-      "value_gbp": 47.09,
-      "pl_gbp": 1.26,
-      "pl_pct": 2.76,
+      "value_gbp": 44.55,
+      "pl_gbp": -1.28,
+      "pl_pct": -2.78,
       "sector": "Materials"
     },
     {
@@ -142,11 +130,11 @@
       "shares": 8.566795,
       "entry_native": 1517.4871,
       "cost_gbp": 130.0,
-      "last_native": 1528.4,
+      "last_native": 1538.0,
       "opened": "2026-08-20",
-      "value_gbp": 130.93,
-      "pl_gbp": 0.93,
-      "pl_pct": 0.72,
+      "value_gbp": 131.76,
+      "pl_gbp": 1.76,
+      "pl_pct": 1.35,
       "sector": "Financials"
     },
     {
@@ -154,27 +142,31 @@
       "shares": 2.368314,
       "entry_native": 2449.0,
       "cost_gbp": 58.0,
-      "last_native": 2449.0,
+      "last_native": 2388.0,
       "opened": "2026-08-31",
-      "value_gbp": 58.0,
-      "pl_gbp": 0.0,
-      "pl_pct": 0.0,
+      "value_gbp": 56.56,
+      "pl_gbp": -1.44,
+      "pl_pct": -2.49,
       "sector": "Utilities"
-    },
-    {
-      "ticker": "SLB",
-      "shares": 0.685642,
-      "entry_native": 59.27,
-      "cost_gbp": 30.0,
-      "last_native": 59.27,
-      "opened": "2026-08-31",
-      "value_gbp": 30.0,
-      "pl_gbp": 0.0,
-      "pl_pct": 0.0,
-      "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-02",
+      "action": "sell",
+      "ticker": "PHP.L",
+      "amount_gbp": 67.52,
+      "price_native": 92.5,
+      "why": "Full exit. Down -3.55% cumulative since Aug 7 with no bounce and no catalyst (NHS-backed REIT, purely rate-sensitive), red again today (-1.39%) on a broad risk-off tape with no company-specific offset. Same pattern I already cut BA.L and NG.L for \u2014 a slow bleed I keep holding on hope rather than evidence. Wrong if PHP.L rallies sharply on a UK rate-cut re-pricing in the next two weeks, meaning I sold right before the catalyst that was the whole point of owning it."
+    },
+    {
+      "date": "2026-09-02",
+      "action": "sell",
+      "ticker": "SLB",
+      "amount_gbp": 29.05,
+      "price_native": 57.15,
+      "why": "Full exit. My own stated falsification condition from Aug 31 just hit: SLB gave back the move (-4.91% today) while SHEL/XOM/CVX/TTE all rallied. This confirms it was a services-specific squeeze, not a capex-cycle signal \u2014 the thesis for owning oilfield services separately from majors is broken. Wrong if SLB snaps back faster than the majors on the next leg, meaning today was a one-off liquidity flush, not a real decoupling."
+    },
     {
       "date": "2026-08-31",
       "action": "buy",
@@ -458,12 +450,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "AZN.L",
-      "note": "down -1.19% today after a strong prior week; watching whether pharma rotation is stalling or this is just one red session before continuing higher."
+      "ticker": "SGLN.L",
+      "note": "One-day -4.63% drop alongside gold miners (AEM -4.75%, NEM -2.72%) selling off in tandem with equities, not against them \u2014 unusual for bullion. Watching for a second confirming red day before trimming; one day isn't enough to call the safe-haven thesis broken."
     },
     {
-      "ticker": "TTE",
-      "note": "part of today's broad oil rally at +2.02%; if the sector move persists past a single session, consider adding directly rather than concentrating further in SHEL."
+      "ticker": "XOM",
+      "note": "Today's +2.24% on a day of broad market weakness is a real divergence in oil majors vs services \u2014 watching for follow-through before adding fresh energy exposure outside SHEL."
+    },
+    {
+      "ticker": "SSE.L",
+      "note": "-0.75% today, giving back some of the Aug 31 spike. Need to see if it holds above the pre-spike level or fully mean-reverts before deciding whether the NG.L switch was right."
     }
   ],
   "universe_requests": []
