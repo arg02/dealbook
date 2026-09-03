@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-02",
-  "session": 16,
+  "as_of": "2026-09-03",
+  "session": 17,
   "starting_capital": 1000.0,
-  "cash_gbp": 212.47,
-  "invested_gbp": 767.56,
-  "total_gbp": 980.03,
-  "pl_gbp": -19.97,
-  "pl_pct": -2.0,
-  "fx": 1.3488,
-  "market_read": "This is a broad, coordinated risk-off day \u2014 every index red, Nikkei -2.85%, and even gold (SGLN -4.63%, AEM -4.75%, NEM -2.72%) selling off alongside equities, which is unusual and worth respecting rather than fighting. Two of my own theses just got falsified in the data: SLB fell -4.91% while the majors it's supposed to track (SHEL +0.42%, XOM +2.24%, CVX +2.38%, TTE +2.31%) rallied hard \u2014 services decoupled from capex-cycle strength exactly as I said would prove me wrong. PHP.L continues its slow bleed with no catalyst in sight. Raising cash into this rather than forcing a redeployment on a day when almost nothing is green.",
+  "cash_gbp": 212.89,
+  "invested_gbp": 774.41,
+  "total_gbp": 987.3,
+  "pl_gbp": -12.7,
+  "pl_pct": -1.27,
+  "fx": 1.3491,
+  "market_read": "UK utilities are rolling over together (SSE -0.81% today, NG.L -1.09%) while gold, energy majors, and Asia-linked HSBC keep grinding higher \u2014 the book's winners are working, the one recent loser (SSE) is confirming exactly the failure mode I flagged when I bought it. Elsewhere there's a real power-demand/nuclear bid building in US names (CEG +3.47%, GEV +2.61%) that's distinct from the UK regulated-utility trade that just broke. Pharma also had a strong day (AZN +1.62%, GSK +1.32%, NVO +3.66%) validating the existing healthcare sleeve without needing a fresh add.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,749.46",
-      "change_pct": -0.37
+      "level": "10,797.46",
+      "change_pct": 0.38
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,099.77",
-      "change_pct": -1.03
+      "level": "26,217.83",
+      "change_pct": 0.45
     },
     {
       "name": "NYSE Comp",
-      "level": "24,349.28",
-      "change_pct": -0.46
+      "level": "24,495.55",
+      "change_pct": 0.6
     },
     {
       "name": "S&P 500",
-      "level": "7,631.47",
-      "change_pct": -0.71
+      "level": "7,666.60",
+      "change_pct": 0.46
     },
     {
       "name": "Dow Jones",
-      "level": "52,766.88",
-      "change_pct": -0.79
+      "level": "53,061.95",
+      "change_pct": 0.56
     },
     {
       "name": "DAX",
-      "level": "25,821.44",
-      "change_pct": -0.57
+      "level": "25,849.55",
+      "change_pct": 0.04
     },
     {
       "name": "Nikkei 225",
-      "level": "64,325.64",
-      "change_pct": -2.85
+      "level": "64,214.48",
+      "change_pct": -0.17
     },
     {
       "name": "Hang Seng",
-      "level": "25,311.21",
-      "change_pct": -0.07
+      "level": "25,213.31",
+      "change_pct": -0.39
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6217.354,
+      "last_native": 6373.25,
       "opened": "2026-08-07",
-      "value_gbp": 128.87,
-      "pl_gbp": -1.13,
-      "pl_pct": -0.87,
+      "value_gbp": 132.1,
+      "pl_gbp": 2.1,
+      "pl_pct": 1.62,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 11990.0,
+      "last_native": 12170.0,
       "opened": "2026-08-07",
-      "value_gbp": 110.87,
-      "pl_gbp": 0.87,
-      "pl_pct": 0.79,
+      "value_gbp": 112.53,
+      "pl_gbp": 2.53,
+      "pl_pct": 2.3,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 0.928902,
       "entry_native": 7598.8104,
       "cost_gbp": 70.59,
-      "last_native": 7534.0,
+      "last_native": 7618.0,
       "opened": "2026-08-07",
-      "value_gbp": 69.98,
-      "pl_gbp": -0.61,
-      "pl_pct": -0.86,
+      "value_gbp": 70.76,
+      "pl_gbp": 0.17,
+      "pl_pct": 0.25,
       "sector": "Materials"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3447.0,
+      "last_native": 3425.0,
       "opened": "2026-08-07",
-      "value_gbp": 141.24,
-      "pl_gbp": 6.24,
-      "pl_pct": 4.63,
+      "value_gbp": 140.34,
+      "pl_gbp": 5.34,
+      "pl_pct": 3.96,
       "sector": "Energy"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 4.480944,
       "entry_native": 1896.922,
       "cost_gbp": 85.0,
-      "last_native": 1868.5,
+      "last_native": 1886.0,
       "opened": "2026-08-18",
-      "value_gbp": 83.73,
-      "pl_gbp": -1.27,
-      "pl_pct": -1.5,
+      "value_gbp": 84.51,
+      "pl_gbp": -0.49,
+      "pl_pct": -0.58,
       "sector": "Healthcare"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 1.485641,
       "entry_native": 3085.0,
       "cost_gbp": 45.83,
-      "last_native": 2999.0,
+      "last_native": 3096.0,
       "opened": "2026-08-19",
-      "value_gbp": 44.55,
-      "pl_gbp": -1.28,
-      "pl_pct": -2.78,
+      "value_gbp": 46.0,
+      "pl_gbp": 0.17,
+      "pl_pct": 0.36,
       "sector": "Materials"
     },
     {
@@ -130,27 +130,43 @@
       "shares": 8.566795,
       "entry_native": 1517.4871,
       "cost_gbp": 130.0,
-      "last_native": 1538.0,
+      "last_native": 1554.4,
       "opened": "2026-08-20",
-      "value_gbp": 131.76,
-      "pl_gbp": 1.76,
-      "pl_pct": 1.35,
+      "value_gbp": 133.16,
+      "pl_gbp": 3.16,
+      "pl_pct": 2.43,
       "sector": "Financials"
     },
     {
-      "ticker": "SSE.L",
-      "shares": 2.368314,
-      "entry_native": 2449.0,
-      "cost_gbp": 58.0,
-      "last_native": 2388.0,
-      "opened": "2026-08-31",
-      "value_gbp": 56.56,
-      "pl_gbp": -1.44,
-      "pl_pct": -2.49,
+      "ticker": "CEG",
+      "shares": 0.255829,
+      "entry_native": 290.04,
+      "cost_gbp": 55.0,
+      "last_native": 290.04,
+      "opened": "2026-09-03",
+      "value_gbp": 55.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
       "sector": "Utilities"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-03",
+      "action": "buy",
+      "ticker": "CEG",
+      "amount_gbp": 55.0,
+      "price_native": 290.04,
+      "why": "Redeploying the SSE proceeds into a different power-infrastructure bet: CEG is up 3.47% today, part of a genuine US nuclear/grid-capacity move (GEV +2.61% same session) tied to structural data-centre power demand, not the UK-regulated-utility trade that just failed. Small pilot size given it's a fresh name and momentum-driven. Wrong if CEG gives back this move within two weeks with no follow-through in GEV/grid names, meaning today was a one-off spike, not a real theme."
+    },
+    {
+      "date": "2026-09-03",
+      "action": "sell",
+      "ticker": "SSE.L",
+      "amount_gbp": 55.42,
+      "price_native": 2340.0,
+      "why": "Full exit. My own stated falsification from Aug 31 has hit: SSE gave back the rally gain and kept falling (-4.45% cumulative, -0.81% today) while NG.L \u2014 the position I sold to fund this \u2014 is doing no better (-1.09% today), proving the divergence I bet on wasn't real. This is the same slow-bleed pattern I already cut BA.L, NG.L, PHP.L for; no reason to keep hoping. Wrong if SSE snaps back hard on a UK rate-cut re-pricing in the next two weeks, meaning I sold right before the catalyst."
+    },
     {
       "date": "2026-09-02",
       "action": "sell",
@@ -450,16 +466,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "SGLN.L",
-      "note": "One-day -4.63% drop alongside gold miners (AEM -4.75%, NEM -2.72%) selling off in tandem with equities, not against them \u2014 unusual for bullion. Watching for a second confirming red day before trimming; one day isn't enough to call the safe-haven thesis broken."
+      "ticker": "SLB",
+      "note": "Bounced +1.71% today, one day after I exited on a thesis-broken call \u2014 watching if it keeps decoupling from majors (re-entry candidate) or fades back."
     },
     {
-      "ticker": "XOM",
-      "note": "Today's +2.24% on a day of broad market weakness is a real divergence in oil majors vs services \u2014 watching for follow-through before adding fresh energy exposure outside SHEL."
+      "ticker": "NVO",
+      "note": "Up 3.66% on obesity-drug news; watching for read-through strength continuing into AZN/GSK before considering a direct add."
     },
     {
-      "ticker": "SSE.L",
-      "note": "-0.75% today, giving back some of the Aug 31 spike. Need to see if it holds above the pre-spike level or fully mean-reverts before deciding whether the NG.L switch was right."
+      "ticker": "GEV",
+      "note": "Confirming the nuclear/grid power-demand theme alongside CEG; would add on a pullback if the trend holds two more weeks."
     }
   ],
   "universe_requests": []
