@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-03",
-  "session": 17,
+  "as_of": "2026-09-04",
+  "session": 18,
   "starting_capital": 1000.0,
-  "cash_gbp": 212.89,
-  "invested_gbp": 774.41,
-  "total_gbp": 987.3,
-  "pl_gbp": -12.7,
-  "pl_pct": -1.27,
-  "fx": 1.3491,
-  "market_read": "UK utilities are rolling over together (SSE -0.81% today, NG.L -1.09%) while gold, energy majors, and Asia-linked HSBC keep grinding higher \u2014 the book's winners are working, the one recent loser (SSE) is confirming exactly the failure mode I flagged when I bought it. Elsewhere there's a real power-demand/nuclear bid building in US names (CEG +3.47%, GEV +2.61%) that's distinct from the UK regulated-utility trade that just broke. Pharma also had a strong day (AZN +1.62%, GSK +1.32%, NVO +3.66%) validating the existing healthcare sleeve without needing a fresh add.",
+  "cash_gbp": 122.89,
+  "invested_gbp": 864.94,
+  "total_gbp": 987.83,
+  "pl_gbp": -12.17,
+  "pl_pct": -1.22,
+  "fx": 1.3534,
+  "market_read": "US and Asia are broadly risk-on (S&P +1.06%, Nasdaq +1.4%, Hang Seng +1.74%) while the FTSE sits flat \u2014 the rally is happening abroad, not at home, which argues for topping up international-linked names rather than chasing UK beta. Precious metals miners are moving as a group today (NEM +4.21%, AEM +5.32%, FRES +1.39%, SGLN +1.89%), which is a broader signal than a single-name spike. CEG (bought yesterday) is already diverging from GEV (-1.72% vs +2.16%), a day-one wobble on the thesis worth watching but too early to act on.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,797.46",
-      "change_pct": 0.38
+      "level": "10,827.06",
+      "change_pct": -0.04
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,217.83",
-      "change_pct": 0.45
+      "level": "26,584.06",
+      "change_pct": 1.4
     },
     {
       "name": "NYSE Comp",
-      "level": "24,495.55",
-      "change_pct": 0.6
+      "level": "24,720.15",
+      "change_pct": 0.92
     },
     {
       "name": "S&P 500",
-      "level": "7,666.60",
-      "change_pct": 0.46
+      "level": "7,747.71",
+      "change_pct": 1.06
     },
     {
       "name": "Dow Jones",
-      "level": "53,061.95",
-      "change_pct": 0.56
+      "level": "53,686.11",
+      "change_pct": 1.18
     },
     {
       "name": "DAX",
-      "level": "25,849.55",
-      "change_pct": 0.04
+      "level": "26,081.73",
+      "change_pct": 0.3
     },
     {
       "name": "Nikkei 225",
-      "level": "64,214.48",
-      "change_pct": -0.17
+      "level": "65,020.94",
+      "change_pct": 1.26
     },
     {
       "name": "Hang Seng",
-      "level": "25,213.31",
-      "change_pct": -0.39
+      "level": "25,650.87",
+      "change_pct": 1.74
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6373.25,
+      "last_native": 6399.749,
       "opened": "2026-08-07",
-      "value_gbp": 132.1,
-      "pl_gbp": 2.1,
-      "pl_pct": 1.62,
+      "value_gbp": 132.65,
+      "pl_gbp": 2.65,
+      "pl_pct": 2.04,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 12170.0,
+      "last_native": 12136.0,
       "opened": "2026-08-07",
-      "value_gbp": 112.53,
-      "pl_gbp": 2.53,
-      "pl_pct": 2.3,
+      "value_gbp": 112.22,
+      "pl_gbp": 2.22,
+      "pl_pct": 2.02,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 0.928902,
       "entry_native": 7598.8104,
       "cost_gbp": 70.59,
-      "last_native": 7618.0,
+      "last_native": 7596.0,
       "opened": "2026-08-07",
-      "value_gbp": 70.76,
-      "pl_gbp": 0.17,
-      "pl_pct": 0.25,
+      "value_gbp": 70.56,
+      "pl_gbp": -0.03,
+      "pl_pct": -0.04,
       "sector": "Materials"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3425.0,
+      "last_native": 3430.5,
       "opened": "2026-08-07",
-      "value_gbp": 140.34,
-      "pl_gbp": 5.34,
-      "pl_pct": 3.96,
+      "value_gbp": 140.57,
+      "pl_gbp": 5.57,
+      "pl_pct": 4.12,
       "sector": "Energy"
     },
     {
@@ -106,35 +106,35 @@
       "shares": 4.480944,
       "entry_native": 1896.922,
       "cost_gbp": 85.0,
-      "last_native": 1886.0,
+      "last_native": 1851.0,
       "opened": "2026-08-18",
-      "value_gbp": 84.51,
-      "pl_gbp": -0.49,
-      "pl_pct": -0.58,
+      "value_gbp": 82.94,
+      "pl_gbp": -2.06,
+      "pl_pct": -2.42,
       "sector": "Healthcare"
     },
     {
       "ticker": "FRES.L",
-      "shares": 1.485641,
-      "entry_native": 3085.0,
-      "cost_gbp": 45.83,
-      "last_native": 3096.0,
+      "shares": 2.421386,
+      "entry_native": 3131.7605,
+      "cost_gbp": 75.83,
+      "last_native": 3206.0,
       "opened": "2026-08-19",
-      "value_gbp": 46.0,
-      "pl_gbp": 0.17,
-      "pl_pct": 0.36,
+      "value_gbp": 77.63,
+      "pl_gbp": 1.8,
+      "pl_pct": 2.37,
       "sector": "Materials"
     },
     {
       "ticker": "HSBA.L",
-      "shares": 8.566795,
-      "entry_native": 1517.4871,
-      "cost_gbp": 130.0,
-      "last_native": 1554.4,
+      "shares": 9.840843,
+      "entry_native": 1524.2598,
+      "cost_gbp": 150.0,
+      "last_native": 1569.8,
       "opened": "2026-08-20",
-      "value_gbp": 133.16,
-      "pl_gbp": 3.16,
-      "pl_pct": 2.43,
+      "value_gbp": 154.48,
+      "pl_gbp": 4.48,
+      "pl_pct": 2.99,
       "sector": "Financials"
     },
     {
@@ -142,15 +142,51 @@
       "shares": 0.255829,
       "entry_native": 290.04,
       "cost_gbp": 55.0,
-      "last_native": 290.04,
+      "last_native": 285.05,
       "opened": "2026-09-03",
-      "value_gbp": 55.0,
-      "pl_gbp": 0.0,
-      "pl_pct": 0.0,
+      "value_gbp": 53.88,
+      "pl_gbp": -1.12,
+      "pl_pct": -2.03,
       "sector": "Utilities"
+    },
+    {
+      "ticker": "WMT",
+      "shares": 0.499317,
+      "entry_native": 108.42,
+      "cost_gbp": 40.0,
+      "last_native": 108.42,
+      "opened": "2026-09-04",
+      "value_gbp": 40.0,
+      "pl_gbp": -0.0,
+      "pl_pct": -0.0,
+      "sector": "Staples"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-04",
+      "action": "buy",
+      "ticker": "WMT",
+      "amount_gbp": 40.0,
+      "price_native": 108.42,
+      "why": "New position. Genuine US staples strength today (WMT +2.2%) inside a broad US risk-on tape, and it's a different bet from my metals/energy/healthcare cluster \u2014 cost-conscious consumer demand holding up rather than a momentum chase into tech, which the mandate explicitly warns against defaulting to. Wrong if WMT gives back this move within two weeks with no follow-through in COST or other staples, meaning today was noise not a trend."
+    },
+    {
+      "date": "2026-09-04",
+      "action": "buy",
+      "ticker": "HSBA.L",
+      "amount_gbp": 20.0,
+      "price_native": 1569.8,
+      "why": "Fifth add on the same Asia-rates thesis: Hang Seng +1.74% today, HSBA +0.4%, continuing to hold up while the FTSE is flat. This has been the most consistently vindicated position in the book since Aug 20. Small add, keeps position under 16% of book. Wrong if HSBA reverses hard in lockstep with a Hang Seng selloff in the next two weeks, proving there's no differentiation left to harvest."
+    },
+    {
+      "date": "2026-09-04",
+      "action": "buy",
+      "ticker": "FRES.L",
+      "amount_gbp": 30.0,
+      "price_native": 3206.0,
+      "why": "Precious metals miners are rallying as a cohort today, not just bullion \u2014 NEM +4.21%, AEM +5.32%, FRES +1.39%, with SGLN (physical gold) also up 1.89%. That breadth across US and UK miners argues this is a real metals move, not a single-stock story, and FRES is already my best performer (+3.93%). Wrong if FRES gives back today's gain within a week while NEM/AEM hold theirs, meaning UK miners are lagging the actual driver."
+    },
     {
       "date": "2026-09-03",
       "action": "buy",
@@ -466,16 +502,12 @@
   ],
   "watchlist": [
     {
-      "ticker": "SLB",
-      "note": "Bounced +1.71% today, one day after I exited on a thesis-broken call \u2014 watching if it keeps decoupling from majors (re-entry candidate) or fades back."
+      "ticker": "CEG",
+      "note": "Diverged from GEV today (-1.72% vs +2.16%) one day after entry \u2014 if this gap widens over the next week with no recovery, the nuclear/grid thesis for this specific name is broken and I'll cut it."
     },
     {
-      "ticker": "NVO",
-      "note": "Up 3.66% on obesity-drug news; watching for read-through strength continuing into AZN/GSK before considering a direct add."
-    },
-    {
-      "ticker": "GEV",
-      "note": "Confirming the nuclear/grid power-demand theme alongside CEG; would add on a pullback if the trend holds two more weeks."
+      "ticker": "GSK.L",
+      "note": "Down -2.42% cumulative, -0.83% today, while AZN is flat \u2014 watching whether the healthcare-sector-rotation thesis is now just an AZN story. Another red week without a bounce and I exit."
     }
   ],
   "universe_requests": []
