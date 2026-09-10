@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-08",
-  "session": 19,
+  "as_of": "2026-09-10",
+  "session": 20,
   "starting_capital": 1000.0,
-  "cash_gbp": 184.17,
-  "invested_gbp": 801.05,
-  "total_gbp": 985.22,
-  "pl_gbp": -14.78,
-  "pl_pct": -1.48,
-  "fx": 1.3536,
-  "market_read": "Broad risk-off across US and Asian indices (Nikkei -1.7%, Nasdaq/S&P/Dow all red) while a narrow set of AI-infrastructure-adjacent names (MU +6.1%, CRWV +5.7%, VRT +4.4%, CEG +4.9%) rally hard against the tape \u2014 that's idiosyncratic capex-theme strength, not broad risk appetite, and I'm not chasing it beyond the CEG position I already hold. Precious metals miners diverged from industrial metals today (NEM/AEM red, RIO green), a signal worth watching but not yet actionable. GSK has now bled for three straight weeks with no bounce and no identifiable catalyst \u2014 same pattern that got BA.L, NG.L, PHP.L and SLB cut, and I should stop hoping this time is different.",
+  "cash_gbp": 167.13,
+  "invested_gbp": 806.37,
+  "total_gbp": 973.5,
+  "pl_gbp": -26.5,
+  "pl_pct": -2.65,
+  "fx": 1.3534,
+  "market_read": "Today's cleanest signal is a genuine, broad energy rally (XOM +2.22%, CVX +1.91%, TTE +1.71%, BP +1.04%, SHEL +0.74%) against an otherwise weak US/Asia tape, while industrial metals and silver-linked miners (RIO -2.6%, GLEN -2.92%, FRES -1.18%) are diverging badly from pure gold plays (NEM +1.27%, SGLN -0.26% but flat on the week) \u2014 the precious-metals-cohort thesis I bought FRES on has broken. VRT's -9.61% crash is a flag on the power-infrastructure/data-centre theme that CEG sits adjacent to, though CEG itself only fell -1.72%, suggesting company-specific rather than sector-wide damage so far. HSBA moved in lockstep with a falling Hang Seng today (-1.25% vs -1.27%) for the first time since I started adding \u2014 not yet a hard reversal, but the differentiation I've been harvesting is thinning.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,822.47",
-      "change_pct": 0.0
+      "level": "10,642.91",
+      "change_pct": -0.25
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,506.99",
-      "change_pct": -0.29
+      "level": "26,253.34",
+      "change_pct": -0.64
     },
     {
       "name": "NYSE Comp",
-      "level": "24,639.25",
-      "change_pct": -0.33
+      "level": "24,311.15",
+      "change_pct": -0.66
     },
     {
       "name": "S&P 500",
-      "level": "7,718.60",
-      "change_pct": -0.38
+      "level": "7,636.36",
+      "change_pct": -0.48
     },
     {
       "name": "Dow Jones",
-      "level": "53,414.25",
-      "change_pct": -0.51
+      "level": "52,380.66",
+      "change_pct": -0.77
     },
     {
       "name": "DAX",
-      "level": "25,963.88",
-      "change_pct": -0.16
+      "level": "25,582.13",
+      "change_pct": 0.02
     },
     {
       "name": "Nikkei 225",
-      "level": "65,269.33",
-      "change_pct": -1.7
+      "level": "65,270.95",
+      "change_pct": 0.2
     },
     {
       "name": "Hang Seng",
-      "level": "25,317.18",
-      "change_pct": -0.38
+      "level": "24,954.47",
+      "change_pct": -1.27
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6308.5952,
+      "last_native": 6289.7998,
       "opened": "2026-08-07",
-      "value_gbp": 130.76,
-      "pl_gbp": 0.76,
-      "pl_pct": 0.59,
+      "value_gbp": 130.38,
+      "pl_gbp": 0.38,
+      "pl_pct": 0.29,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 0.924681,
       "entry_native": 11896.0,
       "cost_gbp": 110.0,
-      "last_native": 11906.0,
+      "last_native": 11654.0,
       "opened": "2026-08-07",
-      "value_gbp": 110.09,
-      "pl_gbp": 0.09,
-      "pl_pct": 0.08,
+      "value_gbp": 107.76,
+      "pl_gbp": -2.24,
+      "pl_pct": -2.03,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 0.928902,
       "entry_native": 7598.8104,
       "cost_gbp": 70.59,
-      "last_native": 7720.0,
+      "last_native": 7404.0,
       "opened": "2026-08-07",
-      "value_gbp": 71.71,
-      "pl_gbp": 1.12,
-      "pl_pct": 1.59,
+      "value_gbp": 68.78,
+      "pl_gbp": -1.81,
+      "pl_pct": -2.57,
       "sector": "Materials"
     },
     {
@@ -94,35 +94,23 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3496.625,
+      "last_native": 3529.949,
       "opened": "2026-08-07",
-      "value_gbp": 143.28,
-      "pl_gbp": 8.28,
-      "pl_pct": 6.13,
+      "value_gbp": 144.64,
+      "pl_gbp": 9.64,
+      "pl_pct": 7.14,
       "sector": "Energy"
-    },
-    {
-      "ticker": "FRES.L",
-      "shares": 2.421386,
-      "entry_native": 3131.7605,
-      "cost_gbp": 75.83,
-      "last_native": 3102.0,
-      "opened": "2026-08-19",
-      "value_gbp": 75.11,
-      "pl_gbp": -0.72,
-      "pl_pct": -0.95,
-      "sector": "Materials"
     },
     {
       "ticker": "HSBA.L",
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1565.6,
+      "last_native": 1529.8,
       "opened": "2026-08-20",
-      "value_gbp": 154.07,
-      "pl_gbp": 4.07,
-      "pl_pct": 2.71,
+      "value_gbp": 150.55,
+      "pl_gbp": 0.55,
+      "pl_pct": 0.36,
       "sector": "Financials"
     },
     {
@@ -130,11 +118,11 @@
       "shares": 0.346383,
       "entry_native": 292.3719,
       "cost_gbp": 75.0,
-      "last_native": 298.96,
+      "last_native": 293.905,
       "opened": "2026-09-03",
-      "value_gbp": 76.5,
-      "pl_gbp": 1.5,
-      "pl_pct": 2.0,
+      "value_gbp": 75.22,
+      "pl_gbp": 0.22,
+      "pl_pct": 0.29,
       "sector": "Utilities"
     },
     {
@@ -142,15 +130,43 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 107.14,
+      "last_native": 105.83,
       "opened": "2026-09-04",
-      "value_gbp": 39.52,
-      "pl_gbp": -0.48,
-      "pl_pct": -1.2,
+      "value_gbp": 39.04,
+      "pl_gbp": -0.96,
+      "pl_pct": -2.39,
       "sector": "Staples"
+    },
+    {
+      "ticker": "XOM",
+      "shares": 0.741679,
+      "entry_native": 164.23,
+      "cost_gbp": 90.0,
+      "last_native": 164.23,
+      "opened": "2026-09-10",
+      "value_gbp": 90.0,
+      "pl_gbp": -0.0,
+      "pl_pct": -0.0,
+      "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-10",
+      "action": "buy",
+      "ticker": "XOM",
+      "amount_gbp": 90.0,
+      "price_native": 164.23,
+      "why": "New position, funded by the FRES exit. Today is a genuinely broad, coordinated energy rally (XOM +2.22%, CVX +1.91%, TTE +1.71%, BP +1.04%, SHEL +0.74%) \u2014 I'm currently only exposed via SHEL (15% of book), so this diversifies the same sector conviction across a US major with 2030 growth capex rather than concentrating further in one UK name. Wrong if XOM gives back this move within a week while SHEL/CVX/TTE hold their gains, meaning this was a US-specific move (dollar, refining) not a real oil-complex re-rating."
+    },
+    {
+      "date": "2026-09-10",
+      "action": "sell",
+      "ticker": "FRES.L",
+      "amount_gbp": 72.96,
+      "price_native": 3013.0,
+      "why": "Full exit. My own stated falsification has hit repeatedly now: FRES is down again today (-1.18%) while NEM (+1.27%) and even SGLN hold up better, and RIO/GLEN (also mining) are down hard too \u2014 this looks like an industrial-metals-adjacent name lagging the actual gold move, not a cohesive precious-metals cohort. Wrong if FRES snaps back sharply this week in line with silver specifically, proving it was a one-day dip not a real divergence."
+    },
     {
       "date": "2026-09-08",
       "action": "buy",
@@ -506,16 +522,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "WMT",
-      "note": "Down since Sept 4 entry and COST also red today \u2014 no staples divergence materialised. If it's still net negative with COST also weak by mid-September, the thesis is dead and I'll exit."
-    },
-    {
-      "ticker": "FRES.L",
-      "note": "Gold miners (NEM, AEM) sold off today while FRES held up better \u2014 watching whether FRES decouples from bullion/gold-miner weakness or just lags on a delay."
-    },
-    {
       "ticker": "HSBA.L",
-      "note": "Down in step with a soft Hang Seng today \u2014 still within normal noise, but a second consecutive down day alongside Hang Seng weakness would break the differentiation thesis."
+      "note": "Moved in lockstep with Hang Seng today for the first time since Aug 20 \u2014 watching for a second consecutive day of correlated weakness before cutting the position."
+    },
+    {
+      "ticker": "CEG",
+      "note": "VRT (adjacent power-infra name) crashed -9.61% today; CEG only -1.72% so far. Watching for follow-through weakness in GEV/CEG next session to confirm whether this is sector-wide or company-specific."
+    },
+    {
+      "ticker": "WMT",
+      "note": "Down again today (-0.21%) alongside COST (-0.83%) \u2014 no longer clear outperformance vs staples peers. Give it one more week before deciding the thesis failed."
     }
   ],
   "universe_requests": []
