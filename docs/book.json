@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-10",
-  "session": 20,
+  "as_of": "2026-09-14",
+  "session": 21,
   "starting_capital": 1000.0,
-  "cash_gbp": 167.13,
-  "invested_gbp": 806.37,
-  "total_gbp": 973.5,
-  "pl_gbp": -26.5,
-  "pl_pct": -2.65,
-  "fx": 1.3534,
-  "market_read": "Today's cleanest signal is a genuine, broad energy rally (XOM +2.22%, CVX +1.91%, TTE +1.71%, BP +1.04%, SHEL +0.74%) against an otherwise weak US/Asia tape, while industrial metals and silver-linked miners (RIO -2.6%, GLEN -2.92%, FRES -1.18%) are diverging badly from pure gold plays (NEM +1.27%, SGLN -0.26% but flat on the week) \u2014 the precious-metals-cohort thesis I bought FRES on has broken. VRT's -9.61% crash is a flag on the power-infrastructure/data-centre theme that CEG sits adjacent to, though CEG itself only fell -1.72%, suggesting company-specific rather than sector-wide damage so far. HSBA moved in lockstep with a falling Hang Seng today (-1.25% vs -1.27%) for the first time since I started adding \u2014 not yet a hard reversal, but the differentiation I've been harvesting is thinning.",
+  "cash_gbp": 183.53,
+  "invested_gbp": 792.99,
+  "total_gbp": 976.52,
+  "pl_gbp": -23.48,
+  "pl_pct": -2.35,
+  "fx": 1.3477,
+  "market_read": "Today's real signal is a broad UK healthcare/staples rally (AZN +3.93%, GSK +4.97%, DGE +3.15%, BATS +3.29%, ULVR +2.97%) against a hard mining-cohort selloff (RIO -3.06%, GLEN -2.96%, FRES -4.11%) \u2014 that's sector rotation, not noise, since it hits multiple names on both sides. Energy continues to grind higher (SHEL +1.46%, cumulative +9.35%) and remains my best-performing thesis. HSBA fell -1.06% despite Hang Seng being up +0.45%, a first real divergence from the thesis that's worth watching but not yet acting on.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,642.91",
-      "change_pct": -0.25
+      "level": "10,711.80",
+      "change_pct": 0.58
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,253.34",
-      "change_pct": -0.64
+      "level": "26,333.04",
+      "change_pct": 0.96
     },
     {
       "name": "NYSE Comp",
-      "level": "24,311.15",
-      "change_pct": -0.66
+      "level": "24,331.56",
+      "change_pct": 0.79
     },
     {
       "name": "S&P 500",
-      "level": "7,636.36",
-      "change_pct": -0.48
+      "level": "7,656.98",
+      "change_pct": 0.86
     },
     {
       "name": "Dow Jones",
-      "level": "52,380.66",
-      "change_pct": -0.77
+      "level": "52,573.29",
+      "change_pct": 0.98
     },
     {
       "name": "DAX",
-      "level": "25,582.13",
-      "change_pct": 0.02
+      "level": "25,402.96",
+      "change_pct": -0.65
     },
     {
       "name": "Nikkei 225",
-      "level": "65,270.95",
-      "change_pct": 0.2
+      "level": "63,492.99",
+      "change_pct": -0.81
     },
     {
       "name": "Hang Seng",
-      "level": "24,954.47",
-      "change_pct": -1.27
+      "level": "24,917.60",
+      "change_pct": 0.45
     }
   ],
   "holdings": [
@@ -58,47 +58,35 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6289.7998,
+      "last_native": 6148.3003,
       "opened": "2026-08-07",
-      "value_gbp": 130.38,
-      "pl_gbp": 0.38,
-      "pl_pct": 0.29,
+      "value_gbp": 127.44,
+      "pl_gbp": -2.56,
+      "pl_pct": -1.97,
       "sector": "Materials"
     },
     {
       "ticker": "AZN.L",
-      "shares": 0.924681,
-      "entry_native": 11896.0,
-      "cost_gbp": 110.0,
-      "last_native": 11654.0,
+      "shares": 1.335595,
+      "entry_native": 11979.6845,
+      "cost_gbp": 160.0,
+      "last_native": 12168.0,
       "opened": "2026-08-07",
-      "value_gbp": 107.76,
-      "pl_gbp": -2.24,
-      "pl_pct": -2.03,
+      "value_gbp": 162.52,
+      "pl_gbp": 2.52,
+      "pl_pct": 1.57,
       "sector": "Healthcare"
-    },
-    {
-      "ticker": "RIO.L",
-      "shares": 0.928902,
-      "entry_native": 7598.8104,
-      "cost_gbp": 70.59,
-      "last_native": 7404.0,
-      "opened": "2026-08-07",
-      "value_gbp": 68.78,
-      "pl_gbp": -1.81,
-      "pl_pct": -2.57,
-      "sector": "Materials"
     },
     {
       "ticker": "SHEL.L",
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3529.949,
+      "last_native": 3602.781,
       "opened": "2026-08-07",
-      "value_gbp": 144.64,
-      "pl_gbp": 9.64,
-      "pl_pct": 7.14,
+      "value_gbp": 147.63,
+      "pl_gbp": 12.63,
+      "pl_pct": 9.35,
       "sector": "Energy"
     },
     {
@@ -106,11 +94,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1529.8,
+      "last_native": 1536.2,
       "opened": "2026-08-20",
-      "value_gbp": 150.55,
-      "pl_gbp": 0.55,
-      "pl_pct": 0.36,
+      "value_gbp": 151.18,
+      "pl_gbp": 1.18,
+      "pl_pct": 0.78,
       "sector": "Financials"
     },
     {
@@ -118,11 +106,11 @@
       "shares": 0.346383,
       "entry_native": 292.3719,
       "cost_gbp": 75.0,
-      "last_native": 293.905,
+      "last_native": 284.75,
       "opened": "2026-09-03",
-      "value_gbp": 75.22,
-      "pl_gbp": 0.22,
-      "pl_pct": 0.29,
+      "value_gbp": 73.19,
+      "pl_gbp": -1.81,
+      "pl_pct": -2.42,
       "sector": "Utilities"
     },
     {
@@ -130,11 +118,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 105.83,
+      "last_native": 107.15,
       "opened": "2026-09-04",
-      "value_gbp": 39.04,
-      "pl_gbp": -0.96,
-      "pl_pct": -2.39,
+      "value_gbp": 39.7,
+      "pl_gbp": -0.3,
+      "pl_pct": -0.75,
       "sector": "Staples"
     },
     {
@@ -142,15 +130,31 @@
       "shares": 0.741679,
       "entry_native": 164.23,
       "cost_gbp": 90.0,
-      "last_native": 164.23,
+      "last_native": 165.99,
       "opened": "2026-09-10",
-      "value_gbp": 90.0,
-      "pl_gbp": -0.0,
-      "pl_pct": -0.0,
+      "value_gbp": 91.35,
+      "pl_gbp": 1.35,
+      "pl_pct": 1.5,
       "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-14",
+      "action": "buy",
+      "ticker": "AZN.L",
+      "amount_gbp": 50.0,
+      "price_native": 12168.0,
+      "why": "Add to an already-profitable position (+2.29%) on today's genuine UK pharma/healthcare cohort rally \u2014 AZN +3.93%, GSK +4.97%, DGE +3.15%, BATS +3.29%, ULVR +2.97% all up together, which argues this is sector-wide re-rating rather than a single-stock spike. Position stays at ~16.6% of book, well under the 25% disclosure threshold. Wrong if AZN gives back this move within a week with no follow-through in GSK/DGE, meaning today was a one-day index-level squeeze."
+    },
+    {
+      "date": "2026-09-14",
+      "action": "sell",
+      "ticker": "RIO.L",
+      "amount_gbp": 66.4,
+      "price_native": 7148.0,
+      "why": "Full exit. Down -5.94% cumulative and -3.06% again today, with GLEN also down -2.96% confirming this is a mining-cohort move, not RIO-specific noise \u2014 the same slow-bleed pattern I already cut BA.L, NG.L, PHP.L, SSE.L, GSK.L and FRES.L for rather than keep averaging hope. Wrong if RIO snaps back sharply with iron ore/copper this week, meaning I sold right before a real bounce."
+    },
     {
       "date": "2026-09-10",
       "action": "buy",
@@ -523,15 +527,15 @@
   "watchlist": [
     {
       "ticker": "HSBA.L",
-      "note": "Moved in lockstep with Hang Seng today for the first time since Aug 20 \u2014 watching for a second consecutive day of correlated weakness before cutting the position."
+      "note": "Fell -1.06% today despite Hang Seng +0.45% \u2014 first real divergence from the Asia-rates thesis. Watching for a second day of this before trimming."
     },
     {
       "ticker": "CEG",
-      "note": "VRT (adjacent power-infra name) crashed -9.61% today; CEG only -1.72% so far. Watching for follow-through weakness in GEV/CEG next session to confirm whether this is sector-wide or company-specific."
+      "note": "Underperforming its own grid/nuclear cohort \u2014 GEV +3.61% today while CEG -0.43%. Need to see if CEG catches up or if the theme has genuinely stalled for this name specifically."
     },
     {
-      "ticker": "WMT",
-      "note": "Down again today (-0.21%) alongside COST (-0.83%) \u2014 no longer clear outperformance vs staples peers. Give it one more week before deciding the thesis failed."
+      "ticker": "GLEN.L",
+      "note": "Confirms RIO/FRES mining weakness as cohort-wide, not stock-specific \u2014 watching whether this is a real materials rotation or a one-week flush."
     }
   ],
   "universe_requests": []
