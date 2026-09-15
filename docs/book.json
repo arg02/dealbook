@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-14",
-  "session": 21,
+  "as_of": "2026-09-15",
+  "session": 22,
   "starting_capital": 1000.0,
-  "cash_gbp": 183.53,
-  "invested_gbp": 792.99,
-  "total_gbp": 976.52,
-  "pl_gbp": -23.48,
-  "pl_pct": -2.35,
-  "fx": 1.3477,
-  "market_read": "Today's real signal is a broad UK healthcare/staples rally (AZN +3.93%, GSK +4.97%, DGE +3.15%, BATS +3.29%, ULVR +2.97%) against a hard mining-cohort selloff (RIO -3.06%, GLEN -2.96%, FRES -4.11%) \u2014 that's sector rotation, not noise, since it hits multiple names on both sides. Energy continues to grind higher (SHEL +1.46%, cumulative +9.35%) and remains my best-performing thesis. HSBA fell -1.06% despite Hang Seng being up +0.45%, a first real divergence from the thesis that's worth watching but not yet acting on.",
+  "cash_gbp": 246.73,
+  "invested_gbp": 721.58,
+  "total_gbp": 968.31,
+  "pl_gbp": -31.69,
+  "pl_pct": -3.17,
+  "fx": 1.3483,
+  "market_read": "Today isn't broad risk-off (S&P -0.48%, FTSE -0.29%) \u2014 it's a violent air-pocket in the AI-capex-adjacent cohort: GEV -8.62%, VRT -7.65%, CRWV -6.75%, AVGO -4.77%, MU -5.25%, CAT -4.22%, and my own CEG -7.09%. Energy and gold are soft but orderly; staples had a red day too (DGE/BATS/ULVR all down ~-1.7-1.9%) while WMT bucked it. The one thing actually working in this book remains SHEL (+8.5% cumulative) \u2014 everything else is either flat or bleeding.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,711.80",
-      "change_pct": 0.58
+      "level": "10,666.37",
+      "change_pct": -0.29
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,333.04",
-      "change_pct": 0.96
+      "level": "26,186.41",
+      "change_pct": -0.56
     },
     {
       "name": "NYSE Comp",
-      "level": "24,331.56",
-      "change_pct": 0.79
+      "level": "24,205.39",
+      "change_pct": -0.52
     },
     {
       "name": "S&P 500",
-      "level": "7,656.98",
-      "change_pct": 0.86
+      "level": "7,619.98",
+      "change_pct": -0.48
     },
     {
       "name": "Dow Jones",
-      "level": "52,573.29",
-      "change_pct": 0.98
+      "level": "52,421.20",
+      "change_pct": -0.29
     },
     {
       "name": "DAX",
-      "level": "25,402.96",
-      "change_pct": -0.65
+      "level": "25,431.32",
+      "change_pct": -0.04
     },
     {
       "name": "Nikkei 225",
-      "level": "63,492.99",
-      "change_pct": -0.81
+      "level": "63,484.10",
+      "change_pct": -0.01
     },
     {
       "name": "Hang Seng",
-      "level": "24,917.60",
-      "change_pct": 0.45
+      "level": "24,667.24",
+      "change_pct": -1.0
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6148.3003,
+      "last_native": 6161.0,
       "opened": "2026-08-07",
-      "value_gbp": 127.44,
-      "pl_gbp": -2.56,
-      "pl_pct": -1.97,
+      "value_gbp": 127.71,
+      "pl_gbp": -2.29,
+      "pl_pct": -1.77,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 1.335595,
       "entry_native": 11979.6845,
       "cost_gbp": 160.0,
-      "last_native": 12168.0,
+      "last_native": 12036.0,
       "opened": "2026-08-07",
-      "value_gbp": 162.52,
-      "pl_gbp": 2.52,
-      "pl_pct": 1.57,
+      "value_gbp": 160.75,
+      "pl_gbp": 0.75,
+      "pl_pct": 0.47,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3602.781,
+      "last_native": 3576.0,
       "opened": "2026-08-07",
-      "value_gbp": 147.63,
-      "pl_gbp": 12.63,
-      "pl_pct": 9.35,
+      "value_gbp": 146.53,
+      "pl_gbp": 11.53,
+      "pl_pct": 8.54,
       "sector": "Energy"
     },
     {
@@ -94,23 +94,23 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1536.2,
+      "last_native": 1530.6,
       "opened": "2026-08-20",
-      "value_gbp": 151.18,
-      "pl_gbp": 1.18,
-      "pl_pct": 0.78,
+      "value_gbp": 150.62,
+      "pl_gbp": 0.62,
+      "pl_pct": 0.42,
       "sector": "Financials"
     },
     {
       "ticker": "CEG",
-      "shares": 0.346383,
+      "shares": 0.024304,
       "entry_native": 292.3719,
-      "cost_gbp": 75.0,
-      "last_native": 284.75,
+      "cost_gbp": 5.26,
+      "last_native": 264.57,
       "opened": "2026-09-03",
-      "value_gbp": 73.19,
-      "pl_gbp": -1.81,
-      "pl_pct": -2.42,
+      "value_gbp": 4.77,
+      "pl_gbp": -0.49,
+      "pl_pct": -9.33,
       "sector": "Utilities"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 107.15,
+      "last_native": 109.08,
       "opened": "2026-09-04",
-      "value_gbp": 39.7,
-      "pl_gbp": -0.3,
-      "pl_pct": -0.75,
+      "value_gbp": 40.4,
+      "pl_gbp": 0.4,
+      "pl_pct": 0.99,
       "sector": "Staples"
     },
     {
@@ -130,15 +130,23 @@
       "shares": 0.741679,
       "entry_native": 164.23,
       "cost_gbp": 90.0,
-      "last_native": 165.99,
+      "last_native": 165.08,
       "opened": "2026-09-10",
-      "value_gbp": 91.35,
-      "pl_gbp": 1.35,
-      "pl_pct": 1.5,
+      "value_gbp": 90.81,
+      "pl_gbp": 0.81,
+      "pl_pct": 0.9,
       "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-15",
+      "action": "sell",
+      "ticker": "CEG",
+      "amount_gbp": 63.2,
+      "price_native": 264.57,
+      "why": "Full exit. My own bull case was 'cohort strength distinct from risk-off tape' \u2014 that's now inverted: CEG -7.09% today alongside GEV -8.62%, meaning the grid/nuclear-capacity theme is falling together, not diverging in my favour. Position is down -9.37% cumulative with three straight down sessions and no bounce. This is the identical slow-bleed pattern I've cut BA.L, NG.L, PHP.L, SSE.L, GSK.L and FRES.L for rather than average down on hope. Wrong if CEG and GEV both snap back sharply this week on a specific nuclear-PPA or data-centre-demand catalyst, proving today was a one-day de-grossing event, not a theme break."
+    },
     {
       "date": "2026-09-14",
       "action": "buy",
@@ -526,16 +534,20 @@
   ],
   "watchlist": [
     {
+      "ticker": "GEV",
+      "note": "Watching if the -8.62% AI-capex/grid selloff is a one-day de-grossing or start of a real repricing; would consider CEG re-entry only if this cohort stabilises together, not separately"
+    },
+    {
+      "ticker": "VRT",
+      "note": "Same data-centre-infrastructure air-pocket as CEG/GEV; want to see if it's contained to a few names or spreads to MSFT/GOOGL capex sentiment"
+    },
+    {
+      "ticker": "TTE",
+      "note": "Energy majors flat-to-soft today despite SHEL working well cumulatively; watching for a genuine cohort re-rating before adding more capital to the sector"
+    },
+    {
       "ticker": "HSBA.L",
-      "note": "Fell -1.06% today despite Hang Seng +0.45% \u2014 first real divergence from the Asia-rates thesis. Watching for a second day of this before trimming."
-    },
-    {
-      "ticker": "CEG",
-      "note": "Underperforming its own grid/nuclear cohort \u2014 GEV +3.61% today while CEG -0.43%. Need to see if CEG catches up or if the theme has genuinely stalled for this name specifically."
-    },
-    {
-      "ticker": "GLEN.L",
-      "note": "Confirms RIO/FRES mining weakness as cohort-wide, not stock-specific \u2014 watching whether this is a real materials rotation or a one-week flush."
+      "note": "Hang Seng -1.0% today is the first real red flag in weeks for the Asia-rates thesis; watching for a second down day to decide whether to trim"
     }
   ],
   "universe_requests": []
