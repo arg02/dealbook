@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-15",
-  "session": 22,
+  "as_of": "2026-09-16",
+  "session": 23,
   "starting_capital": 1000.0,
-  "cash_gbp": 246.73,
-  "invested_gbp": 721.58,
-  "total_gbp": 968.31,
-  "pl_gbp": -31.69,
-  "pl_pct": -3.17,
-  "fx": 1.3483,
-  "market_read": "Today isn't broad risk-off (S&P -0.48%, FTSE -0.29%) \u2014 it's a violent air-pocket in the AI-capex-adjacent cohort: GEV -8.62%, VRT -7.65%, CRWV -6.75%, AVGO -4.77%, MU -5.25%, CAT -4.22%, and my own CEG -7.09%. Energy and gold are soft but orderly; staples had a red day too (DGE/BATS/ULVR all down ~-1.7-1.9%) while WMT bucked it. The one thing actually working in this book remains SHEL (+8.5% cumulative) \u2014 everything else is either flat or bleeding.",
+  "cash_gbp": 196.42,
+  "invested_gbp": 780.22,
+  "total_gbp": 976.64,
+  "pl_gbp": -23.36,
+  "pl_pct": -2.34,
+  "fx": 1.3457,
+  "market_read": "US mega-cap tape is soft (S&P -0.45%, Nasdaq -0.78%) while UK/Europe/Asia are broadly firm (FTSE +0.69%, DAX +0.37%, HSI +0.19%) and today's real theme is a coordinated global energy re-rating (XOM +2.57%, CVX +2.64%, TTE +2.17%, SLB +1.65%) plus a metals bounce (FRES +4.51%, RIO.L +1.79%, GLEN +1.08%). CEG's nuclear/grid theme is still breaking down (-1.77% again), confirming yesterday's exit was correct. My energy sleeve (SHEL+XOM) is already near 25% of book so I'm not chasing that further; instead diversifying the financials sleeve, which is currently only Asia-tilted via HSBA.L.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,666.37",
-      "change_pct": -0.29
+      "level": "10,731.45",
+      "change_pct": 0.69
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,186.41",
-      "change_pct": -0.56
+      "level": "25,981.57",
+      "change_pct": -0.78
     },
     {
       "name": "NYSE Comp",
-      "level": "24,205.39",
-      "change_pct": -0.52
+      "level": "24,128.46",
+      "change_pct": -0.32
     },
     {
       "name": "S&P 500",
-      "level": "7,619.98",
-      "change_pct": -0.48
+      "level": "7,585.73",
+      "change_pct": -0.45
     },
     {
       "name": "Dow Jones",
-      "level": "52,421.20",
-      "change_pct": -0.29
+      "level": "52,093.11",
+      "change_pct": -0.63
     },
     {
       "name": "DAX",
-      "level": "25,431.32",
-      "change_pct": -0.04
+      "level": "25,496.37",
+      "change_pct": 0.37
     },
     {
       "name": "Nikkei 225",
-      "level": "63,484.10",
-      "change_pct": -0.01
+      "level": "63,923.00",
+      "change_pct": 0.69
     },
     {
       "name": "Hang Seng",
-      "level": "24,667.24",
-      "change_pct": -1.0
+      "level": "24,713.78",
+      "change_pct": 0.19
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 2.072804,
       "entry_native": 6271.6963,
       "cost_gbp": 130.0,
-      "last_native": 6161.0,
+      "last_native": 6263.0,
       "opened": "2026-08-07",
-      "value_gbp": 127.71,
-      "pl_gbp": -2.29,
-      "pl_pct": -1.77,
+      "value_gbp": 129.82,
+      "pl_gbp": -0.18,
+      "pl_pct": -0.14,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 1.335595,
       "entry_native": 11979.6845,
       "cost_gbp": 160.0,
-      "last_native": 12036.0,
+      "last_native": 12212.0,
       "opened": "2026-08-07",
-      "value_gbp": 160.75,
-      "pl_gbp": 0.75,
-      "pl_pct": 0.47,
+      "value_gbp": 163.1,
+      "pl_gbp": 3.1,
+      "pl_pct": 1.94,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3576.0,
+      "last_native": 3639.5,
       "opened": "2026-08-07",
-      "value_gbp": 146.53,
-      "pl_gbp": 11.53,
-      "pl_pct": 8.54,
+      "value_gbp": 149.13,
+      "pl_gbp": 14.13,
+      "pl_pct": 10.47,
       "sector": "Energy"
     },
     {
@@ -94,35 +94,23 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1530.6,
+      "last_native": 1521.6,
       "opened": "2026-08-20",
-      "value_gbp": 150.62,
-      "pl_gbp": 0.62,
-      "pl_pct": 0.42,
+      "value_gbp": 149.74,
+      "pl_gbp": -0.26,
+      "pl_pct": -0.17,
       "sector": "Financials"
-    },
-    {
-      "ticker": "CEG",
-      "shares": 0.024304,
-      "entry_native": 292.3719,
-      "cost_gbp": 5.26,
-      "last_native": 264.57,
-      "opened": "2026-09-03",
-      "value_gbp": 4.77,
-      "pl_gbp": -0.49,
-      "pl_pct": -9.33,
-      "sector": "Utilities"
     },
     {
       "ticker": "WMT",
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 109.08,
+      "last_native": 108.09,
       "opened": "2026-09-04",
-      "value_gbp": 40.4,
-      "pl_gbp": 0.4,
-      "pl_pct": 0.99,
+      "value_gbp": 40.11,
+      "pl_gbp": 0.11,
+      "pl_pct": 0.27,
       "sector": "Staples"
     },
     {
@@ -130,15 +118,43 @@
       "shares": 0.741679,
       "entry_native": 164.23,
       "cost_gbp": 90.0,
-      "last_native": 165.08,
+      "last_native": 169.32,
       "opened": "2026-09-10",
-      "value_gbp": 90.81,
-      "pl_gbp": 0.81,
-      "pl_pct": 0.9,
+      "value_gbp": 93.32,
+      "pl_gbp": 3.32,
+      "pl_pct": 3.69,
       "sector": "Energy"
+    },
+    {
+      "ticker": "LLOY.L",
+      "shares": 49.582605,
+      "entry_native": 110.926,
+      "cost_gbp": 55.0,
+      "last_native": 110.926,
+      "opened": "2026-09-16",
+      "value_gbp": 55.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
+      "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-16",
+      "action": "buy",
+      "ticker": "LLOY.L",
+      "amount_gbp": 55.0,
+      "price_native": 110.926,
+      "why": "New financials leg, differentiated from HSBA.L's Asia-rates exposure. LLOY +1.86% today inside a broad FTSE rally, and it's a pure UK-domestic-rate play (NIM geared to BoE) rather than another Asia bet. Wrong if LLOY gives back this move within two weeks with no follow-through in the wider FTSE financials (BARC/NWG-style names), meaning today was a one-day squeeze not a rate-repricing trend."
+    },
+    {
+      "date": "2026-09-16",
+      "action": "sell",
+      "ticker": "CEG",
+      "amount_gbp": 4.69,
+      "price_native": 259.89,
+      "why": "Closing the fractional remainder left after yesterday's full exit. Thesis is dead: CEG fell another -1.77% today alongside continued weakness, confirming the grid/nuclear cohort is bleeding as a group, not diverging in my favour. No reason to carry a dust position."
+    },
     {
       "date": "2026-09-15",
       "action": "sell",
@@ -534,20 +550,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "GEV",
-      "note": "Watching if the -8.62% AI-capex/grid selloff is a one-day de-grossing or start of a real repricing; would consider CEG re-entry only if this cohort stabilises together, not separately"
+      "ticker": "FRES.L",
+      "note": "Up +4.51% today after two prior exits for slow-bleed \u2014 watching to see if silver/gold miners now hold this move for a week before considering re-entry; don't want to flip-flop a third time on noise."
     },
     {
-      "ticker": "VRT",
-      "note": "Same data-centre-infrastructure air-pocket as CEG/GEV; want to see if it's contained to a few names or spreads to MSFT/GOOGL capex sentiment"
+      "ticker": "RIO.L",
+      "note": "Bounced +1.79% with GLEN +1.08% after I exited on mining-cohort weakness \u2014 need multi-day confirmation before treating this as a real turn rather than a one-day dip-buy."
     },
     {
-      "ticker": "TTE",
-      "note": "Energy majors flat-to-soft today despite SHEL working well cumulatively; watching for a genuine cohort re-rating before adding more capital to the sector"
-    },
-    {
-      "ticker": "HSBA.L",
-      "note": "Hang Seng -1.0% today is the first real red flag in weeks for the Asia-rates thesis; watching for a second down day to decide whether to trim"
+      "ticker": "SHEL.L",
+      "note": "Lagged the rest of the energy complex today (-0.36% vs XOM +2.57%, CVX +2.64%, TTE +2.17%). Best performer in the book at +10.47% cumulative, but watching for whether this laggard day repeats \u2014 would flag a UK-specific problem, not a sector one."
     }
   ],
   "universe_requests": []
