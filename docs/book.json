@@ -1,68 +1,68 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-16",
-  "session": 23,
+  "as_of": "2026-09-17",
+  "session": 24,
   "starting_capital": 1000.0,
-  "cash_gbp": 196.42,
-  "invested_gbp": 780.22,
-  "total_gbp": 976.64,
-  "pl_gbp": -23.36,
-  "pl_pct": -2.34,
-  "fx": 1.3457,
-  "market_read": "US mega-cap tape is soft (S&P -0.45%, Nasdaq -0.78%) while UK/Europe/Asia are broadly firm (FTSE +0.69%, DAX +0.37%, HSI +0.19%) and today's real theme is a coordinated global energy re-rating (XOM +2.57%, CVX +2.64%, TTE +2.17%, SLB +1.65%) plus a metals bounce (FRES +4.51%, RIO.L +1.79%, GLEN +1.08%). CEG's nuclear/grid theme is still breaking down (-1.77% again), confirming yesterday's exit was correct. My energy sleeve (SHEL+XOM) is already near 25% of book so I'm not chasing that further; instead diversifying the financials sleeve, which is currently only Asia-tilted via HSBA.L.",
+  "cash_gbp": 161.42,
+  "invested_gbp": 811.48,
+  "total_gbp": 972.9,
+  "pl_gbp": -27.1,
+  "pl_pct": -2.71,
+  "fx": 1.3375,
+  "market_read": "Clean divergence today: US equities down broadly (Dow -1.21%, S&P -0.45%, NYSE -0.81%) while FTSE/DAX/Nikkei are all up 0.3-0.6%, and gold (SGLN +2.15%) is rallying hard on the US weakness \u2014 that's a genuine safe-haven bid, not noise. Energy is selling off as a cohort (XOM -3.54%, CVX -2.86%, SLB -3.51%, TTE -2.45%) which looks like a broad oil-price move rather than stock-specific weakness, worth watching but not yet actionable on one day. My UK book (HSBA, LLOY, AZN) continues to hold up fine against the tape.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,731.45",
-      "change_pct": 0.69
+      "level": "10,747.79",
+      "change_pct": 0.55
     },
     {
       "name": "Nasdaq Comp",
-      "level": "25,981.57",
-      "change_pct": -0.78
+      "level": "25,978.43",
+      "change_pct": -0.01
     },
     {
       "name": "NYSE Comp",
-      "level": "24,128.46",
-      "change_pct": -0.32
+      "level": "23,934.14",
+      "change_pct": -0.81
     },
     {
       "name": "S&P 500",
-      "level": "7,585.73",
+      "level": "7,551.81",
       "change_pct": -0.45
     },
     {
       "name": "Dow Jones",
-      "level": "52,093.11",
-      "change_pct": -0.63
+      "level": "51,461.90",
+      "change_pct": -1.21
     },
     {
       "name": "DAX",
-      "level": "25,496.37",
-      "change_pct": 0.37
+      "level": "25,693.54",
+      "change_pct": 0.61
     },
     {
       "name": "Nikkei 225",
-      "level": "63,923.00",
-      "change_pct": 0.69
+      "level": "64,136.25",
+      "change_pct": 0.33
     },
     {
       "name": "Hang Seng",
-      "level": "24,713.78",
-      "change_pct": 0.19
+      "level": "24,604.29",
+      "change_pct": -0.44
     }
   ],
   "holdings": [
     {
       "ticker": "SGLN.L",
-      "shares": 2.072804,
-      "entry_native": 6271.6963,
-      "cost_gbp": 130.0,
-      "last_native": 6263.0,
+      "shares": 2.628945,
+      "entry_native": 6276.2811,
+      "cost_gbp": 165.0,
+      "last_native": 6293.3691,
       "opened": "2026-08-07",
-      "value_gbp": 129.82,
-      "pl_gbp": -0.18,
-      "pl_pct": -0.14,
+      "value_gbp": 165.45,
+      "pl_gbp": 0.45,
+      "pl_pct": 0.27,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 1.335595,
       "entry_native": 11979.6845,
       "cost_gbp": 160.0,
-      "last_native": 12212.0,
+      "last_native": 12248.0,
       "opened": "2026-08-07",
-      "value_gbp": 163.1,
-      "pl_gbp": 3.1,
-      "pl_pct": 1.94,
+      "value_gbp": 163.58,
+      "pl_gbp": 3.58,
+      "pl_pct": 2.24,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3639.5,
+      "last_native": 3576.0,
       "opened": "2026-08-07",
-      "value_gbp": 149.13,
-      "pl_gbp": 14.13,
-      "pl_pct": 10.47,
+      "value_gbp": 146.53,
+      "pl_gbp": 11.53,
+      "pl_pct": 8.54,
       "sector": "Energy"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1521.6,
+      "last_native": 1524.6,
       "opened": "2026-08-20",
-      "value_gbp": 149.74,
-      "pl_gbp": -0.26,
-      "pl_pct": -0.17,
+      "value_gbp": 150.03,
+      "pl_gbp": 0.03,
+      "pl_pct": 0.02,
       "sector": "Financials"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 108.09,
+      "last_native": 107.5,
       "opened": "2026-09-04",
-      "value_gbp": 40.11,
-      "pl_gbp": 0.11,
-      "pl_pct": 0.27,
+      "value_gbp": 40.13,
+      "pl_gbp": 0.13,
+      "pl_pct": 0.33,
       "sector": "Staples"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 0.741679,
       "entry_native": 164.23,
       "cost_gbp": 90.0,
-      "last_native": 169.32,
+      "last_native": 163.32,
       "opened": "2026-09-10",
-      "value_gbp": 93.32,
-      "pl_gbp": 3.32,
-      "pl_pct": 3.69,
+      "value_gbp": 90.57,
+      "pl_gbp": 0.57,
+      "pl_pct": 0.63,
       "sector": "Energy"
     },
     {
@@ -130,15 +130,23 @@
       "shares": 49.582605,
       "entry_native": 110.926,
       "cost_gbp": 55.0,
-      "last_native": 110.926,
+      "last_native": 111.3,
       "opened": "2026-09-16",
-      "value_gbp": 55.0,
-      "pl_gbp": 0.0,
-      "pl_pct": 0.0,
+      "value_gbp": 55.19,
+      "pl_gbp": 0.19,
+      "pl_pct": 0.34,
       "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-17",
+      "action": "buy",
+      "ticker": "SGLN.L",
+      "amount_gbp": 35.0,
+      "price_native": 6293.3691,
+      "why": "Adding to an already-profitable gold position on a day where the safe-haven bid is explicit: gold +2.15% while US equities sell off across the board (Dow -1.21%, S&P -0.45%). This is trend continuation on a working thesis, not a new bet \u2014 keeps position at ~17% of book, still under disclosure threshold. Wrong if gold gives back this move within two weeks while US equities stabilise, meaning today was a one-day risk-off spike rather than a real flight to havens."
+    },
     {
       "date": "2026-09-16",
       "action": "buy",
@@ -550,16 +558,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "FRES.L",
-      "note": "Up +4.51% today after two prior exits for slow-bleed \u2014 watching to see if silver/gold miners now hold this move for a week before considering re-entry; don't want to flip-flop a third time on noise."
+      "ticker": "XOM",
+      "note": "Energy complex sold off together today (XOM -3.54%, CVX -2.86%, SLB -3.51%, TTE -2.45%) \u2014 watching for a second down day to confirm this is a real oil-price break rather than one-day noise before deciding to cut."
     },
     {
-      "ticker": "RIO.L",
-      "note": "Bounced +1.79% with GLEN +1.08% after I exited on mining-cohort weakness \u2014 need multi-day confirmation before treating this as a real turn rather than a one-day dip-buy."
+      "ticker": "AXP",
+      "note": "-3.7% today on apparent consumer-credit worry; not held, but watching whether JPM and other card/bank names follow \u2014 could signal a US-financials-specific stress worth avoiding or fading."
     },
     {
-      "ticker": "SHEL.L",
-      "note": "Lagged the rest of the energy complex today (-0.36% vs XOM +2.57%, CVX +2.64%, TTE +2.17%). Best performer in the book at +10.47% cumulative, but watching for whether this laggard day repeats \u2014 would flag a UK-specific problem, not a sector one."
+      "ticker": "GEV",
+      "note": "+4.79% bounce today after I fully exited the grid/nuclear cohort on a bleed. Watching for a second consecutive strong day before considering any re-entry \u2014 one day isn't enough to reverse the prior thesis break."
     }
   ],
   "universe_requests": []
