@@ -1,68 +1,68 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-17",
-  "session": 24,
+  "as_of": "2026-09-18",
+  "session": 25,
   "starting_capital": 1000.0,
-  "cash_gbp": 161.42,
-  "invested_gbp": 811.48,
-  "total_gbp": 972.9,
-  "pl_gbp": -27.1,
-  "pl_pct": -2.71,
-  "fx": 1.3375,
-  "market_read": "Clean divergence today: US equities down broadly (Dow -1.21%, S&P -0.45%, NYSE -0.81%) while FTSE/DAX/Nikkei are all up 0.3-0.6%, and gold (SGLN +2.15%) is rallying hard on the US weakness \u2014 that's a genuine safe-haven bid, not noise. Energy is selling off as a cohort (XOM -3.54%, CVX -2.86%, SLB -3.51%, TTE -2.45%) which looks like a broad oil-price move rather than stock-specific weakness, worth watching but not yet actionable on one day. My UK book (HSBA, LLOY, AZN) continues to hold up fine against the tape.",
+  "cash_gbp": 136.42,
+  "invested_gbp": 839.24,
+  "total_gbp": 975.66,
+  "pl_gbp": -24.34,
+  "pl_pct": -2.43,
+  "fx": 1.3346,
+  "market_read": "Clear regional split today: US indices up (S&P +1.14%, Nasdaq +1.69%) while UK/Europe fell (FTSE -0.91%, DAX -0.8%), and gold rallied again (+1.53%) despite the US risk-on tape \u2014 that combination (equities up AND gold up) points to dollar softness / rate-cut positioning rather than a simple risk-off flight. UK financials (LLOY -1.78%, HSBA -1.08%) and energy (BP -1.65%, SHEL -1.18%) fell broadly with the FTSE, not on stock-specific news, so I'm not treating this as thesis failure yet on either. No new catalyst justifies fresh sector exposure today; cash buffer stays useful given the whipsaw.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,747.79",
-      "change_pct": 0.55
+      "level": "10,717.58",
+      "change_pct": -0.91
     },
     {
       "name": "Nasdaq Comp",
-      "level": "25,978.43",
-      "change_pct": -0.01
+      "level": "26,418.30",
+      "change_pct": 1.69
     },
     {
       "name": "NYSE Comp",
-      "level": "23,934.14",
-      "change_pct": -0.81
+      "level": "24,089.55",
+      "change_pct": 0.65
     },
     {
       "name": "S&P 500",
-      "level": "7,551.81",
-      "change_pct": -0.45
+      "level": "7,637.76",
+      "change_pct": 1.14
     },
     {
       "name": "Dow Jones",
-      "level": "51,461.90",
-      "change_pct": -1.21
-    },
-    {
-      "name": "DAX",
-      "level": "25,693.54",
+      "level": "51,778.04",
       "change_pct": 0.61
     },
     {
+      "name": "DAX",
+      "level": "25,511.50",
+      "change_pct": -0.8
+    },
+    {
       "name": "Nikkei 225",
-      "level": "64,136.25",
-      "change_pct": 0.33
+      "level": "65,018.95",
+      "change_pct": 1.38
     },
     {
       "name": "Hang Seng",
-      "level": "24,604.29",
-      "change_pct": -0.44
+      "level": "24,750.78",
+      "change_pct": 0.6
     }
   ],
   "holdings": [
     {
       "ticker": "SGLN.L",
-      "shares": 2.628945,
-      "entry_native": 6276.2811,
-      "cost_gbp": 165.0,
-      "last_native": 6293.3691,
+      "shares": 3.021669,
+      "entry_native": 6287.9158,
+      "cost_gbp": 190.0,
+      "last_native": 6365.7998,
       "opened": "2026-08-07",
-      "value_gbp": 165.45,
-      "pl_gbp": 0.45,
-      "pl_pct": 0.27,
+      "value_gbp": 192.35,
+      "pl_gbp": 2.35,
+      "pl_pct": 1.24,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 1.335595,
       "entry_native": 11979.6845,
       "cost_gbp": 160.0,
-      "last_native": 12248.0,
+      "last_native": 12526.0,
       "opened": "2026-08-07",
-      "value_gbp": 163.58,
-      "pl_gbp": 3.58,
-      "pl_pct": 2.24,
+      "value_gbp": 167.3,
+      "pl_gbp": 7.3,
+      "pl_pct": 4.56,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3576.0,
+      "last_native": 3529.0,
       "opened": "2026-08-07",
-      "value_gbp": 146.53,
-      "pl_gbp": 11.53,
-      "pl_pct": 8.54,
+      "value_gbp": 144.6,
+      "pl_gbp": 9.6,
+      "pl_pct": 7.11,
       "sector": "Energy"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1524.6,
+      "last_native": 1520.8,
       "opened": "2026-08-20",
-      "value_gbp": 150.03,
-      "pl_gbp": 0.03,
-      "pl_pct": 0.02,
+      "value_gbp": 149.66,
+      "pl_gbp": -0.34,
+      "pl_pct": -0.23,
       "sector": "Financials"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 107.5,
+      "last_native": 106.79,
       "opened": "2026-09-04",
-      "value_gbp": 40.13,
-      "pl_gbp": 0.13,
-      "pl_pct": 0.33,
+      "value_gbp": 39.95,
+      "pl_gbp": -0.05,
+      "pl_pct": -0.12,
       "sector": "Staples"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 0.741679,
       "entry_native": 164.23,
       "cost_gbp": 90.0,
-      "last_native": 163.32,
+      "last_native": 163.27,
       "opened": "2026-09-10",
-      "value_gbp": 90.57,
-      "pl_gbp": 0.57,
-      "pl_pct": 0.63,
+      "value_gbp": 90.73,
+      "pl_gbp": 0.73,
+      "pl_pct": 0.82,
       "sector": "Energy"
     },
     {
@@ -130,15 +130,23 @@
       "shares": 49.582605,
       "entry_native": 110.926,
       "cost_gbp": 55.0,
-      "last_native": 111.3,
+      "last_native": 110.2,
       "opened": "2026-09-16",
-      "value_gbp": 55.19,
-      "pl_gbp": 0.19,
-      "pl_pct": 0.34,
+      "value_gbp": 54.64,
+      "pl_gbp": -0.36,
+      "pl_pct": -0.65,
       "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-18",
+      "action": "buy",
+      "ticker": "SGLN.L",
+      "amount_gbp": 25.0,
+      "price_native": 6365.7998,
+      "why": "Gold is up two sessions running (+1.53% today) even as US equities rallied \u2014 that's not a classic risk-off spike, it looks like a dollar-weakness/rate-cut trade, which is a distinct and arguably stronger tailwind than pure fear-bid gold. Position moves to ~19.7% of book, still under the 25% disclosure line. Wrong if gold reverses within two weeks while the dollar/rate story doesn't materialize, meaning this was noise, not a real repricing."
+    },
     {
       "date": "2026-09-17",
       "action": "buy",
@@ -558,16 +566,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "XOM",
-      "note": "Energy complex sold off together today (XOM -3.54%, CVX -2.86%, SLB -3.51%, TTE -2.45%) \u2014 watching for a second down day to confirm this is a real oil-price break rather than one-day noise before deciding to cut."
+      "ticker": "LLOY.L",
+      "note": "Down -1.78% today with HSBA also down, but both moved with a broad FTSE -0.91% day, not stock-specific. Position is only 2 days old \u2014 waiting for the full two-week window before judging the UK-rate thesis."
     },
     {
-      "ticker": "AXP",
-      "note": "-3.7% today on apparent consumer-credit worry; not held, but watching whether JPM and other card/bank names follow \u2014 could signal a US-financials-specific stress worth avoiding or fading."
+      "ticker": "SHEL.L",
+      "note": "UK energy (BP, SHEL) fell today while US majors (XOM, TTE) were flat \u2014 watching whether this is a sterling/FTSE-specific wobble or the start of a broader energy cohort reversal."
     },
     {
-      "ticker": "GEV",
-      "note": "+4.79% bounce today after I fully exited the grid/nuclear cohort on a bleed. Watching for a second consecutive strong day before considering any re-entry \u2014 one day isn't enough to reverse the prior thesis break."
+      "ticker": "GLEN.L",
+      "note": "Down -3.09% today, sharpest mover in materials \u2014 checking if industrial metals are cracking again, which would confirm I was right to exit RIO."
     }
   ],
   "universe_requests": []
