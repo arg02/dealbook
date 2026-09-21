@@ -1,45 +1,45 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-18",
-  "session": 25,
+  "as_of": "2026-09-21",
+  "session": 26,
   "starting_capital": 1000.0,
-  "cash_gbp": 136.42,
-  "invested_gbp": 839.24,
-  "total_gbp": 975.66,
-  "pl_gbp": -24.34,
-  "pl_pct": -2.43,
-  "fx": 1.3346,
-  "market_read": "Clear regional split today: US indices up (S&P +1.14%, Nasdaq +1.69%) while UK/Europe fell (FTSE -0.91%, DAX -0.8%), and gold rallied again (+1.53%) despite the US risk-on tape \u2014 that combination (equities up AND gold up) points to dollar softness / rate-cut positioning rather than a simple risk-off flight. UK financials (LLOY -1.78%, HSBA -1.08%) and energy (BP -1.65%, SHEL -1.18%) fell broadly with the FTSE, not on stock-specific news, so I'm not treating this as thesis failure yet on either. No new catalyst justifies fresh sector exposure today; cash buffer stays useful given the whipsaw.",
+  "cash_gbp": 91.42,
+  "invested_gbp": 884.96,
+  "total_gbp": 976.38,
+  "pl_gbp": -23.62,
+  "pl_pct": -2.36,
+  "fx": 1.3393,
+  "market_read": "Broad global risk-on today (FTSE +1.04%, DAX +1.22%, Nikkei +1.38%, Hang Seng +1.18%) with UK financials leading domestically \u2014 HSBA +2.02% and LLOY +1.51% moved together, which is exactly the follow-through my Sept 16 LLOY thesis needed to confirm a real rate-repricing trend rather than a one-day squeeze. Gold (SGLN) is flat today after a three-day run, consolidating rather than reversing \u2014 too early to call the thesis wrong, but no reason to add more at ~19.5% of book. US tape is directionless (S&P +0.17%, Dow -0.18%) while non-US markets carry the rally, reinforcing that this is a dollar/global-liquidity story, not a US-specific move.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,717.58",
-      "change_pct": -0.91
+      "level": "10,770.24",
+      "change_pct": 1.04
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,418.30",
-      "change_pct": 1.69
+      "level": "26,522.54",
+      "change_pct": 0.39
     },
     {
       "name": "NYSE Comp",
-      "level": "24,089.55",
-      "change_pct": 0.65
+      "level": "23,998.76",
+      "change_pct": -0.38
     },
     {
       "name": "S&P 500",
-      "level": "7,637.76",
-      "change_pct": 1.14
+      "level": "7,650.50",
+      "change_pct": 0.17
     },
     {
       "name": "Dow Jones",
-      "level": "51,778.04",
-      "change_pct": 0.61
+      "level": "51,682.64",
+      "change_pct": -0.18
     },
     {
       "name": "DAX",
-      "level": "25,511.50",
-      "change_pct": -0.8
+      "level": "25,612.59",
+      "change_pct": 1.22
     },
     {
       "name": "Nikkei 225",
@@ -48,8 +48,8 @@
     },
     {
       "name": "Hang Seng",
-      "level": "24,750.78",
-      "change_pct": 0.6
+      "level": "25,042.71",
+      "change_pct": 1.18
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 3.021669,
       "entry_native": 6287.9158,
       "cost_gbp": 190.0,
-      "last_native": 6365.7998,
+      "last_native": 6314.0,
       "opened": "2026-08-07",
-      "value_gbp": 192.35,
-      "pl_gbp": 2.35,
-      "pl_pct": 1.24,
+      "value_gbp": 190.79,
+      "pl_gbp": 0.79,
+      "pl_pct": 0.41,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 1.335595,
       "entry_native": 11979.6845,
       "cost_gbp": 160.0,
-      "last_native": 12526.0,
+      "last_native": 12540.0,
       "opened": "2026-08-07",
-      "value_gbp": 167.3,
-      "pl_gbp": 7.3,
-      "pl_pct": 4.56,
+      "value_gbp": 167.48,
+      "pl_gbp": 7.48,
+      "pl_pct": 4.68,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3529.0,
+      "last_native": 3529.5,
       "opened": "2026-08-07",
-      "value_gbp": 144.6,
-      "pl_gbp": 9.6,
-      "pl_pct": 7.11,
+      "value_gbp": 144.62,
+      "pl_gbp": 9.62,
+      "pl_pct": 7.13,
       "sector": "Energy"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1520.8,
+      "last_native": 1543.2,
       "opened": "2026-08-20",
-      "value_gbp": 149.66,
-      "pl_gbp": -0.34,
-      "pl_pct": -0.23,
+      "value_gbp": 151.86,
+      "pl_gbp": 1.86,
+      "pl_pct": 1.24,
       "sector": "Financials"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 106.79,
+      "last_native": 106.73,
       "opened": "2026-09-04",
-      "value_gbp": 39.95,
-      "pl_gbp": -0.05,
-      "pl_pct": -0.12,
+      "value_gbp": 39.79,
+      "pl_gbp": -0.21,
+      "pl_pct": -0.52,
       "sector": "Staples"
     },
     {
@@ -118,27 +118,35 @@
       "shares": 0.741679,
       "entry_native": 164.23,
       "cost_gbp": 90.0,
-      "last_native": 163.27,
+      "last_native": 163.54,
       "opened": "2026-09-10",
-      "value_gbp": 90.73,
-      "pl_gbp": 0.73,
-      "pl_pct": 0.82,
+      "value_gbp": 90.57,
+      "pl_gbp": 0.57,
+      "pl_pct": 0.63,
       "sector": "Energy"
     },
     {
       "ticker": "LLOY.L",
-      "shares": 49.582605,
-      "entry_native": 110.926,
-      "cost_gbp": 55.0,
-      "last_native": 110.2,
+      "shares": 90.269766,
+      "entry_native": 110.7791,
+      "cost_gbp": 100.0,
+      "last_native": 110.6,
       "opened": "2026-09-16",
-      "value_gbp": 54.64,
-      "pl_gbp": -0.36,
-      "pl_pct": -0.65,
+      "value_gbp": 99.84,
+      "pl_gbp": -0.16,
+      "pl_pct": -0.16,
       "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-21",
+      "action": "buy",
+      "ticker": "LLOY.L",
+      "amount_gbp": 45.0,
+      "price_native": 110.6,
+      "why": "Confirmation of the Sept 16 thesis: LLOY +1.51% today alongside HSBA +2.02% is genuine UK financials-cohort strength, not a single-name squeeze. Position was underweight at only 5.6% of book despite being a distinct pure UK-rate bet from HSBA's Asia exposure. Sizing to ~10% keeps it well under disclosure threshold. Wrong if LLOY and HSBA both give back these gains within two weeks with no BoE-rate catalyst, meaning today was index-beta noise, not a repricing."
+    },
     {
       "date": "2026-09-18",
       "action": "buy",
@@ -566,16 +574,12 @@
   ],
   "watchlist": [
     {
-      "ticker": "LLOY.L",
-      "note": "Down -1.78% today with HSBA also down, but both moved with a broad FTSE -0.91% day, not stock-specific. Position is only 2 days old \u2014 waiting for the full two-week window before judging the UK-rate thesis."
+      "ticker": "RIO.L",
+      "note": "Up +1.72% today with GLEN +1.02% \u2014 watching for a second confirming day before treating this as more than the one-off bounce I exited into on Sept 14."
     },
     {
-      "ticker": "SHEL.L",
-      "note": "UK energy (BP, SHEL) fell today while US majors (XOM, TTE) were flat \u2014 watching whether this is a sterling/FTSE-specific wobble or the start of a broader energy cohort reversal."
-    },
-    {
-      "ticker": "GLEN.L",
-      "note": "Down -3.09% today, sharpest mover in materials \u2014 checking if industrial metals are cracking again, which would confirm I was right to exit RIO."
+      "ticker": "SGLN.L",
+      "note": "Flat today after three days of gains; watching for either a resumption of the dollar-weakness trade or a genuine reversal before adding or trimming from 19.5% of book."
     }
   ],
   "universe_requests": []
