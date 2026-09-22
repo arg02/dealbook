@@ -1,45 +1,45 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-21",
-  "session": 26,
+  "as_of": "2026-09-22",
+  "session": 27,
   "starting_capital": 1000.0,
-  "cash_gbp": 91.42,
-  "invested_gbp": 884.96,
-  "total_gbp": 976.38,
-  "pl_gbp": -23.62,
-  "pl_pct": -2.36,
-  "fx": 1.3393,
-  "market_read": "Broad global risk-on today (FTSE +1.04%, DAX +1.22%, Nikkei +1.38%, Hang Seng +1.18%) with UK financials leading domestically \u2014 HSBA +2.02% and LLOY +1.51% moved together, which is exactly the follow-through my Sept 16 LLOY thesis needed to confirm a real rate-repricing trend rather than a one-day squeeze. Gold (SGLN) is flat today after a three-day run, consolidating rather than reversing \u2014 too early to call the thesis wrong, but no reason to add more at ~19.5% of book. US tape is directionless (S&P +0.17%, Dow -0.18%) while non-US markets carry the rally, reinforcing that this is a dollar/global-liquidity story, not a US-specific move.",
+  "cash_gbp": 179.25,
+  "invested_gbp": 789.83,
+  "total_gbp": 969.08,
+  "pl_gbp": -30.92,
+  "pl_pct": -3.09,
+  "fx": 1.3367,
+  "market_read": "US equities are on a broad, tech-led rip (S&P +1.49%, Nasdaq +2.26%) but that strength isn't showing up in my sectors: energy is breaking down as a cohort (XOM -3.2%, CVX -2.79%, BP -2.04%, TTE -0.84%, only SHEL holding relatively firm at -0.6%), gold stalled (-0.7%) after its recent run, and UK financials went flat-to-mixed (HSBA -0.34%, LLOY +0.14%). NVO's -7.96% crash on GLP-1/MFN pricing fears is a healthcare-sector risk worth watching even though it hasn't hit AZN yet. Nothing here argues for chasing the US rally into unfamiliar names; the more useful signal is that energy is now diverging against me.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,770.24",
-      "change_pct": 1.04
+      "level": "10,751.89",
+      "change_pct": 0.12
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,522.54",
-      "change_pct": 0.39
+      "level": "27,122.09",
+      "change_pct": 2.26
     },
     {
       "name": "NYSE Comp",
-      "level": "23,998.76",
-      "change_pct": -0.38
+      "level": "24,086.66",
+      "change_pct": 0.37
     },
     {
       "name": "S&P 500",
-      "level": "7,650.50",
-      "change_pct": 0.17
+      "level": "7,764.70",
+      "change_pct": 1.49
     },
     {
       "name": "Dow Jones",
-      "level": "51,682.64",
-      "change_pct": -0.18
+      "level": "52,048.83",
+      "change_pct": 0.71
     },
     {
       "name": "DAX",
-      "level": "25,612.59",
-      "change_pct": 1.22
+      "level": "25,704.75",
+      "change_pct": 0.51
     },
     {
       "name": "Nikkei 225",
@@ -48,8 +48,8 @@
     },
     {
       "name": "Hang Seng",
-      "level": "25,042.71",
-      "change_pct": 1.18
+      "level": "25,087.75",
+      "change_pct": 0.18
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 3.021669,
       "entry_native": 6287.9158,
       "cost_gbp": 190.0,
-      "last_native": 6314.0,
+      "last_native": 6273.0,
       "opened": "2026-08-07",
-      "value_gbp": 190.79,
-      "pl_gbp": 0.79,
-      "pl_pct": 0.41,
+      "value_gbp": 189.55,
+      "pl_gbp": -0.45,
+      "pl_pct": -0.24,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 1.335595,
       "entry_native": 11979.6845,
       "cost_gbp": 160.0,
-      "last_native": 12540.0,
+      "last_native": 12594.0,
       "opened": "2026-08-07",
-      "value_gbp": 167.48,
-      "pl_gbp": 7.48,
-      "pl_pct": 4.68,
+      "value_gbp": 168.2,
+      "pl_gbp": 8.2,
+      "pl_pct": 5.13,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3529.5,
+      "last_native": 3467.5,
       "opened": "2026-08-07",
-      "value_gbp": 144.62,
-      "pl_gbp": 9.62,
-      "pl_pct": 7.13,
+      "value_gbp": 142.08,
+      "pl_gbp": 7.08,
+      "pl_pct": 5.25,
       "sector": "Energy"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1543.2,
+      "last_native": 1528.6,
       "opened": "2026-08-20",
-      "value_gbp": 151.86,
-      "pl_gbp": 1.86,
-      "pl_pct": 1.24,
+      "value_gbp": 150.43,
+      "pl_gbp": 0.43,
+      "pl_pct": 0.28,
       "sector": "Financials"
     },
     {
@@ -106,39 +106,35 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 106.73,
+      "last_native": 107.44,
       "opened": "2026-09-04",
-      "value_gbp": 39.79,
-      "pl_gbp": -0.21,
-      "pl_pct": -0.52,
+      "value_gbp": 40.13,
+      "pl_gbp": 0.13,
+      "pl_pct": 0.33,
       "sector": "Staples"
-    },
-    {
-      "ticker": "XOM",
-      "shares": 0.741679,
-      "entry_native": 164.23,
-      "cost_gbp": 90.0,
-      "last_native": 163.54,
-      "opened": "2026-09-10",
-      "value_gbp": 90.57,
-      "pl_gbp": 0.57,
-      "pl_pct": 0.63,
-      "sector": "Energy"
     },
     {
       "ticker": "LLOY.L",
       "shares": 90.269766,
       "entry_native": 110.7791,
       "cost_gbp": 100.0,
-      "last_native": 110.6,
+      "last_native": 110.151,
       "opened": "2026-09-16",
-      "value_gbp": 99.84,
-      "pl_gbp": -0.16,
-      "pl_pct": -0.16,
+      "value_gbp": 99.43,
+      "pl_gbp": -0.57,
+      "pl_pct": -0.57,
       "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-22",
+      "action": "sell",
+      "ticker": "XOM",
+      "amount_gbp": 87.83,
+      "price_native": 158.3,
+      "why": "Full exit. My Sept 10 thesis was a coordinated energy-complex rally; today it's the opposite \u2014 XOM, CVX, BP and TTE are all down 2%+ together while SHEL is barely down, meaning the cohort is bleeding as a group, not diverging in my favour. Cumulative -2.41% with the worst single-day move (-3.2%) yet and no bounce. This is the identical slow-bleed pattern I've already cut BA.L, NG.L, PHP.L, SSE.L, GSK.L, FRES.L, RIO.L, GLEN.L and CEG for rather than average down on hope. Wrong if XOM and the rest of the energy complex snap back sharply this week on a specific oil-price catalyst, proving today was a one-day de-grossing event rather than a real cohort break."
+    },
     {
       "date": "2026-09-21",
       "action": "buy",
@@ -574,12 +570,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "RIO.L",
-      "note": "Up +1.72% today with GLEN +1.02% \u2014 watching for a second confirming day before treating this as more than the one-off bounce I exited into on Sept 14."
+      "ticker": "SHEL.L",
+      "note": "Holding up better than XOM/BP/CVX today (-0.6% vs -2 to -3%) \u2014 watching whether SHEL genuinely decouples from the energy cohort or just lags the same move by a day."
     },
     {
-      "ticker": "SGLN.L",
-      "note": "Flat today after three days of gains; watching for either a resumption of the dollar-weakness trade or a genuine reversal before adding or trimming from 19.5% of book."
+      "ticker": "NVO",
+      "note": "GLP-1/MFN pricing shock (-7.96%) \u2014 watching for spillover into LLY or AZN's obesity pipeline narrative before treating AZN as insulated."
+    },
+    {
+      "ticker": "LLOY.L",
+      "note": "Thesis stalling \u2014 today's +0.14% is far weaker than the two prior confirmation days. Need a real follow-through move or I treat the last two buys as premature."
     }
   ],
   "universe_requests": []
