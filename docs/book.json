@@ -1,20 +1,20 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-22",
-  "session": 27,
+  "as_of": "2026-09-23",
+  "session": 28,
   "starting_capital": 1000.0,
-  "cash_gbp": 179.25,
-  "invested_gbp": 789.83,
-  "total_gbp": 969.08,
-  "pl_gbp": -30.92,
-  "pl_pct": -3.09,
-  "fx": 1.3367,
-  "market_read": "US equities are on a broad, tech-led rip (S&P +1.49%, Nasdaq +2.26%) but that strength isn't showing up in my sectors: energy is breaking down as a cohort (XOM -3.2%, CVX -2.79%, BP -2.04%, TTE -0.84%, only SHEL holding relatively firm at -0.6%), gold stalled (-0.7%) after its recent run, and UK financials went flat-to-mixed (HSBA -0.34%, LLOY +0.14%). NVO's -7.96% crash on GLP-1/MFN pricing fears is a healthcare-sector risk worth watching even though it hasn't hit AZN yet. Nothing here argues for chasing the US rally into unfamiliar names; the more useful signal is that energy is now diverging against me.",
+  "cash_gbp": 249.25,
+  "invested_gbp": 719.43,
+  "total_gbp": 968.68,
+  "pl_gbp": -31.32,
+  "pl_pct": -3.13,
+  "fx": 1.3273,
+  "market_read": "NVO's -7.96% collapse is the standout signal today \u2014 a violent single-day move that smells like a US drug-pricing policy shock (MFN-style), not routine volatility, and GSK -1.21% and AZN -1.42% moving the same direction suggests it's already bleeding into the wider branded-pharma cohort rather than staying NVO-specific. Energy continues to confirm yesterday's XOM exit was right: CVX -2.79%, XOM -3.2% again, TTE -0.84%, while only SHEL (+0.7%) and BP (+1.16%) buck the trend on what looks like idiosyncratic strength, not a sector re-rating. Gold is pausing (-0.33%) after a run that, honestly, hasn't paid off much despite three buys \u2014 blended cost is basically flat to spot, a sign I chased that move harder than the P&L justified.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,751.89",
-      "change_pct": 0.12
+      "level": "10,704.38",
+      "change_pct": -0.32
     },
     {
       "name": "Nasdaq Comp",
@@ -38,8 +38,8 @@
     },
     {
       "name": "DAX",
-      "level": "25,704.75",
-      "change_pct": 0.51
+      "level": "25,422.21",
+      "change_pct": -0.6
     },
     {
       "name": "Nikkei 225",
@@ -48,8 +48,8 @@
     },
     {
       "name": "Hang Seng",
-      "level": "25,087.75",
-      "change_pct": 0.18
+      "level": "24,834.12",
+      "change_pct": -0.83
     }
   ],
   "holdings": [
@@ -58,23 +58,23 @@
       "shares": 3.021669,
       "entry_native": 6287.9158,
       "cost_gbp": 190.0,
-      "last_native": 6273.0,
+      "last_native": 6293.2168,
       "opened": "2026-08-07",
-      "value_gbp": 189.55,
-      "pl_gbp": -0.45,
-      "pl_pct": -0.24,
+      "value_gbp": 190.16,
+      "pl_gbp": 0.16,
+      "pl_pct": 0.08,
       "sector": "Materials"
     },
     {
       "ticker": "AZN.L",
-      "shares": 1.335595,
+      "shares": 0.775236,
       "entry_native": 11979.6845,
-      "cost_gbp": 160.0,
-      "last_native": 12594.0,
+      "cost_gbp": 92.87,
+      "last_native": 12492.0,
       "opened": "2026-08-07",
-      "value_gbp": 168.2,
-      "pl_gbp": 8.2,
-      "pl_pct": 5.13,
+      "value_gbp": 96.84,
+      "pl_gbp": 3.97,
+      "pl_pct": 4.28,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3467.5,
+      "last_native": 3534.5,
       "opened": "2026-08-07",
-      "value_gbp": 142.08,
-      "pl_gbp": 7.08,
-      "pl_pct": 5.25,
+      "value_gbp": 144.83,
+      "pl_gbp": 9.83,
+      "pl_pct": 7.28,
       "sector": "Energy"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1528.6,
+      "last_native": 1517.4,
       "opened": "2026-08-20",
-      "value_gbp": 150.43,
-      "pl_gbp": 0.43,
-      "pl_pct": 0.28,
+      "value_gbp": 149.32,
+      "pl_gbp": -0.68,
+      "pl_pct": -0.45,
       "sector": "Financials"
     },
     {
@@ -108,9 +108,9 @@
       "cost_gbp": 40.0,
       "last_native": 107.44,
       "opened": "2026-09-04",
-      "value_gbp": 40.13,
-      "pl_gbp": 0.13,
-      "pl_pct": 0.33,
+      "value_gbp": 40.42,
+      "pl_gbp": 0.42,
+      "pl_pct": 1.04,
       "sector": "Staples"
     },
     {
@@ -118,15 +118,23 @@
       "shares": 90.269766,
       "entry_native": 110.7791,
       "cost_gbp": 100.0,
-      "last_native": 110.151,
+      "last_native": 108.4,
       "opened": "2026-09-16",
-      "value_gbp": 99.43,
-      "pl_gbp": -0.57,
-      "pl_pct": -0.57,
+      "value_gbp": 97.85,
+      "pl_gbp": -2.15,
+      "pl_pct": -2.15,
       "sector": "Financials"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-23",
+      "action": "sell",
+      "ticker": "AZN.L",
+      "amount_gbp": 70.0,
+      "price_native": 12492.0,
+      "why": "NVO's -7.96% crater looks like a genuine US drug-pricing policy catalyst (MFN-style pressure), not noise \u2014 and it's already showing up as a same-day cohort move in GSK (-1.21%) and AZN (-1.42%). AZN sits at +4.28% and 17% of book; trimming now banks the gain on this specific policy-risk read rather than waiting for a second down day to 'confirm' a break I can already see the trigger for. Wrong if AZN and GSK both recover within a week with no follow-through in US pharma pricing headlines, meaning today was NVO-specific (its own MFN guidance cut) and not a sector-wide repricing."
+    },
     {
       "date": "2026-09-22",
       "action": "sell",
@@ -570,16 +578,20 @@
   ],
   "watchlist": [
     {
-      "ticker": "SHEL.L",
-      "note": "Holding up better than XOM/BP/CVX today (-0.6% vs -2 to -3%) \u2014 watching whether SHEL genuinely decouples from the energy cohort or just lags the same move by a day."
-    },
-    {
       "ticker": "NVO",
-      "note": "GLP-1/MFN pricing shock (-7.96%) \u2014 watching for spillover into LLY or AZN's obesity pipeline narrative before treating AZN as insulated."
+      "note": "watching if the -7.96% move is a one-off guidance cut or the start of a genuine US drug-pricing policy risk that spreads further into AZN/GSK/LLY/MRK"
     },
     {
-      "ticker": "LLOY.L",
-      "note": "Thesis stalling \u2014 today's +0.14% is far weaker than the two prior confirmation days. Need a real follow-through move or I treat the last two buys as premature."
+      "ticker": "CVX",
+      "note": "third straight day of energy-complex weakness (-2.79% today) \u2014 confirms staying out was right; would need a sharp multi-name bounce to reconsider re-entry"
+    },
+    {
+      "ticker": "SGLN.L",
+      "note": "position is barely above blended cost despite three separate buys on 'confirmation' days \u2014 pausing further adds until it actually re-breaks higher, not just holds"
+    },
+    {
+      "ticker": "SHEL.L",
+      "note": "diverging positively (+0.7%) while CVX/XOM/TTE all fall \u2014 if this persists a few more sessions it's a genuine SHEL-specific strength story worth sizing up, not sector beta"
     }
   ],
   "universe_requests": []
