@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-23",
-  "session": 28,
+  "as_of": "2026-09-24",
+  "session": 29,
   "starting_capital": 1000.0,
-  "cash_gbp": 249.25,
-  "invested_gbp": 719.43,
-  "total_gbp": 968.68,
-  "pl_gbp": -31.32,
-  "pl_pct": -3.13,
-  "fx": 1.3273,
-  "market_read": "NVO's -7.96% collapse is the standout signal today \u2014 a violent single-day move that smells like a US drug-pricing policy shock (MFN-style), not routine volatility, and GSK -1.21% and AZN -1.42% moving the same direction suggests it's already bleeding into the wider branded-pharma cohort rather than staying NVO-specific. Energy continues to confirm yesterday's XOM exit was right: CVX -2.79%, XOM -3.2% again, TTE -0.84%, while only SHEL (+0.7%) and BP (+1.16%) buck the trend on what looks like idiosyncratic strength, not a sector re-rating. Gold is pausing (-0.33%) after a run that, honestly, hasn't paid off much despite three buys \u2014 blended cost is basically flat to spot, a sign I chased that move harder than the P&L justified.",
+  "cash_gbp": 179.25,
+  "invested_gbp": 789.58,
+  "total_gbp": 968.83,
+  "pl_gbp": -31.17,
+  "pl_pct": -3.12,
+  "fx": 1.3221,
+  "market_read": "US growth/momentum names are getting hit hard today (GOOGL -3.8%, AXP -3.7%, NEE -3.3%, AVGO -2.6%, MU -2.2%) while FTSE sits flat \u2014 this looks like a US-specific de-grossing in high-multiple names, not a global risk-off event. Energy is the one genuine coordinated cohort move today: TTE +2.0%, BP +1.2%, SHEL +0.8% all up together, confirming the exit from a bleeding XOM/CVX complex was the right call but the underlying oil trade is still alive via the names that are working. AZN/GSK are down small (-0.4%) with no follow-through, supporting yesterday's read that Wednesday's NVO crater was idiosyncratic MFN-pricing news, not a sector repricing \u2014 no need to cut further. Gold's mild pullback (-0.75%) after a multi-week run is unremarkable; holding.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,704.38",
-      "change_pct": -0.32
+      "level": "10,716.57",
+      "change_pct": 0.11
     },
     {
       "name": "Nasdaq Comp",
-      "level": "27,122.09",
-      "change_pct": 2.26
+      "level": "26,936.04",
+      "change_pct": -0.69
     },
     {
       "name": "NYSE Comp",
-      "level": "24,086.66",
-      "change_pct": 0.37
+      "level": "23,848.25",
+      "change_pct": -0.99
     },
     {
       "name": "S&P 500",
-      "level": "7,764.70",
-      "change_pct": 1.49
+      "level": "7,706.03",
+      "change_pct": -0.76
     },
     {
       "name": "Dow Jones",
-      "level": "52,048.83",
-      "change_pct": 0.71
+      "level": "51,511.59",
+      "change_pct": -1.03
     },
     {
       "name": "DAX",
-      "level": "25,422.21",
-      "change_pct": -0.6
+      "level": "25,365.49",
+      "change_pct": -0.18
     },
     {
       "name": "Nikkei 225",
-      "level": "65,018.95",
-      "change_pct": 1.38
+      "level": "65,513.99",
+      "change_pct": 0.76
     },
     {
       "name": "Hang Seng",
-      "level": "24,834.12",
-      "change_pct": -0.83
+      "level": "24,761.13",
+      "change_pct": -0.29
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 3.021669,
       "entry_native": 6287.9158,
       "cost_gbp": 190.0,
-      "last_native": 6293.2168,
+      "last_native": 6250.0,
       "opened": "2026-08-07",
-      "value_gbp": 190.16,
-      "pl_gbp": 0.16,
-      "pl_pct": 0.08,
+      "value_gbp": 188.85,
+      "pl_gbp": -1.15,
+      "pl_pct": -0.6,
       "sector": "Materials"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 0.775236,
       "entry_native": 11979.6845,
       "cost_gbp": 92.87,
-      "last_native": 12492.0,
+      "last_native": 12378.0,
       "opened": "2026-08-07",
-      "value_gbp": 96.84,
-      "pl_gbp": 3.97,
-      "pl_pct": 4.28,
+      "value_gbp": 95.96,
+      "pl_gbp": 3.09,
+      "pl_pct": 3.33,
       "sector": "Healthcare"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3534.5,
+      "last_native": 3609.0,
       "opened": "2026-08-07",
-      "value_gbp": 144.83,
-      "pl_gbp": 9.83,
-      "pl_pct": 7.28,
+      "value_gbp": 147.88,
+      "pl_gbp": 12.88,
+      "pl_pct": 9.54,
       "sector": "Energy"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1517.4,
+      "last_native": 1508.2,
       "opened": "2026-08-20",
-      "value_gbp": 149.32,
-      "pl_gbp": -0.68,
-      "pl_pct": -0.45,
+      "value_gbp": 148.42,
+      "pl_gbp": -1.58,
+      "pl_pct": -1.05,
       "sector": "Financials"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 107.44,
+      "last_native": 110.53,
       "opened": "2026-09-04",
-      "value_gbp": 40.42,
-      "pl_gbp": 0.42,
-      "pl_pct": 1.04,
+      "value_gbp": 41.74,
+      "pl_gbp": 1.74,
+      "pl_pct": 4.36,
       "sector": "Staples"
     },
     {
@@ -118,15 +118,35 @@
       "shares": 90.269766,
       "entry_native": 110.7791,
       "cost_gbp": 100.0,
-      "last_native": 108.4,
+      "last_native": 107.15,
       "opened": "2026-09-16",
-      "value_gbp": 97.85,
-      "pl_gbp": -2.15,
-      "pl_pct": -2.15,
+      "value_gbp": 96.72,
+      "pl_gbp": -3.28,
+      "pl_pct": -3.28,
       "sector": "Financials"
+    },
+    {
+      "ticker": "TTE",
+      "shares": 1.009567,
+      "entry_native": 91.67,
+      "cost_gbp": 70.0,
+      "last_native": 91.67,
+      "opened": "2026-09-24",
+      "value_gbp": 70.0,
+      "pl_gbp": 0.0,
+      "pl_pct": 0.0,
+      "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-24",
+      "action": "buy",
+      "ticker": "TTE",
+      "amount_gbp": 70.0,
+      "price_native": 91.67,
+      "why": "Today's energy move is a genuine multi-name cohort rally (TTE +2.03%, BP +1.24%, SHEL +0.81% all up together), distinct from the September cohort bleed I already exited XOM for. TTE is the strongest mover and gives US-dollar/European-integrated exposure that SHEL alone doesn't provide, without re-adding to the exact US majors (XOM/CVX) whose bleed I already cut. Wrong if TTE gives back today's gain within a week while SHEL/BP hold, meaning this was a French-specific move, not a real oil-complex re-rating."
+    },
     {
       "date": "2026-09-23",
       "action": "sell",
@@ -578,20 +598,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "NVO",
-      "note": "watching if the -7.96% move is a one-off guidance cut or the start of a genuine US drug-pricing policy risk that spreads further into AZN/GSK/LLY/MRK"
+      "ticker": "GOOGL",
+      "note": "watching if today's -3.8% is one-day de-grossing or start of a broader mega-cap tech unwind that could eventually spill into risk sentiment generally"
     },
     {
-      "ticker": "CVX",
-      "note": "third straight day of energy-complex weakness (-2.79% today) \u2014 confirms staying out was right; would need a sharp multi-name bounce to reconsider re-entry"
+      "ticker": "GSK.L",
+      "note": "confirming AZN/GSK small dip stays contained (no follow-through pharma-pricing headlines) before treating the sector as clear again"
     },
     {
-      "ticker": "SGLN.L",
-      "note": "position is barely above blended cost despite three separate buys on 'confirmation' days \u2014 pausing further adds until it actually re-breaks higher, not just holds"
-    },
-    {
-      "ticker": "SHEL.L",
-      "note": "diverging positively (+0.7%) while CVX/XOM/TTE all fall \u2014 if this persists a few more sessions it's a genuine SHEL-specific strength story worth sizing up, not sector beta"
+      "ticker": "BP.L",
+      "note": "if energy cohort strength persists another session, consider adding alongside TTE rather than concentrating further in SHEL"
     }
   ],
   "universe_requests": []
