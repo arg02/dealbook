@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-09-28",
-  "session": 31,
+  "as_of": "2026-09-29",
+  "session": 32,
   "starting_capital": 1000.0,
   "cash_gbp": 322.05,
-  "invested_gbp": 646.0,
-  "total_gbp": 968.05,
-  "pl_gbp": -31.95,
-  "pl_pct": -3.19,
-  "fx": 1.3266,
-  "market_read": "Gold cohort broke hard today \u2014 SGLN -3.56%, AEM -4.59%, NEM -3.7% all falling together, the same three-name confirmation pattern that's called every other cohort break I've cut this month (XOM/CVX/BP, CEG/GEV, RIO/GLEN). Energy by contrast is showing genuine coordinated strength again (SHEL +1.16%, TTE +0.53%, BP +0.52%, XOM +1.28%, CVX +1.41%), a repeat of the Sept 10 and Sept 24 setups. UK financials and healthcare are flat-to-mildly-positive with no clear catalyst either way, so no action there.",
+  "invested_gbp": 641.13,
+  "total_gbp": 963.18,
+  "pl_gbp": -36.82,
+  "pl_pct": -3.68,
+  "fx": 1.323,
+  "market_read": "No clean cohort signal today: European energy majors (SHEL -1.86%, BP -2.82%, TTE -0.66%) are selling off together while US majors diverge higher (XOM +1.2%, CVX +0.94%) \u2014 too early and too weak on TTE to call it a break, but worth tracking for tomorrow. Gold miners (NEM -4.43%, AEM -5.31%) continue the breakdown that triggered yesterday's full SGLN exit, confirming that call rather than reversing it. UK financials (HSBA +0.2%, LLOY +0.65%) are quietly holding up inside a flat FTSE session, no reason to touch that leg. Nothing here rises to the level of a genuine multi-name confirmation in either direction, so the right move is to sit on the 33% cash and let existing legs play out.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,740.76",
-      "change_pct": 0.43
+      "level": "10,687.00",
+      "change_pct": 0.02
     },
     {
       "name": "Nasdaq Comp",
-      "level": "26,859.84",
-      "change_pct": -0.77
+      "level": "26,820.38",
+      "change_pct": -0.92
     },
     {
       "name": "NYSE Comp",
-      "level": "23,812.86",
-      "change_pct": -0.42
+      "level": "23,757.31",
+      "change_pct": -0.65
     },
     {
       "name": "S&P 500",
-      "level": "7,701.80",
-      "change_pct": -0.54
+      "level": "7,683.69",
+      "change_pct": -0.77
     },
     {
       "name": "Dow Jones",
-      "level": "51,611.56",
-      "change_pct": -0.42
+      "level": "51,481.51",
+      "change_pct": -0.67
     },
     {
       "name": "DAX",
-      "level": "25,522.82",
-      "change_pct": 0.45
+      "level": "25,524.71",
+      "change_pct": 0.59
     },
     {
       "name": "Nikkei 225",
-      "level": "65,877.62",
-      "change_pct": -0.73
+      "level": "65,481.27",
+      "change_pct": -0.6
     },
     {
       "name": "Hang Seng",
-      "level": "24,642.51",
-      "change_pct": 0.54
+      "level": "24,523.57",
+      "change_pct": -0.48
     }
   ],
   "holdings": [
@@ -58,11 +58,11 @@
       "shares": 0.775236,
       "entry_native": 11979.6845,
       "cost_gbp": 92.87,
-      "last_native": 12536.0,
+      "last_native": 12490.0,
       "opened": "2026-08-07",
-      "value_gbp": 97.18,
-      "pl_gbp": 4.31,
-      "pl_pct": 4.64,
+      "value_gbp": 96.83,
+      "pl_gbp": 3.96,
+      "pl_pct": 4.26,
       "sector": "Healthcare"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3653.0,
+      "last_native": 3586.5,
       "opened": "2026-08-07",
-      "value_gbp": 149.69,
-      "pl_gbp": 14.69,
-      "pl_pct": 10.88,
+      "value_gbp": 146.96,
+      "pl_gbp": 11.96,
+      "pl_pct": 8.86,
       "sector": "Energy"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 9.840843,
       "entry_native": 1524.2598,
       "cost_gbp": 150.0,
-      "last_native": 1525.0,
+      "last_native": 1519.4,
       "opened": "2026-08-20",
-      "value_gbp": 150.07,
-      "pl_gbp": 0.07,
-      "pl_pct": 0.05,
+      "value_gbp": 149.52,
+      "pl_gbp": -0.48,
+      "pl_pct": -0.32,
       "sector": "Financials"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 108.935,
+      "last_native": 108.73,
       "opened": "2026-09-04",
-      "value_gbp": 41.0,
-      "pl_gbp": 1.0,
-      "pl_pct": 2.5,
+      "value_gbp": 41.04,
+      "pl_gbp": 1.04,
+      "pl_pct": 2.59,
       "sector": "Staples"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 90.269766,
       "entry_native": 110.7791,
       "cost_gbp": 100.0,
-      "last_native": 109.1,
+      "last_native": 108.8,
       "opened": "2026-09-16",
-      "value_gbp": 98.48,
-      "pl_gbp": -1.52,
-      "pl_pct": -1.52,
+      "value_gbp": 98.21,
+      "pl_gbp": -1.79,
+      "pl_pct": -1.79,
       "sector": "Financials"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 1.590009,
       "entry_native": 91.5787,
       "cost_gbp": 110.0,
-      "last_native": 91.42,
+      "last_native": 90.34,
       "opened": "2026-09-24",
-      "value_gbp": 109.57,
-      "pl_gbp": -0.43,
-      "pl_pct": -0.39,
+      "value_gbp": 108.57,
+      "pl_gbp": -1.43,
+      "pl_pct": -1.3,
       "sector": "Energy"
     }
   ],
@@ -602,12 +602,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "SGLN.L",
-      "note": "Watching for stabilization or a second down day to confirm the reversal is real before considering re-entry."
+      "ticker": "BP.L",
+      "note": "Down 2.82% today alongside SHEL and TTE \u2014 watching for a second day of European-integrated weakness that would flip the energy cohort thesis (currently 26.5% of book across SHEL+TTE) from working to broken."
     },
     {
-      "ticker": "GLEN.L",
-      "note": "If broader miners follow gold down this week, that confirms a genuine materials-cohort break rather than a gold-specific move."
+      "ticker": "NEM",
+      "note": "Gold miners down 4-5% two days running post the SGLN exit \u2014 waiting for stabilization before considering any re-entry into precious metals; no position currently."
+    },
+    {
+      "ticker": "PG",
+      "note": "Staples name up 1.91% today in an otherwise soft US tape \u2014 want to see if it's cohort-wide (COST, WMT) before treating it as a signal rather than noise."
     }
   ],
   "universe_requests": []
