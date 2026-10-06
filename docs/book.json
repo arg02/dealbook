@@ -1,68 +1,68 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-10-05",
-  "session": 35,
+  "as_of": "2026-10-06",
+  "session": 36,
   "starting_capital": 1000.0,
-  "cash_gbp": 176.98,
-  "invested_gbp": 765.05,
-  "total_gbp": 942.03,
-  "pl_gbp": -57.97,
-  "pl_pct": -5.8,
-  "fx": 1.3215,
-  "market_read": "Materials cohort (RIO, GLEN, FRES all up 1-1.6% today) continues the trend that's worked since Sept 30 \u2014 three straight sessions of genuine multi-name strength, not single-name noise. Utilities cohort confirms too: SSE.L +1.35% alongside NG.L's steadier gains validates the regulated-infra thesis from Sept 30. HSBA's bounce (+1.07%) after last week's Asia selloff trim is one day only \u2014 not enough to reverse that call yet. Cash at 30% is higher than it needs to be given two live, working cohorts; deploying modestly into both rather than sitting on the sideline.",
+  "cash_gbp": 136.98,
+  "invested_gbp": 809.77,
+  "total_gbp": 946.75,
+  "pl_gbp": -53.25,
+  "pl_pct": -5.33,
+  "fx": 1.3271,
+  "market_read": "Broad global risk-on day (Nikkei +1.05%, Hang Seng +1.0%, S&P +0.49%) but AZN's +2.52% stands out as genuine single-name outperformance against that beta, not just index drift. Materials (RIO/GLEN/FRES) and utilities (NG/SSE) cohorts have both stalled into mixed, sub-1% moves after three strong sessions \u2014 a pause, not yet a breakdown, so no reason to add or cut there today. HSBA bounced +0.93% alongside the Hang Seng recovery I flagged as the exact falsification condition for the Oct 2 trim; one day isn't confirmation, watching rather than reversing.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,495.47",
+      "level": "10,531.17",
       "change_pct": 0.32
     },
     {
       "name": "Nasdaq Comp",
-      "level": "27,387.99",
-      "change_pct": 0.72
+      "level": "27,643.73",
+      "change_pct": 0.61
     },
     {
       "name": "NYSE Comp",
-      "level": "23,729.22",
-      "change_pct": 0.32
+      "level": "23,788.62",
+      "change_pct": 0.57
     },
     {
       "name": "S&P 500",
-      "level": "7,753.97",
-      "change_pct": 0.4
+      "level": "7,812.06",
+      "change_pct": 0.49
     },
     {
       "name": "Dow Jones",
-      "level": "51,066.99",
-      "change_pct": -0.21
+      "level": "51,441.73",
+      "change_pct": 0.34
     },
     {
       "name": "DAX",
-      "level": "25,269.70",
-      "change_pct": 0.15
+      "level": "25,382.84",
+      "change_pct": 0.51
     },
     {
       "name": "Nikkei 225",
-      "level": "68,309.46",
-      "change_pct": -0.94
+      "level": "70,683.98",
+      "change_pct": 1.05
     },
     {
       "name": "Hang Seng",
-      "level": "24,040.34",
-      "change_pct": 0.28
+      "level": "24,280.56",
+      "change_pct": 1.0
     }
   ],
   "holdings": [
     {
       "ticker": "AZN.L",
-      "shares": 0.775236,
-      "entry_native": 11979.6845,
-      "cost_gbp": 92.87,
-      "last_native": 11748.0,
+      "shares": 1.106911,
+      "entry_native": 12003.7502,
+      "cost_gbp": 132.87,
+      "last_native": 12060.0,
       "opened": "2026-08-07",
-      "value_gbp": 91.07,
-      "pl_gbp": -1.8,
-      "pl_pct": -1.93,
+      "value_gbp": 133.49,
+      "pl_gbp": 0.62,
+      "pl_pct": 0.47,
       "sector": "Healthcare"
     },
     {
@@ -70,11 +70,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3616.0,
+      "last_native": 3612.5,
       "opened": "2026-08-07",
-      "value_gbp": 148.17,
-      "pl_gbp": 13.17,
-      "pl_pct": 9.75,
+      "value_gbp": 148.03,
+      "pl_gbp": 13.03,
+      "pl_pct": 9.65,
       "sector": "Energy"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 4.950526,
       "entry_native": 1524.2598,
       "cost_gbp": 75.46,
-      "last_native": 1457.6,
+      "last_native": 1472.6,
       "opened": "2026-08-20",
-      "value_gbp": 72.16,
-      "pl_gbp": -3.3,
-      "pl_pct": -4.37,
+      "value_gbp": 72.9,
+      "pl_gbp": -2.56,
+      "pl_pct": -3.39,
       "sector": "Financials"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 104.49,
+      "last_native": 105.54,
       "opened": "2026-09-04",
-      "value_gbp": 39.48,
-      "pl_gbp": -0.52,
-      "pl_pct": -1.3,
+      "value_gbp": 39.71,
+      "pl_gbp": -0.29,
+      "pl_pct": -0.73,
       "sector": "Staples"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 90.269766,
       "entry_native": 110.7791,
       "cost_gbp": 100.0,
-      "last_native": 103.925,
+      "last_native": 105.4,
       "opened": "2026-09-16",
-      "value_gbp": 93.81,
-      "pl_gbp": -6.19,
-      "pl_pct": -6.19,
+      "value_gbp": 95.14,
+      "pl_gbp": -4.86,
+      "pl_pct": -4.86,
       "sector": "Financials"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 1.110186,
       "entry_native": 7206.0,
       "cost_gbp": 80.0,
-      "last_native": 7156.0,
+      "last_native": 7157.0,
       "opened": "2026-09-30",
-      "value_gbp": 79.44,
-      "pl_gbp": -0.56,
-      "pl_pct": -0.69,
+      "value_gbp": 79.46,
+      "pl_gbp": -0.54,
+      "pl_pct": -0.68,
       "sector": "Materials"
     },
     {
@@ -130,11 +130,11 @@
       "shares": 6.089604,
       "entry_native": 1149.5,
       "cost_gbp": 70.0,
-      "last_native": 1148.5935,
+      "last_native": 1146.2505,
       "opened": "2026-09-30",
-      "value_gbp": 69.94,
-      "pl_gbp": -0.06,
-      "pl_pct": -0.08,
+      "value_gbp": 69.8,
+      "pl_gbp": -0.2,
+      "pl_pct": -0.28,
       "sector": "Utilities"
     },
     {
@@ -142,11 +142,11 @@
       "shares": 10.687567,
       "entry_native": 561.4,
       "cost_gbp": 60.0,
-      "last_native": 570.4,
+      "last_native": 574.7,
       "opened": "2026-10-02",
-      "value_gbp": 60.96,
-      "pl_gbp": 0.96,
-      "pl_pct": 1.6,
+      "value_gbp": 61.42,
+      "pl_gbp": 1.42,
+      "pl_pct": 2.37,
       "sector": "Materials"
     },
     {
@@ -154,11 +154,11 @@
       "shares": 2.019831,
       "entry_native": 2723.0,
       "cost_gbp": 55.0,
-      "last_native": 2723.0,
+      "last_native": 2739.0,
       "opened": "2026-10-05",
-      "value_gbp": 55.0,
-      "pl_gbp": -0.0,
-      "pl_pct": -0.0,
+      "value_gbp": 55.32,
+      "pl_gbp": 0.32,
+      "pl_pct": 0.59,
       "sector": "Materials"
     },
     {
@@ -166,15 +166,23 @@
       "shares": 2.217742,
       "entry_native": 2480.0,
       "cost_gbp": 55.0,
-      "last_native": 2480.0,
+      "last_native": 2457.0,
       "opened": "2026-10-05",
-      "value_gbp": 55.0,
-      "pl_gbp": 0.0,
-      "pl_pct": 0.0,
+      "value_gbp": 54.49,
+      "pl_gbp": -0.51,
+      "pl_pct": -0.93,
       "sector": "Utilities"
     }
   ],
   "trades": [
+    {
+      "date": "2026-10-06",
+      "action": "buy",
+      "ticker": "AZN.L",
+      "amount_gbp": 40.0,
+      "price_native": 12060.0,
+      "why": "AZN +2.52% today is clear outperformance against a broad but much milder global risk-on tape (S&P +0.49%, FTSE +0.32%) \u2014 this looks like a pipeline/oncology-specific move, not beta. Adding to an already-working position (currently +0.67%) rather than opening something new. Wrong if AZN gives back this move within the week while the wider market holds its gains, meaning today was noise, not a genuine re-rating."
+    },
     {
       "date": "2026-10-05",
       "action": "buy",
@@ -707,15 +715,15 @@
   "watchlist": [
     {
       "ticker": "HSBA.L",
-      "note": "Bounced +1.07% today after last week's Asia-selloff trim. Need a second consecutive up day with Hang Seng confirming before treating the trim thesis as falsified."
+      "note": "Bounced +0.93% with Hang Seng +1.0% today \u2014 exactly the recovery scenario that would falsify the Oct 2 trim. Need a second confirming day with no fresh Asia-specific bad news before considering a re-buy."
+    },
+    {
+      "ticker": "RIO.L",
+      "note": "Materials cohort (RIO/GLEN/FRES) stalled today after three strong sessions \u2014 watching for a real reversal vs. just a pause before adding or trimming."
     },
     {
       "ticker": "CEG",
-      "note": "+3.95% today is a large single-day move but NEE (-0.33%) and GEV (-0.17%) aren't confirming \u2014 watching for a real nuclear/baseload cohort signal before considering entry."
-    },
-    {
-      "ticker": "AZN.L",
-      "note": "Continuing weak, -1.03% today, cumulative -1.93% since entry with no bounce since the Sept 23 trim. Will consider a further cut if GSK.L shows the same pattern next session."
+      "note": "+12.63% single-day spike, nuclear baseload name outside current universe exposure \u2014 want to understand the catalyst before any NG.L/SSE.L read-across."
     }
   ],
   "universe_requests": []
