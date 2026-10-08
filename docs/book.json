@@ -1,55 +1,55 @@
 {
   "opened": "2026-08-07",
-  "as_of": "2026-10-07",
-  "session": 37,
+  "as_of": "2026-10-08",
+  "session": 38,
   "starting_capital": 1000.0,
-  "cash_gbp": 252.86,
-  "invested_gbp": 686.43,
-  "total_gbp": 939.29,
-  "pl_gbp": -60.71,
-  "pl_pct": -6.07,
-  "fx": 1.3203,
-  "market_read": "This is a broad, synchronized risk-off day: every major index is red (FTSE -0.74%, DAX -1.49%, S&P -0.55%, Nikkei -0.92%), so most of today's single-name moves are beta, not new information. The exception is UK banks: HSBA -4.12% and LLOY -3.26% both fell far more than the index, a genuine two-name cohort break distinct from the broad tape, consistent with ongoing UK bank-tax/rate-cut speculation rather than noise.",
+  "cash_gbp": 162.86,
+  "invested_gbp": 783.97,
+  "total_gbp": 946.83,
+  "pl_gbp": -53.17,
+  "pl_pct": -5.32,
+  "fx": 1.3212,
+  "market_read": "The real signal today is a broad, multi-name energy cohort rally (SHEL +3.44%, BP +3.74%, TTE +3.4%, CVX +2.75%, XOM +2.51%, SLB +1.52%) \u2014 this is a genuine oil-complex move, not single-name noise, and SHEL is already up 14.5% on the same thesis. Meanwhile healthcare is selling off broadly (GSK, LLY, MRK, AMGN, NVO, UNH all down 1-3%) and Asian equities are weak (Hang Seng -1.43%, Nikkei -1.42%), suggesting some risk-off rotation out of pharma/growth into hard assets and energy. Materials and utilities cohorts are flat today \u2014 no new signal there, holding as is.",
   "indices": [
     {
       "name": "FTSE 100",
-      "level": "10,463.28",
-      "change_pct": -0.74
+      "level": "10,494.14",
+      "change_pct": 0.34
     },
     {
       "name": "Nasdaq Comp",
-      "level": "27,420.61",
-      "change_pct": -0.65
+      "level": "27,381.78",
+      "change_pct": -0.57
     },
     {
       "name": "NYSE Comp",
-      "level": "23,754.36",
-      "change_pct": -0.7
+      "level": "23,695.56",
+      "change_pct": -0.03
     },
     {
       "name": "S&P 500",
-      "level": "7,776.11",
-      "change_pct": -0.55
+      "level": "7,782.33",
+      "change_pct": -0.25
     },
     {
       "name": "Dow Jones",
-      "level": "51,015.17",
-      "change_pct": -0.98
+      "level": "51,180.27",
+      "change_pct": 0.0
     },
     {
       "name": "DAX",
-      "level": "25,070.15",
-      "change_pct": -1.49
+      "level": "24,945.84",
+      "change_pct": -0.63
     },
     {
       "name": "Nikkei 225",
-      "level": "70,035.71",
-      "change_pct": -0.92
+      "level": "69,042.11",
+      "change_pct": -1.42
     },
     {
       "name": "Hang Seng",
-      "level": "24,130.50",
-      "change_pct": -0.62
+      "level": "23,785.79",
+      "change_pct": -1.43
     }
   ],
   "holdings": [
@@ -70,11 +70,11 @@
       "shares": 4.0976,
       "entry_native": 3294.6113,
       "cost_gbp": 135.0,
-      "last_native": 3681.0,
+      "last_native": 3773.5,
       "opened": "2026-08-07",
-      "value_gbp": 150.83,
-      "pl_gbp": 15.83,
-      "pl_pct": 11.73,
+      "value_gbp": 154.62,
+      "pl_gbp": 19.62,
+      "pl_pct": 14.54,
       "sector": "Energy"
     },
     {
@@ -82,11 +82,11 @@
       "shares": 0.499317,
       "entry_native": 108.42,
       "cost_gbp": 40.0,
-      "last_native": 107.67,
+      "last_native": 109.515,
       "opened": "2026-09-04",
-      "value_gbp": 40.72,
-      "pl_gbp": 0.72,
-      "pl_pct": 1.8,
+      "value_gbp": 41.39,
+      "pl_gbp": 1.39,
+      "pl_pct": 3.47,
       "sector": "Staples"
     },
     {
@@ -94,11 +94,11 @@
       "shares": 45.281991,
       "entry_native": 110.7791,
       "cost_gbp": 50.16,
-      "last_native": 102.25,
+      "last_native": 101.65,
       "opened": "2026-09-16",
-      "value_gbp": 46.3,
-      "pl_gbp": -3.86,
-      "pl_pct": -7.69,
+      "value_gbp": 46.03,
+      "pl_gbp": -4.13,
+      "pl_pct": -8.24,
       "sector": "Financials"
     },
     {
@@ -106,11 +106,11 @@
       "shares": 1.110186,
       "entry_native": 7206.0,
       "cost_gbp": 80.0,
-      "last_native": 7029.0,
+      "last_native": 7013.0,
       "opened": "2026-09-30",
-      "value_gbp": 78.03,
-      "pl_gbp": -1.97,
-      "pl_pct": -2.46,
+      "value_gbp": 77.86,
+      "pl_gbp": -2.14,
+      "pl_pct": -2.68,
       "sector": "Materials"
     },
     {
@@ -118,11 +118,11 @@
       "shares": 6.089604,
       "entry_native": 1149.5,
       "cost_gbp": 70.0,
-      "last_native": 1139.0,
+      "last_native": 1161.0,
       "opened": "2026-09-30",
-      "value_gbp": 69.36,
-      "pl_gbp": -0.64,
-      "pl_pct": -0.91,
+      "value_gbp": 70.7,
+      "pl_gbp": 0.7,
+      "pl_pct": 1.0,
       "sector": "Utilities"
     },
     {
@@ -130,11 +130,11 @@
       "shares": 10.687567,
       "entry_native": 561.4,
       "cost_gbp": 60.0,
-      "last_native": 567.5,
+      "last_native": 570.2,
       "opened": "2026-10-02",
-      "value_gbp": 60.65,
-      "pl_gbp": 0.65,
-      "pl_pct": 1.09,
+      "value_gbp": 60.94,
+      "pl_gbp": 0.94,
+      "pl_pct": 1.57,
       "sector": "Materials"
     },
     {
@@ -142,11 +142,11 @@
       "shares": 2.019831,
       "entry_native": 2723.0,
       "cost_gbp": 55.0,
-      "last_native": 2638.9961,
+      "last_native": 2688.0,
       "opened": "2026-10-05",
-      "value_gbp": 53.3,
-      "pl_gbp": -1.7,
-      "pl_pct": -3.08,
+      "value_gbp": 54.29,
+      "pl_gbp": -0.71,
+      "pl_pct": -1.29,
       "sector": "Materials"
     },
     {
@@ -154,15 +154,35 @@
       "shares": 2.217742,
       "entry_native": 2480.0,
       "cost_gbp": 55.0,
-      "last_native": 2429.0,
+      "last_native": 2470.0,
       "opened": "2026-10-05",
-      "value_gbp": 53.87,
-      "pl_gbp": -1.13,
-      "pl_pct": -2.06,
+      "value_gbp": 54.78,
+      "pl_gbp": -0.22,
+      "pl_pct": -0.4,
       "sector": "Utilities"
+    },
+    {
+      "ticker": "BP.L",
+      "shares": 15.436651,
+      "entry_native": 583.028,
+      "cost_gbp": 90.0,
+      "last_native": 583.028,
+      "opened": "2026-10-08",
+      "value_gbp": 90.0,
+      "pl_gbp": -0.0,
+      "pl_pct": -0.0,
+      "sector": "Energy"
     }
   ],
   "trades": [
+    {
+      "date": "2026-10-08",
+      "action": "buy",
+      "ticker": "BP.L",
+      "amount_gbp": 90.0,
+      "price_native": 583.028,
+      "why": "BP +3.74% today alongside SHEL +3.44%, TTE +3.4%, CVX +2.75%, XOM +2.51% and SLB +1.52% is a genuine broad-energy cohort move, not a single name spike. I currently have only SHEL in energy (already +14.5%, 16% of book) \u2014 BP adds diversification within the same confirmed trend rather than concentrating further in one name. Wrong if BP gives back this move within a week while SHEL/TTE/XOM hold, meaning today was UK-specific noise not a real oil-complex repricing."
+    },
     {
       "date": "2026-10-07",
       "action": "sell",
@@ -718,16 +738,16 @@
   ],
   "watchlist": [
     {
-      "ticker": "RIO.L",
-      "note": "Materials cohort (RIO/GLEN/FRES) all down together today, but on a day every index is red \u2014 need a day where miners diverge from the broad tape before treating this as a real break, not just beta."
+      "ticker": "HSBA.L",
+      "note": "Fully exited on Asia-specific weakness; watching for a Hang Seng recovery that would signal the UK-bank/Asia selloff was overdone and worth re-entering."
     },
     {
-      "ticker": "NG.L",
-      "note": "Utilities cohort down with the broad market today \u2014 watching for a day NG/SSE move against the FTSE direction to confirm the rate-sensitivity thesis is still intact."
+      "ticker": "LLY",
+      "note": "Broad pharma selloff today (-2.79%) alongside MRK, AMGN, NVO, UNH \u2014 watching whether this is sector-wide drug-pricing fear spreading to AZN, which I'm still holding."
     },
     {
-      "ticker": "AZN.L",
-      "note": "Still the one name consistently outperforming a weak tape (+0.75% today). Holding current size; would add again only on another isolated outperformance day, not just drift."
+      "ticker": "NEM",
+      "note": "Gold miners flat today while energy rips \u2014 watching for a rotation back into precious metals if risk-off in Asia/healthcare deepens."
     }
   ],
   "universe_requests": []
